@@ -1,0 +1,72 @@
+/**
+ * // Definition for a Node.
+ * function Node(val,children) {
+ *    this.val = val;
+ *    this.children = children;
+ * };
+ */
+
+/**
+ * @param {Node} root
+ * @return {number[]}
+ */
+var preorder = function (root) {
+
+    if (!root) {
+        return []
+    }
+
+    let stack = []
+        , num = []
+        , idxMap = new Map()
+
+    stack.push(root)
+    num.push(root.val)
+    idxMap.set(root, 0)
+    while (stack.length > 0) {
+        root = root.children[idxMap.get(root) || 0]
+        if (root) {
+            stack.push(root)
+            idxMap.set(root, 0)
+            num.push(root.val)
+        } else {
+            stack.pop()
+            if (stack.length == 0){
+                break
+            }
+            let idx = idxMap.get(stack[stack.length - 1]) || 0
+            if (1 + idx < stack[stack.length - 1].children.length) {
+                root = stack[stack.length - 1].children[idx+1]
+                idxMap.set(stack[stack.length - 1], idx+1)
+                stack.push(root)
+                num.push(root.val)
+            } else {
+                stack.pop()
+                root = stack[stack.length - 1]
+                if (stack.length > 0){
+                    let idx = idxMap.get(stack[stack.length - 1]) || 0
+                    idxMap.set(stack[stack.length - 1], idx+1)
+                }
+            }
+        }
+    }
+
+    return num
+};
+
+/**
+ * 二叉树先序遍历，非递归
+ * 1. 当前节点入栈
+ * 2. 当前节点置为左孩子
+ * 3. 判断当前节点是否为空，若不为空，返回第1步；
+ * 4. 若为空，循环弹出栈顶元素，寻找右孩子置为当前节点，返回第1步；
+ * 5. 重复上述过程，直到栈为空
+ *
+ * 扩展成N叉树
+ * 1. 当前节点入栈
+ * 2. 当前节点置为子孩子中最左边的
+ * 3. 判断当前节点是否为空，若不为空，返回第1步；
+ * 4. 若为空，循环弹出栈顶元素，寻找子孩子中的下一个置为当前节点，返回第1步；
+ * 5. 重复上述过程，直到栈为空
+ **/
+

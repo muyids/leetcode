@@ -1,0 +1,36 @@
+/**
+ * @param {string} S
+ * @return {string}
+ */
+var reverseOnlyLetters = function (S) {
+
+    let A = S.split('')
+
+    function isChar(c) {
+        return ('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')
+    }
+
+    function swap(i, j) {
+        let t = A[i]
+        A[i] = A[j]
+        A[j] = t
+    }
+
+    for (let i = 0, j = A.length - 1; i < j;) {
+        while (!isChar(A[i]) && i < j) {
+            i++
+        }
+        while (!isChar(A[j]) && i < j) {
+            j--
+        }
+        swap(i, j)
+        i++;
+        j--;
+    }
+    return A.join('')
+};
+
+
+s = "7_28]"
+let re = reverseOnlyLetters(s)
+console.log(re)
