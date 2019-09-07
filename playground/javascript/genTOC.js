@@ -1,9 +1,16 @@
 // 自动生成目录
 (function f() {
     let fs = require('fs')
-    let TOC = ''
+    let TOC = '\n'
     let data = fs.readFileSync("./README.md");
     let files = fs.readdirSync("./algorithms")
+
+    // 题号排序
+    files.sort((a, b)=>{
+        a = a.split('-').map(v => v.trim())
+        b = b.split('-').map(v => v.trim())
+        return +a[0] - b[0]
+    })
     for (let nums of files) {
         if (nums.indexOf('-') == -1) continue;
         let subToc = `| 第${nums}题 | 题名 | \n|---| ----- |\n`

@@ -8,17 +8,10 @@
 
 在此，建立我的LeetCode题集，记录学习路上的点滴
 
-## 分类
-
-- algorithms 按题号收集leetcode问题
-- company 收集各大互联网公司笔试/面试题
-- playground 常用数据结构&算法模板
-- system 常见系统设计题
-- tags 按标签分类算法题
-
 ## 目录
 
 &nbsp;
+
 | 第1-100题 | 题名 | 
 |---| ----- |
 | 1 | [两数之和]('./algorithms/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
@@ -74,15 +67,6 @@
 | 94 | [二叉树的中序遍历]('./algorithms/94.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
 
 
-| 第1001-1100题 | 题名 | 
-|---| ----- |
-| 1026 | [节点与其祖先之间的最大差值]('./algorithms/1026.%20%E8%8A%82%E7%82%B9%E4%B8%8E%E5%85%B6%E7%A5%96%E5%85%88%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%A4%A7%E5%B7%AE%E5%80%BC.js) |
-| 1046 | [最后一块石头的重量]('./algorithms/1046.%20%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F.js) |
-| 1079 | [Letter Tile Possibilities]('./algorithms/1079.%20Letter%20Tile%20Possibilities.js) |
-| 1093 | [大样本统计]('./algorithms/1093.%20%E5%A4%A7%E6%A0%B7%E6%9C%AC%E7%BB%9F%E8%AE%A1.js) |
-| 1094 | [拼车]('./algorithms/1094.%20%E6%8B%BC%E8%BD%A6.md) |
-
-
 | 第101-200题 | 题名 | 
 |---| ----- |
 | 108 | [将有序数组转换为二叉搜索树]('./algorithms/108.%20%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) |
@@ -119,14 +103,6 @@
 | 196 | [删除重复的电子邮箱]('./algorithms/196.%5Bsql%5D%20%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E7%9A%84%E7%94%B5%E5%AD%90%E9%82%AE%E7%AE%B1.md) |
 | 197 | [上升的温度]('./algorithms/197.%5Bsql%5D%20%E4%B8%8A%E5%8D%87%E7%9A%84%E6%B8%A9%E5%BA%A6.md) |
 | 198 | [打家劫舍]('./algorithms/198.%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
-
-
-| 第1101-1200题 | 题名 | 
-|---| ----- |
-| 1109 | [航班预订统]('./algorithms/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F.md) |
-| 1155 | [掷骰子的N种方法]('./algorithms/1155.%20%E6%8E%B7%E9%AA%B0%E5%AD%90%E7%9A%84N%E7%A7%8D%E6%96%B9%E6%B3%95.md) |
-| 1162 | [地图分析]('./algorithms/1162.%20%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90.md) |
-| 1169 | [查询无效交易]('./algorithms/1169.%5Bu%5D%E6%9F%A5%E8%AF%A2%E6%97%A0%E6%95%88%E4%BA%A4%E6%98%93.md) |
 
 
 | 第201-300题 | 题名 | 
@@ -192,5 +168,22 @@
 | 917 | [仅仅反转字母]('./algorithms/917.%20%E4%BB%85%E4%BB%85%E5%8F%8D%E8%BD%AC%E5%AD%97%E6%AF%8D.js) |
 | 983 | [最低票价]('./algorithms/983.%20%E6%9C%80%E4%BD%8E%E7%A5%A8%E4%BB%B7.md) |
 | 989 | [数组形式的整数加法]('./algorithms/989.%20%E6%95%B0%E7%BB%84%E5%BD%A2%E5%BC%8F%E7%9A%84%E6%95%B4%E6%95%B0%E5%8A%A0%E6%B3%95.md) |
+
+
+| 第1001-1100题 | 题名 | 
+|---| ----- |
+| 1026 | [节点与其祖先之间的最大差值]('./algorithms/1026.%20%E8%8A%82%E7%82%B9%E4%B8%8E%E5%85%B6%E7%A5%96%E5%85%88%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%A4%A7%E5%B7%AE%E5%80%BC.js) |
+| 1046 | [最后一块石头的重量]('./algorithms/1046.%20%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F.js) |
+| 1079 | [Letter Tile Possibilities]('./algorithms/1079.%20Letter%20Tile%20Possibilities.js) |
+| 1093 | [大样本统计]('./algorithms/1093.%20%E5%A4%A7%E6%A0%B7%E6%9C%AC%E7%BB%9F%E8%AE%A1.js) |
+| 1094 | [拼车]('./algorithms/1094.%20%E6%8B%BC%E8%BD%A6.md) |
+
+
+| 第1101-1200题 | 题名 | 
+|---| ----- |
+| 1109 | [航班预订统]('./algorithms/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F.md) |
+| 1155 | [掷骰子的N种方法]('./algorithms/1155.%20%E6%8E%B7%E9%AA%B0%E5%AD%90%E7%9A%84N%E7%A7%8D%E6%96%B9%E6%B3%95.md) |
+| 1162 | [地图分析]('./algorithms/1162.%20%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90.md) |
+| 1169 | [查询无效交易]('./algorithms/1169.%5Bu%5D%E6%9F%A5%E8%AF%A2%E6%97%A0%E6%95%88%E4%BA%A4%E6%98%93.md) |
 
 
