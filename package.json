@@ -4,7 +4,8 @@
   "description": "leetcode解题进行中",
   "main": "workspace/main.cpp",
   "scripts": {
-    "publish": "git add . && git commit && git push",
+    "genTOC": "node playground/javascript/genTOC.js",
+    "publish": "npm run genTOC && git add . && git commit && git push",
     "clear": "rm -f workspace/*.out",
     "cppRun": "./workspace/main.out",
     "cppCompile": "g++ workspace/main.cpp -o workspace/main.out",

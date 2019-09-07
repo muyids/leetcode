@@ -7,3 +7,4 @@ function Tools() {
 Tools.prototype.genTOC = function () {
 
 }
+
