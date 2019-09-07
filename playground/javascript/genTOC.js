@@ -13,7 +13,7 @@
     })
     for (let nums of files) {
         if (nums.indexOf('-') == -1) continue;
-        let subToc = `| 第${nums}题 | 题名 | \n|---| ----- |\n`
+        let subToc = `| 第${nums}题 | 题名 | \n|:---:| :-----: |\n`
         let problems = fs.readdirSync("./algorithms/" + nums)
         problems.sort(function (a, b) {
             a = a.split('.').map(v => v.trim())
@@ -27,8 +27,7 @@
                 title[1] =  title[1].substr( title[1].indexOf(str[0]) + str[0].length)
                 title[1] = title[1].replace(/^\s*/,"");
             }
-            // algorithms/1-100/1.%20两数之和.md
-            subToc += `| ${title[0]} | [${title[1]}]('algorithms/${nums}/${encodeURI(problem)}) |\n`
+            subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) |\n`
         }
         TOC += subToc + '\n\n'
     }
