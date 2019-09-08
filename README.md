@@ -142,11 +142,13 @@
 
 | 第501-600题 | 题名 | 
 |:---:| :-----: |
-| 589 | [N-ary Tree Preorder Traversal](algorithms/501-600/589.%20N-ary%20Tree%20Preorder%20Traversal.js) |
+| 581 | [最短无序连续子数组](algorithms/501-600/581.%20%E6%9C%80%E7%9F%AD%E6%97%A0%E5%BA%8F%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84.md) |
+| 589 | [N叉树的前序遍历](algorithms/501-600/589.%20N%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
 
 
 | 第601-700题 | 题名 | 
 |:---:| :-----: |
+| 621 | [任务调度器](algorithms/601-700/621.%20%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E5%99%A8.md) |
 | 647 | [Palindromic Substrings](algorithms/601-700/647.%20Palindromic%20Substrings.js) |
 | 654 | [Maximum Binary Tree](algorithms/601-700/654.%20Maximum%20Binary%20Tree.js) |
 
@@ -188,5 +190,8 @@
 | 1169 | [查询无效交易](algorithms/1101-1200/1169.%5Bu%5D%E6%9F%A5%E8%AF%A2%E6%97%A0%E6%95%88%E4%BA%A4%E6%98%93.md) |
 | 1179 | [统计只含单一字母的子串](algorithms/1101-1200/1179.%20%E7%BB%9F%E8%AE%A1%E5%8F%AA%E5%90%AB%E5%8D%95%E4%B8%80%E5%AD%97%E6%AF%8D%E7%9A%84%E5%AD%90%E4%B8%B2.md) |
 | 1180 | [前后拼接](algorithms/1101-1200/1180.%20%E5%89%8D%E5%90%8E%E6%8B%BC%E6%8E%A5.md) |
+| 1183 | [公交站间的距离](algorithms/1101-1200/1183.%20%E5%85%AC%E4%BA%A4%E7%AB%99%E9%97%B4%E7%9A%84%E8%B7%9D%E7%A6%BB.md) |
+| 1184 | [一周中的第几天](algorithms/1101-1200/1184.%20%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9.md) |
+| 1185 | [删除一次得到子数组最大和](algorithms/1101-1200/1185.%20%E5%88%A0%E9%99%A4%E4%B8%80%E6%AC%A1%E5%BE%97%E5%88%B0%E5%AD%90%E6%95%B0%E7%BB%84%E6%9C%80%E5%A4%A7%E5%92%8C.md) |
 
 
