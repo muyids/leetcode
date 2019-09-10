@@ -6,7 +6,7 @@
     let files = fs.readdirSync("./algorithms")
 
     // 题号排序
-    files.sort((a, b)=>{
+    files.sort((a, b) => {
         a = a.split('-').map(v => v.trim())
         b = b.split('-').map(v => v.trim())
         return +a[0] - b[0]
@@ -24,8 +24,8 @@
             let title = problem.split('.').map(v => v.trim())
             let str = title[1].match(/\[(\S*)\]/)
             if (str) {
-                title[1] =  title[1].substr( title[1].indexOf(str[0]) + str[0].length)
-                title[1] = title[1].replace(/^\s*/,"");
+                title[1] = title[1].substr(title[1].indexOf(str[0]) + str[0].length)
+                title[1] = title[1].replace(/^\s*/, "");
             }
             subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) |\n`
         }

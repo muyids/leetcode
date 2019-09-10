@@ -1,4 +1,4 @@
-package playgrounds
+package golang
 
 // 127. 单词接龙
 func LadderLength(beginWord string, endWord string, wordList []string) int {

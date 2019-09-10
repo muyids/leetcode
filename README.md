@@ -119,16 +119,20 @@
 | 232 | [用栈实现队列](algorithms/201-300/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) |
 | 236 | [二叉树的最近公共祖先](algorithms/201-300/236.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md) |
 | 240 | [搜索二维矩阵 II](algorithms/201-300/240.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%20II.md) |
+| 242 | [有效的字母异位词](algorithms/201-300/242.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |
 | 257 | [二叉树的所有路径](algorithms/201-300/257.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84.md) |
+| 268 | [缺失数字](algorithms/201-300/268.%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) |
 | 278 | [第一个错误的版本](algorithms/201-300/278.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
 | 279 | [完全平方数](algorithms/201-300/279.%20%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) |
 | 283 | [移动零](algorithms/201-300/283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) |
 | 287 | [寻找重复数](algorithms/201-300/287.%20%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E6%95%B0.md) |
+| 289 | [生命游戏](algorithms/201-300/289.%20%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F.md) |
 
 
 | 第301-400题 | 题名 | 
 |:---:| :-----: |
-| 303 | [Range Sum Query - Immutable](algorithms/301-400/303.Range%20Sum%20Query%20-%20Immutable.js) |
+| 303 | [区域和检索 - 数组不可变](algorithms/301-400/303.%20%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2%20-%20%E6%95%B0%E7%BB%84%E4%B8%8D%E5%8F%AF%E5%8F%98.md) |
+| 326 | [3的幂](algorithms/301-400/326.%203%E7%9A%84%E5%B9%82.md) |
 | 373 | [查找和最小的K对数字](algorithms/301-400/373.%20%E6%9F%A5%E6%89%BE%E5%92%8C%E6%9C%80%E5%B0%8F%E7%9A%84K%E5%AF%B9%E6%95%B0%E5%AD%97.md) |
 
 
@@ -137,7 +141,10 @@
 | 406 | [Queue Reconstruction by Height](algorithms/401-500/406.%20Queue%20Reconstruction%20by%20Height.js) |
 | 409 | [最长回文串](algorithms/401-500/409.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2.md) |
 | 412 | [Fizz Buzz](algorithms/401-500/412.%20Fizz%20Buzz.js) |
+| 416 | [分割等和子集](algorithms/401-500/416.%5Bdp,bag%5D%20%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86.md) |
 | 474 | [一和零](algorithms/401-500/474.%20%E4%B8%80%E5%92%8C%E9%9B%B6.md) |
+| 496 | [下一个更大元素 I](algorithms/401-500/496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I.md) |
+| 498 | [对角线遍历](algorithms/401-500/498.%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E9%81%8D%E5%8E%86.md) |
 
 
 | 第501-600题 | 题名 | 
@@ -163,6 +170,7 @@
 | 第800-900题 | 题名 | 
 |:---:| :-----: |
 | 807 | [Max Increase to Keep City Skyline](algorithms/800-900/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.js) |
+| 877 | [石子游戏](algorithms/800-900/877.%20%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F.md) |
 
 
 | 第901-1000题 | 题名 | 
@@ -175,6 +183,7 @@
 
 | 第1001-1100题 | 题名 | 
 |:---:| :-----: |
+| 1013 | [将数组分成和相等的三个部分](algorithms/1001-1100/1013.%20%E5%B0%86%E6%95%B0%E7%BB%84%E5%88%86%E6%88%90%E5%92%8C%E7%9B%B8%E7%AD%89%E7%9A%84%E4%B8%89%E4%B8%AA%E9%83%A8%E5%88%86.md) |
 | 1026 | [节点与其祖先之间的最大差值](algorithms/1001-1100/1026.%20%E8%8A%82%E7%82%B9%E4%B8%8E%E5%85%B6%E7%A5%96%E5%85%88%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%A4%A7%E5%B7%AE%E5%80%BC.js) |
 | 1046 | [最后一块石头的重量](algorithms/1001-1100/1046.%20%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F.js) |
 | 1079 | [Letter Tile Possibilities](algorithms/1001-1100/1079.%20Letter%20Tile%20Possibilities.js) |
@@ -185,6 +194,8 @@
 | 第1101-1200题 | 题名 | 
 |:---:| :-----: |
 | 1109 | [航班预订统](algorithms/1101-1200/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F.md) |
+| 1129 | [颜色交替的最短路径](algorithms/1101-1200/1129.%20%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84.md) |
+| 1140 | [石子游戏 II](algorithms/1101-1200/1140.%5Bu%5D%20%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F%20II.md) |
 | 1155 | [掷骰子的N种方法](algorithms/1101-1200/1155.%20%E6%8E%B7%E9%AA%B0%E5%AD%90%E7%9A%84N%E7%A7%8D%E6%96%B9%E6%B3%95.md) |
 | 1162 | [地图分析](algorithms/1101-1200/1162.%20%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90.md) |
 | 1169 | [查询无效交易](algorithms/1101-1200/1169.%5Bu%5D%E6%9F%A5%E8%AF%A2%E6%97%A0%E6%95%88%E4%BA%A4%E6%98%93.md) |

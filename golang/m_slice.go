@@ -1,4 +1,4 @@
-package playgrounds
+package golang
 
 type MySlice []interface{}
 

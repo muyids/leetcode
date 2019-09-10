@@ -1,4 +1,4 @@
-package playgrounds
+package golang
 
 type M struct {
 	Map map[string]string

@@ -1,4 +1,4 @@
-package playgrounds
+package golang
 
 // 204. 计数质数
 // 统计所有小于非负整数 n 的质数的数量
