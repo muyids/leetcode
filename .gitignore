@@ -3,3 +3,5 @@ workspace/*
 .idea
 
 **/*cmake-build-debug
+
+node_modules/*

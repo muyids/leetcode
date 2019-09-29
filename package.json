@@ -4,7 +4,7 @@
   "description": "leetcode解题进行中",
   "main": "workspace/main.cpp",
   "scripts": {
-    "genTOC": "curl https://leetcode-cn.com/api/problems/all/ > problem.json && node playground/javascript/genTOC.js && rm -f problem.json",
+    "genTOC": "node playground/javascript/genTOC.js && rm -f problem.json",
     "cppRun": "./workspace/main.out",
     "cppCompile": "g++ workspace/main.cpp -o workspace/main.out",
     "cppBoot": "npm run cppCompile && echo '--- cpp output ---\n' && npm run cppRun && echo '\n--- cpp end ---'",
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/muyids/leetcode/issues"
   },
-  "homepage": "https://github.com/muyids/leetcode#readme"
+  "homepage": "https://github.com/muyids/leetcode#readme",
+  "dependencies": {
+    "chrome-cookies-secure": "^1.2.0"
+  }
 }
