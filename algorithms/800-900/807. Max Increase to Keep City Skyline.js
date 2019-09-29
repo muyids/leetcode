@@ -7,7 +7,6 @@ var maxIncreaseKeepingSkyline = function (grid) {
     let ud = Array(grid[0].length)
         , lf = Array(grid.length)
 
-
     for (let j = 0; j < ud.length; j++) {
         let column = []
         for (let i = 0; i < grid.length; i++) {

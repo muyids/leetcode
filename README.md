@@ -97,7 +97,7 @@
 | [172](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [阶乘后的零](algorithms/101-200/172.%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) | 简单 | YES|
 | [176](https://leetcode-cn.com/problems/second-highest-salary/) | [第二高的薪水](algorithms/101-200/176.%20%E7%AC%AC%E4%BA%8C%E9%AB%98%E7%9A%84%E8%96%AA%E6%B0%B4.md) | 简单 | YES|
 | [177](https://leetcode-cn.com/problems/nth-highest-salary/) | [第N高的薪水](algorithms/101-200/177.%20%E7%AC%ACN%E9%AB%98%E7%9A%84%E8%96%AA%E6%B0%B4.md) | 中等 | YES|
-| [178](https://leetcode-cn.com/problems/rank-scores/) | [分数排名](algorithms/101-200/178.%20%E5%88%86%E6%95%B0%E6%8E%92%E5%90%8D.md) | 中等 | NO|
+| [178](https://leetcode-cn.com/problems/rank-scores/) | [分数排名](algorithms/101-200/178.%20%E5%88%86%E6%95%B0%E6%8E%92%E5%90%8D.md) | 中等 | YES|
 | [179](https://leetcode-cn.com/problems/largest-number/) | [最大数](algorithms/101-200/179.%20%E6%9C%80%E5%A4%A7%E6%95%B0.md) | 中等 | NO|
 | [180](https://leetcode-cn.com/problems/consecutive-numbers/) | [连续出现的数字](algorithms/101-200/180.%20%E8%BF%9E%E7%BB%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E6%95%B0%E5%AD%97.md) | 中等 | YES|
 | [187](https://leetcode-cn.com/problems/repeated-dna-sequences/) | [重复的DNA序列](algorithms/101-200/187.%20%E9%87%8D%E5%A4%8D%E7%9A%84DNA%E5%BA%8F%E5%88%97.md) | 中等 | NO|
@@ -186,8 +186,8 @@
 
 | 第701-800题 | 题名 | 难度 | AC | 
 |:---:| :-----: |:--:|:--:|
-| [739](https://leetcode-cn.com/problems/daily-temperatures/) | [Daily Temperatures](algorithms/701-800/739.%20Daily%20Temperatures.js) | 中等 | YES|
-| [746](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | [Min Cost Climbing Stairs](algorithms/701-800/746.%20Min%20Cost%20Climbing%20Stairs.js) | 困难 | NO|
+| [739](https://leetcode-cn.com/problems/daily-temperatures/) | [每日温度](algorithms/701-800/739.%20%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.md) | 中等 | YES|
+| [746](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | [使用最小花费爬楼梯](algorithms/701-800/746.%20%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | 困难 | NO|
 | [763](https://leetcode-cn.com/problems/special-binary-string/) | [划分字母区间](algorithms/701-800/763.%20%E5%88%92%E5%88%86%E5%AD%97%E6%AF%8D%E5%8C%BA%E9%97%B4.md) | 困难 | NO|
 
 
@@ -201,8 +201,9 @@
 |:---:| :-----: |:--:|:--:|
 | [917](https://leetcode-cn.com/problems/boats-to-save-people/) | [仅仅反转字母](algorithms/901-1000/917.%20%E4%BB%85%E4%BB%85%E5%8F%8D%E8%BD%AC%E5%AD%97%E6%AF%8D.md) | 中等 | NO|
 | [933](https://leetcode-cn.com/problems/increasing-order-search-tree/) | [最近的请求次数](algorithms/901-1000/933.%20%E6%9C%80%E8%BF%91%E7%9A%84%E8%AF%B7%E6%B1%82%E6%AC%A1%E6%95%B0.md) | 简单 | NO|
+| [941](https://leetcode-cn.com/problems/sort-array-by-parity/) | [有效的山脉数组](algorithms/901-1000/941.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84.md) | 简单 | YES|
 | [967](https://leetcode-cn.com/problems/minimum-falling-path-sum/) | [连续差相同的数字](algorithms/901-1000/967.%20%E8%BF%9E%E7%BB%AD%E5%B7%AE%E7%9B%B8%E5%90%8C%E7%9A%84%E6%95%B0%E5%AD%97.md) | 中等 | YES|
-| [978](https://leetcode-cn.com/problems/valid-mountain-array/) | [最长湍流子数组](algorithms/901-1000/978.%20%E6%9C%80%E9%95%BF%E6%B9%8D%E6%B5%81%E5%AD%90%E6%95%B0%E7%BB%84.md) | 简单 | NO|
+| [978](https://leetcode-cn.com/problems/valid-mountain-array/) | [最长湍流子数组](algorithms/901-1000/978.%20%E6%9C%80%E9%95%BF%E6%B9%8D%E6%B5%81%E5%AD%90%E6%95%B0%E7%BB%84.md) | 简单 | YES|
 | [983](https://leetcode-cn.com/problems/validate-stack-sequences/) | [最低票价](algorithms/901-1000/983.%20%E6%9C%80%E4%BD%8E%E7%A5%A8%E4%BB%B7.md) | 中等 | NO|
 | [989](https://leetcode-cn.com/problems/largest-component-size-by-common-factor/) | [数组形式的整数加法](algorithms/901-1000/989.%20%E6%95%B0%E7%BB%84%E5%BD%A2%E5%BC%8F%E7%9A%84%E6%95%B4%E6%95%B0%E5%8A%A0%E6%B3%95.md) | 困难 | NO|
 

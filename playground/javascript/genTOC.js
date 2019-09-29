@@ -22,7 +22,7 @@ function genToc() {
     let data = fs.readFileSync("./README.md");
     let files = fs.readdirSync("./algorithms")
     let LEVEL = ['', '简单', '中等', '困难']
-    
+
     // 获取题目信息
     let problems = fs.readFileSync("./problem.json")
     problems = JSON.parse(problems.toString())
