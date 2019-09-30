@@ -23,17 +23,17 @@
 | [11](https://leetcode-cn.com/problems/container-with-most-water/) | [盛最多水的容器](algorithms/1-100/11.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.md) | 中等 | YES|
 | [13](https://leetcode-cn.com/problems/roman-to-integer/) | [罗马数字转整数](algorithms/1-100/13.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0.md) | 简单 | YES|
 | [14](https://leetcode-cn.com/problems/longest-common-prefix/) | [最长公共前缀](algorithms/1-100/14.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md) | 简单 | YES|
-| [15](https://leetcode-cn.com/problems/3sum/) | [三数之和](algorithms/1-100/15.%5Bm%5D%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 中等 | YES|
-| [16](https://leetcode-cn.com/problems/3sum-closest/) | [最接近的三数之和](algorithms/1-100/16.%20%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 中等 | NO|
+| [15](https://leetcode-cn.com/problems/3sum/) | [三数之和](algorithms/1-100/15.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 中等 | YES|
+| [16](https://leetcode-cn.com/problems/3sum-closest/) | [最接近的三数之和](algorithms/1-100/16.%20%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 中等 | YES|
 | [17](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [电话号码的字母组合](algorithms/1-100/17.%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88.md) | 中等 | YES|
-| [18](https://leetcode-cn.com/problems/4sum/) | [四数之和](algorithms/1-100/18.%5Bu%5D%20%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 中等 | NO|
+| [18](https://leetcode-cn.com/problems/4sum/) | [四数之和](algorithms/1-100/18.%20%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 中等 | YES|
 | [19](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [删除链表的倒数第N个节点](algorithms/1-100/19.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.md) | 中等 | YES|
 | [20](https://leetcode-cn.com/problems/valid-parentheses/) | [有效的括号](algorithms/1-100/20.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) | 简单 | YES|
 | [21](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [合并两个有序链表](algorithms/1-100/21.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | 简单 | YES|
 | [22](https://leetcode-cn.com/problems/generate-parentheses/) | [括号生成](algorithms/1-100/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md) | 中等 | YES|
 | [24](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [两两交换链表中的节点](algorithms/1-100/24.%20%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) | 中等 | YES|
 | [26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [删除排序数组中的重复项](algorithms/1-100/26.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) | 简单 | YES|
-| [29](https://leetcode-cn.com/problems/divide-two-integers/) | [两数相除](algorithms/1-100/29.%5Bu%5D%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E9%99%A4.md) | 中等 | NO|
+| [29](https://leetcode-cn.com/problems/divide-two-integers/) | [两数相除](algorithms/1-100/29.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E9%99%A4.md) | 中等 | YES|
 | [31](https://leetcode-cn.com/problems/next-permutation/) | [下一个排列](algorithms/1-100/31.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%8E%92%E5%88%97.md) | 中等 | YES|
 | [33](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [搜索旋转排序数组](algorithms/1-100/33.%5Bm%5D%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md) | 中等 | YES|
 | [34](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [在排序数组中查找元素的第一个和最后一个位置](algorithms/1-100/34.%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md) | 中等 | YES|
@@ -43,7 +43,7 @@
 | [38](https://leetcode-cn.com/problems/count-and-say/) | [报数](algorithms/1-100/38.%20%E6%8A%A5%E6%95%B0.md) | 简单 | YES|
 | [39](https://leetcode-cn.com/problems/combination-sum/) | [组合总和](algorithms/1-100/39.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.md) | 中等 | YES|
 | [40](https://leetcode-cn.com/problems/combination-sum-ii/) | [组合总和 II](algorithms/1-100/40.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20II.md) | 中等 | YES|
-| [45](https://leetcode-cn.com/problems/jump-game-ii/) | [跳跃游戏 II](algorithms/1-100/45.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20II.md) | 困难 | NO|
+| [45](https://leetcode-cn.com/problems/jump-game-ii/) | [跳跃游戏 II](algorithms/1-100/45.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20II.md) | 困难 | YES|
 | [46](https://leetcode-cn.com/problems/permutations/) | [全排列](algorithms/1-100/46.%20%E5%85%A8%E6%8E%92%E5%88%97.md) | 中等 | YES|
 | [48](https://leetcode-cn.com/problems/rotate-image/) | [旋转图像](algorithms/1-100/48.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) | 中等 | YES|
 | [53](https://leetcode-cn.com/problems/maximum-subarray/) | [最大子序和](algorithms/1-100/53.%5Bdp%5D%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md) | 简单 | YES|
