@@ -31,6 +31,7 @@
 | [20](https://leetcode-cn.com/problems/valid-parentheses/) | [有效的括号](algorithms/1-100/20.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) | 简单 | YES|
 | [21](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [合并两个有序链表](algorithms/1-100/21.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | 简单 | YES|
 | [22](https://leetcode-cn.com/problems/generate-parentheses/) | [括号生成](algorithms/1-100/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md) | 中等 | YES|
+| [23](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [合并K个排序链表](algorithms/1-100/23.%20%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | 困难 | YES|
 | [24](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [两两交换链表中的节点](algorithms/1-100/24.%20%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) | 中等 | YES|
 | [26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [删除排序数组中的重复项](algorithms/1-100/26.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) | 简单 | YES|
 | [29](https://leetcode-cn.com/problems/divide-two-integers/) | [两数相除](algorithms/1-100/29.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E9%99%A4.md) | 中等 | YES|
@@ -43,6 +44,7 @@
 | [38](https://leetcode-cn.com/problems/count-and-say/) | [报数](algorithms/1-100/38.%20%E6%8A%A5%E6%95%B0.md) | 简单 | YES|
 | [39](https://leetcode-cn.com/problems/combination-sum/) | [组合总和](algorithms/1-100/39.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.md) | 中等 | YES|
 | [40](https://leetcode-cn.com/problems/combination-sum-ii/) | [组合总和 II](algorithms/1-100/40.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20II.md) | 中等 | YES|
+| [43](https://leetcode-cn.com/problems/multiply-strings/) | [字符串相乘](algorithms/1-100/43.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E4%B9%98.md) | 中等 | YES|
 | [45](https://leetcode-cn.com/problems/jump-game-ii/) | [跳跃游戏 II](algorithms/1-100/45.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20II.md) | 困难 | YES|
 | [46](https://leetcode-cn.com/problems/permutations/) | [全排列](algorithms/1-100/46.%20%E5%85%A8%E6%8E%92%E5%88%97.md) | 中等 | YES|
 | [48](https://leetcode-cn.com/problems/rotate-image/) | [旋转图像](algorithms/1-100/48.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) | 中等 | YES|
@@ -60,6 +62,7 @@
 | [70](https://leetcode-cn.com/problems/climbing-stairs/) | [Climbing Stairs](algorithms/1-100/70.Climbing%20Stairs.md) | 简单 | YES|
 | [71](https://leetcode-cn.com/problems/simplify-path/) | [简化路径](algorithms/1-100/71.%20%E7%AE%80%E5%8C%96%E8%B7%AF%E5%BE%84.md) | 中等 | YES|
 | [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | 中等 | YES|
+| [75](https://leetcode-cn.com/problems/sort-colors/) | [颜色分类](algorithms/1-100/75.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md) | 中等 | YES|
 | [77](https://leetcode-cn.com/problems/combinations/) | [组合](algorithms/1-100/77.%E7%BB%84%E5%90%88.md) | 中等 | YES|
 | [78](https://leetcode-cn.com/problems/subsets/) | [子集](algorithms/1-100/78.%5Bm%5D%E5%AD%90%E9%9B%86.md) | 中等 | YES|
 | [79](https://leetcode-cn.com/problems/word-search/) | [Word Search](algorithms/1-100/79.%20Word%20Search.md) | 中等 | YES|
@@ -67,6 +70,7 @@
 | [88](https://leetcode-cn.com/problems/merge-sorted-array/) | [合并两个有序数组](algorithms/1-100/88.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.md) | 简单 | YES|
 | [90](https://leetcode-cn.com/problems/subsets-ii/) | [子集 II](algorithms/1-100/90.%5Bm%5D%E5%AD%90%E9%9B%86%20II.md) | 中等 | YES|
 | [91](https://leetcode-cn.com/problems/decode-ways/) | [解码方法](algorithms/1-100/91.%5Bdp%5D%20%E8%A7%A3%E7%A0%81%E6%96%B9%E6%B3%95.md) | 中等 | NO|
+| [92](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [反转链表 II](algorithms/1-100/92.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%20II.md) | 中等 | NO|
 | [94](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [二叉树的中序遍历](algorithms/1-100/94.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 中等 | YES|
 
 
@@ -86,6 +90,7 @@
 | [131](https://leetcode-cn.com/problems/palindrome-partitioning/) | [分割回文串](algorithms/101-200/131.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2.md) | 中等 | NO|
 | [139](https://leetcode-cn.com/problems/word-break/) | [单词拆分](algorithms/101-200/139.%5Bm%5D%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86.md) | 中等 | YES|
 | [141](https://leetcode-cn.com/problems/linked-list-cycle/) | [环形链表](algorithms/101-200/141.%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) | 简单 | YES|
+| [147](https://leetcode-cn.com/problems/insertion-sort-list/) | [对链表进行插入排序](algorithms/101-200/147.%20%E5%AF%B9%E9%93%BE%E8%A1%A8%E8%BF%9B%E8%A1%8C%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.md) | 中等 | YES|
 | [150](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [逆波兰表达式求值](algorithms/101-200/150.%20%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md) | 中等 | YES|
 | [151](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [翻转字符串里的单词](algorithms/101-200/151.%20%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.md) | 中等 | YES|
 | [152](https://leetcode-cn.com/problems/maximum-product-subarray/) | [乘积最大子序列](algorithms/101-200/152.%20%E4%B9%98%E7%A7%AF%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97.md) | 中等 | YES|
@@ -135,6 +140,7 @@
 | [242](https://leetcode-cn.com/problems/valid-anagram/) | [有效的字母异位词](algorithms/201-300/242.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) | 简单 | YES|
 | [257](https://leetcode-cn.com/problems/binary-tree-paths/) | [二叉树的所有路径](algorithms/201-300/257.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84.md) | 简单 | YES|
 | [268](https://leetcode-cn.com/problems/missing-number/) | [缺失数字](algorithms/201-300/268.%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) | 简单 | YES|
+| [274](https://leetcode-cn.com/problems/h-index/) | [H指数](algorithms/201-300/274.%20H%E6%8C%87%E6%95%B0.md) | 中等 | NO|
 | [278](https://leetcode-cn.com/problems/first-bad-version/) | [第一个错误的版本](algorithms/201-300/278.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) | 简单 | YES|
 | [279](https://leetcode-cn.com/problems/perfect-squares/) | [完全平方数](algorithms/201-300/279.%20%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) | 中等 | YES|
 | [283](https://leetcode-cn.com/problems/move-zeroes/) | [移动零](algorithms/201-300/283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) | 简单 | YES|
@@ -161,6 +167,7 @@
 | [406](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [根据身高重建队列](algorithms/401-500/406.%20%E6%A0%B9%E6%8D%AE%E8%BA%AB%E9%AB%98%E9%87%8D%E5%BB%BA%E9%98%9F%E5%88%97.md) | 中等 | YES|
 | [409](https://leetcode-cn.com/problems/longest-palindrome/) | [最长回文串](algorithms/401-500/409.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2.md) | 简单 | NO|
 | [412](https://leetcode-cn.com/problems/fizz-buzz/) | [Fizz Buzz](algorithms/401-500/412.%20Fizz%20Buzz.md) | 简单 | YES|
+| [415](https://leetcode-cn.com/problems/add-strings/) | [字符串相加](algorithms/401-500/415.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.md) | 简单 | YES|
 | [416](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [分割等和子集](algorithms/401-500/416.%5Bdp,bag%5D%20%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86.md) | 中等 | YES|
 | [424](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [[sliding window] 替换后的最长重复字符](algorithms/401-500/424.%5Bsliding%20window%5D%20%E6%9B%BF%E6%8D%A2%E5%90%8E%E7%9A%84%E6%9C%80%E9%95%BF%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6.md) | 中等 | YES|
 | [441](https://leetcode-cn.com/problems/arranging-coins/) | [排列硬币](algorithms/401-500/441.%20%E6%8E%92%E5%88%97%E7%A1%AC%E5%B8%81.md) | 简单 | YES|
@@ -186,6 +193,7 @@
 
 | 第701-800题 | 题名 | 难度 | AC | 
 |:---:| :-----: |:--:|:--:|
+| [725](https://leetcode-cn.com/problems/split-linked-list-in-parts/) | [分隔链表](algorithms/701-800/725.%20%E5%88%86%E9%9A%94%E9%93%BE%E8%A1%A8.md) | 中等 | YES|
 | [739](https://leetcode-cn.com/problems/daily-temperatures/) | [每日温度](algorithms/701-800/739.%20%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.md) | 中等 | YES|
 | [746](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | [使用最小花费爬楼梯](algorithms/701-800/746.%20%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | 困难 | NO|
 | [763](https://leetcode-cn.com/problems/special-binary-string/) | [划分字母区间](algorithms/701-800/763.%20%E5%88%92%E5%88%86%E5%AD%97%E6%AF%8D%E5%8C%BA%E9%97%B4.md) | 困难 | NO|
