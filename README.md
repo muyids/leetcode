@@ -129,7 +129,7 @@
 | [217](https://leetcode-cn.com/problems/contains-duplicate/) | [存在重复元素](algorithms/201-300/217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.md) | 简单 | YES|
 | [222](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [完全二叉树的节点个数](algorithms/201-300/222.%20%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0.md) | 中等 | YES|
 | [224](https://leetcode-cn.com/problems/basic-calculator/) | [基本计算器](algorithms/201-300/224.%20%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8.md) | 困难 | NO|
-| [225](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [用队列实现栈](algorithms/201-300/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md) | 简单 | NO|
+| [225](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [用队列实现栈](algorithms/201-300/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md) | 简单 | YES|
 | [227](https://leetcode-cn.com/problems/basic-calculator-ii/) | [基本计算器 II](algorithms/201-300/227.%20%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8%20II.md) | 中等 | YES|
 | [230](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [二叉搜索树中第K小的元素](algorithms/201-300/230.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%AC%ACK%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0.md) | 中等 | YES|
 | [232](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [用栈实现队列](algorithms/201-300/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 简单 | YES|
