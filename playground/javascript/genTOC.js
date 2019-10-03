@@ -30,7 +30,7 @@ function genTocByTag() {
     tags = tags.topics
     let TOC = "## 按分类\n\n"
     for (let tag of tags) {
-        let subToc = `[${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n`
+        let subToc = `[${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
         subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
         for (let id of tag.questions) {
             if (problemsMap.hasOwnProperty(id)) {
