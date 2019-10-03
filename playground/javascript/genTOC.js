@@ -37,7 +37,7 @@ function genTocByTag() {
                 subToc += problemsMap[id]
             }
         }
-        TOC += subToc + '\n\n'
+        TOC += subToc + '\n------\n'
     }
     return TOC
 }
