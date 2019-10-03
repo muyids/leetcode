@@ -1,5 +1,34 @@
+---
 
-## bfs 递归 回溯
+## dfs 递归 回溯 剪枝
+
+
+
+---
+
+* 代码模板
+
+递归即为闭包
+
+```cgo
+func dfs(){
+    doSomeThing()
+    dfs()
+    doAnotherThing()
+}
+```
+
+回溯即附加条件后，递归下一状态之前，要回退上一步附加操作
+
+```cgo
+func dfs(){
+    change()
+    dfs()
+    unchange()
+}
+```
+
+---
 
 深度优先搜索经常用来处理数据量非常庞大的问题
 
