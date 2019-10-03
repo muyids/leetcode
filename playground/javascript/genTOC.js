@@ -1,3 +1,7 @@
+let fs = require('fs')
+
+let problemsMap = {}
+
 // 同步问题集
 function syncProblemsStat(cb) {
     const chrome = require('chrome-cookies-secure');
@@ -8,7 +12,8 @@ function syncProblemsStat(cb) {
             pairs.push(k + '=' + v)
         }
         let cookiesPairs = pairs.join('; ')
-        let cmd = `curl https://leetcode-cn.com/api/problems/all/ --cookie "${cookiesPairs}" > problem.json`
+        let cmd = `curl https://leetcode-cn.com/api/problems/all/ --cookie "${cookiesPairs}" > problem.json \
+        && curl https://leetcode-cn.com/problems/api/tags/ --cookie "${cookiesPairs}" > tags.json`
         exec(cmd, (err, stdout, stderr) => {
             cb(err, stdout, stderr)
         });
@@ -19,17 +24,32 @@ function drawHot(count) {
     return [1000, 30000, 100000, 300000, 700000].reduce((pre, l) => pre += count > l ? "★" : "", "") // ☆
 }
 
+function genTocByTag() {
+    let tags = fs.readFileSync("./tags.json")
+    tags = JSON.parse(tags.toString())
+    tags = tags.topics
+    let TOC = "## 按分类\n\n"
+    for (let tag of tags) {
+        let subToc = `[${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n`
+        subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
+        for (let id of tag.questions) {
+            if (problemsMap.hasOwnProperty(id)) {
+                subToc += problemsMap[id]
+            }
+        }
+        TOC += subToc + '\n\n'
+    }
+    return TOC
+}
+
 /**
  * 生成目录
  * 目录内容输出位置：文档中字符串标记`&nbsp;`之后
  */
-function genToc() {
-    let fs = require('fs')
-    let TOC = '\n'
-    let data = fs.readFileSync("./README.md");
+function genTocById() {
     let files = fs.readdirSync("./algorithms")
     let LEVEL = ['', '简单', '中等', '困难']
-
+    let tocById = "### 按题号\n\n"
     // 获取题目信息
     let problems = fs.readFileSync("./problem.json")
     problems = JSON.parse(problems.toString())
@@ -61,6 +81,7 @@ function genToc() {
             let stat = pairs.find((item) => {
                 return item.stat.frontend_question_id == title[0]
             })
+            let id = title[0]
             let solutions = 0
             let passRate = "no"
             let hot = "★"
@@ -74,11 +95,17 @@ function genToc() {
                 passRate = (stat.stat.total_acs / stat.stat.total_submitted * 100).toFixed(1) + "%"
                 hot = drawHot(stat.stat.total_submitted)
             }
-            subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${solutions} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
+            let line = `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${solutions} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
+            subToc += line
+            problemsMap[id] = line
         }
-        TOC += subToc + '\n\n'
+        tocById += subToc + '\n\n'
     }
-    data = data.toString()
+    return tocById
+}
+
+function save(TOC) {
+    let data = fs.readFileSync("./README.md");
     data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
     fs.writeFileSync("./README.md", data)
 }
@@ -89,6 +116,13 @@ function genToc() {
             console.log(err)
         }
         console.log(stdout, stderr)
-        genToc()
+        let TOC = "\n"
+        TOC += genTocById()
+        TOC += '\n\n'
+        TOC += genTocByTag()
+        let data = fs.readFileSync("./README.md");
+        data = data.toString()
+        data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
+        fs.writeFileSync("./README.md", data)
     })
 })()
