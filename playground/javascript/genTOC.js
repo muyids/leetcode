@@ -16,7 +16,7 @@ function syncProblemsStat(cb) {
 }
 
 function drawHot(count) {
-    return [1000, 10000, 50000, 100000, 300000].reduce((pre, l) => pre += count > l ? "★" : "☆", "")
+    return [1000, 30000, 100000, 300000, 700000].reduce((pre, l) => pre += count > l ? "★" : "", "") // ☆
 }
 
 /**
@@ -61,7 +61,7 @@ function genToc() {
             let stat = pairs.find((item) => {
                 return item.stat.frontend_question_id == title[0]
             })
-            let articlesNum = 0
+            let solutions = 0
             let passRate = "no"
             let hot = "★"
             let level = 1
@@ -70,11 +70,11 @@ function genToc() {
                 level = stat.difficulty.level
                 title[0] = `[${title[0]}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/)`
                 if (stat.status == 'ac') status = 'YES'
-                articlesNum = stat.stat.total_column_articles
+                solutions = `[${stat.stat.total_column_articles}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/solution/)`
                 passRate = (stat.stat.total_acs / stat.stat.total_submitted * 100).toFixed(1) + "%"
                 hot = drawHot(stat.stat.total_submitted)
             }
-            subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${articlesNum} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
+            subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${solutions} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
         }
         TOC += subToc + '\n\n'
     }
