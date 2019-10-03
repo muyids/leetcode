@@ -116,10 +116,9 @@ function save(TOC) {
             console.log(err)
         }
         console.log(stdout, stderr)
-        let TOC = "\n"
-        TOC += genTocById()
-        TOC += '\n\n'
-        TOC += genTocByTag()
+        let idToc = genTocById()
+        let tagToc = genTocByTag()
+        let TOC = "\n" + tagToc + "\n\n" + idToc + "\n\n"
         let data = fs.readFileSync("./README.md");
         data = data.toString()
         data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
