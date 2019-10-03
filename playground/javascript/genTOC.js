@@ -15,7 +15,14 @@ function syncProblemsStat(cb) {
     }, "Profile 1");
 }
 
-// 生成目录
+function drawHot(count) {
+    return [1000, 10000, 50000, 100000, 300000].reduce((pre, l) => pre += count > l ? "★" : "☆", "")
+}
+
+/**
+ * 生成目录
+ * 目录内容输出位置：文档中字符串标记`&nbsp;`之后
+ */
 function genToc() {
     let fs = require('fs')
     let TOC = '\n'
@@ -36,7 +43,7 @@ function genToc() {
     })
     for (let nums of files) {
         if (nums.indexOf('-') == -1) continue;
-        let subToc = `| 第${nums}题 | 题名 | 难度 | AC | \n|:---:| :-----: |:--:|:--:|\n`
+        let subToc = `| 第${nums}题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
         let problems = fs.readdirSync("./algorithms/" + nums)
         problems.sort(function (a, b) {
             a = a.split('.').map(v => v.trim())
@@ -52,16 +59,22 @@ function genToc() {
                 title[1] = title[1].replace(/^\s*/, "");
             }
             let stat = pairs.find((item) => {
-                return item.stat.question_id == title[0]
+                return item.stat.frontend_question_id == title[0]
             })
+            let articlesNum = 0
+            let passRate = "no"
+            let hot = "★"
             let level = 1
             let status = 'NO'
             if (stat) {
                 level = stat.difficulty.level
                 title[0] = `[${title[0]}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/)`
                 if (stat.status == 'ac') status = 'YES'
+                articlesNum = stat.stat.total_column_articles
+                passRate = (stat.stat.total_acs / stat.stat.total_submitted * 100).toFixed(1) + "%"
+                hot = drawHot(stat.stat.total_submitted)
             }
-            subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${LEVEL[level]} | ${status}|\n`
+            subToc += `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${articlesNum} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
         }
         TOC += subToc + '\n\n'
     }
