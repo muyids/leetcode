@@ -1,4 +1,4 @@
-package golang
+package playground
 
 type Trie struct {
 	isWord   bool

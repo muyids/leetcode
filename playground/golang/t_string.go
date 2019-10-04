@@ -1,4 +1,4 @@
-package golang
+package playground
 
 // 205. 同构字符串
 func IsIsomorphic(s string, t string) bool {

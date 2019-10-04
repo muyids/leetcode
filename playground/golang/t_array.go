@@ -1,4 +1,4 @@
-package golang
+package playground
 
 // 119. 杨辉三角 II
 func GetRow(rowIndex int) []int {
