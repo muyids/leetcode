@@ -1,5 +1,4 @@
 let fs = require('fs')
-
 let problemsMap = {}
 
 // 同步问题集
@@ -28,7 +27,7 @@ function genTocByTag() {
     let tags = fs.readFileSync("./tags.json")
     tags = JSON.parse(tags.toString())
     tags = tags.topics
-    let TOC = "## 按分类\n\n"
+    let TOC = "## 题目列表--按分类\n\n"
     for (let tag of tags) {
         let subToc = `### [${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
         subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
@@ -42,6 +41,23 @@ function genTocByTag() {
     return TOC
 }
 
+function genProcess() {
+    let problems = fs.readFileSync("./problem.json")
+    problems = JSON.parse(problems.toString())
+
+    let str = "\n## Problems & Solutions\n"
+    str += `完成进度（${problems.num_solved} / ${problems.num_total}) [查看全部](./TOC-By-ID.md)\n`
+    return str
+}
+
+function genTocIndex() {
+    let str = "## 按分类查看\n\n"
+    str += "[查看全部](./TOC-By-Tag.md)\n\n"
+    str += "## 按题号查看\n\n"
+    str += "[查看全部](./TOC-By-ID.md)\n\n"
+    return str
+}
+
 /**
  * 生成目录
  * 目录内容输出位置：文档中字符串标记`&nbsp;`之后
@@ -49,7 +65,7 @@ function genTocByTag() {
 function genTocById() {
     let files = fs.readdirSync("./algorithms")
     let LEVEL = ['', '简单', '中等', '困难']
-    let tocById = "### 按题号\n\n"
+    let tocById = "### 题目列表--按题号\n\n"
     // 获取题目信息
     let problems = fs.readFileSync("./problem.json")
     problems = JSON.parse(problems.toString())
@@ -116,9 +132,10 @@ function save(TOC) {
             console.log(err)
         }
         console.log(stdout, stderr)
-        let idToc = genTocById()
-        let tagToc = genTocByTag()
-        let TOC = "\n" + tagToc + "\n\n" + idToc + "\n\n"
+        fs.writeFileSync('./TOC-By-ID.md', genTocById())
+        fs.writeFileSync('./TOC-By-Tag.md', genTocByTag())
+
+        let TOC = "\n" + genProcess() + "\n" + genTocIndex() + "\n"
         let data = fs.readFileSync("./README.md");
         data = data.toString()
         data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
