@@ -1,5 +1,6 @@
 /**
  * 字典树（Trie树）
+ * 也叫 前缀树
  */
 function Trie() {
     this.root = new TrieNode(null);
