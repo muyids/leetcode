@@ -131,7 +131,12 @@ var insertionSortList = function (head) {
     return node.next;
 };
 
-let root = InitList([6, 7, 4, 2, 1, 3, 5])
-head = insertionSortList(root)
+// 92. 反转链表 II
+var reverseBetween = function (head, m, n) {
+    return head
+};
+
+let root = InitList([1, 2, 3, 4, 5])
+head = reverseBetween(root, 2, 4)
 Traverse(head)
 

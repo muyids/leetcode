@@ -244,3 +244,4 @@ func ReverseList(head *ListNode) *ListNode {
 	cur.Next = prev
 	return cur
 }
+
