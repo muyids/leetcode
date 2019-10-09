@@ -9,15 +9,11 @@
 - 目前主要语言为javascript,少部分golang
 - 欢迎大家交流指正
 
-## TODO
-
-- 6 道股票问题
-
 &nbsp;
 
 
 ## Problems & Solutions
-完成进度（359 / 1217) [查看全部](./TOC-By-ID.md)
+完成进度（367 / 1217) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
