@@ -128,11 +128,9 @@ function save(TOC) {
 }
 
 (function () {
-
     if(os.platform() == 'win32'){
         return
     }
-console.log(os.platform())
     syncProblemsStat((err, stdout, stderr) => {
         if (err) {
             console.log(err)
