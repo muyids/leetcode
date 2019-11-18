@@ -1,4 +1,5 @@
-let fs = require('fs')
+const fs = require('fs')
+const os=require('os');
 let problemsMap = {}
 
 // 同步问题集
@@ -127,6 +128,11 @@ function save(TOC) {
 }
 
 (function () {
+
+    if(os.platform() == 'win32'){
+        return
+    }
+console.log(os.platform())
     syncProblemsStat((err, stdout, stderr) => {
         if (err) {
             console.log(err)
