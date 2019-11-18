@@ -6,7 +6,7 @@
   "scripts": {
     "genTOC": "node playground/javascript/genTOC.js && rm -f problem.json && rm -f tags.json",
     "cppRun": "./workspace/main.out",
-    "cppCompile": "g++ workspace/main.cpp -o workspace/main.out",
+    "cppCompile": "g++ -std=c++11 workspace/main.cpp -o workspace/main.out",
     "cppBoot": "npm run cppCompile && echo '--- cpp output ---\n' && npm run cppRun && echo '\n--- cpp end ---'",
     "cppWatch": "nodemon --delay 1 --watch workspace/main.cpp --exec 'npm run cppBoot'",
     "goRun": "./workspace/main.out",
