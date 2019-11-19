@@ -13,7 +13,7 @@
 
 
 ## Problems & Solutions
-完成进度（394 / 1268) [查看全部](./TOC-By-ID.md)
+完成进度（397 / 1268) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
