@@ -2,7 +2,7 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "leetcode解题进行中",
-  "main": "workspace/main.cpp",
+  "main": "workspace/main.js",
   "scripts": {
     "genTOC": "node playground/javascript/genTOC.js && rm -f problem.json && rm -f tags.json",
     "cppRun": "./workspace/main.out",
