@@ -10,7 +10,7 @@
 
 递归即为闭包
 
-```cgo
+```go
 func dfs(){
     doSomeThing()
     dfs()
@@ -20,7 +20,7 @@ func dfs(){
 
 回溯即附加条件后，递归下一状态之前，要回退上一步附加操作
 
-```cgo
+```go
 func dfs(){
     change()
     dfs()
@@ -60,7 +60,7 @@ func dfs(){
 
 算法复杂度 长n,宽m,长度k,负责度为n*m*3^k
 
-```cgo
+```go
 func exist(board [][]byte, word string) bool {
 	if len(board) == 0 || len(board[0]) == 0 {
 		return false
@@ -113,7 +113,7 @@ func dfs(board [][]byte, m int, n int, word string, i int) bool {
 
 思路一，枚举每一个位置上该放哪些数
 
-```cgo
+```go
 class Solution {
     vector<bool> bt;
     vector<vector<int>> ans;
@@ -158,7 +158,7 @@ public:
 
 #### bfs + 回溯
 
-```cgo
+```go
 class Solution {
 
     vector<vector<int>> ans;
@@ -196,7 +196,7 @@ public:
 输入: k = 3, n = 9
 输出: [[1,2,6], [1,3,5], [2,3,4]]
 
-```cgo
+```go
 class Solution {
     int N, K;
     vector<vector<int>> ans;
@@ -237,7 +237,7 @@ public:
 	斜率为1，d[x + y]
 	斜率为-1 , ud[x-y+n]
 
-```cgo
+```go
 class Solution {
 
     vector<vector<char >> V;
@@ -277,7 +277,7 @@ public:
 
 精确覆盖问题, 用到一种数据结构 Dancing Links
 
-```cgo
+```cpp
 class Solution {
     bool row[9][9] = {0}, col[9][9] = {0}, sub[3][3][9] = {0};
 public:
@@ -288,7 +288,6 @@ public:
                     int c = board[i][j] - '1';
                     row[i][c] = col[j][c] = sub[i / 3][j / 3][c] = true;
                 }
-
             }
         }
         dfs(board, 0, 0);
@@ -335,7 +334,7 @@ public:
 4. 如果当前木棒拼接失败，且是当前边的第一个，则直接减掉当前分支
 5. 如果当前木棒拼接失败，且是当前边的最后一个，则直接减掉当前分支
 
-```cgo
+```cpp
 class Solution {
     vector<bool> st;
 public:
@@ -378,7 +377,6 @@ public:
 给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
 
 返回 s 所有可能的分割方案。
-
 
 
 ##### 306. 累加数
