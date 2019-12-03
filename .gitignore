@@ -1,9 +1,6 @@
 workspace/*
-
 .idea
-
+.DS_Store
 .vscode/*
-
 **/*cmake-build-debug
-
 node_modules/*
