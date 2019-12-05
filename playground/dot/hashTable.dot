@@ -1,3 +1,21 @@
+// 字典
+// digraph G {
+//     nodesep = .05
+//     rankdir = LR
+//     node[shape = record, width = .1, height = .1]
+
+//      node0[label = "<f0> | <f1> | <f2> | <f3> | <f4> | <f5> | <f6>",height = 2.5]
+//      node[width = .1]
+//      node1[label = ""]
+//      node2[label = ""]
+//      node3[label = ""]
+//      node4[label = ""]
+//      node0: f0 -> node1
+//      node0: f1 -> node2
+//      node0: f2 -> node3
+//      node0: f3 -> node4
+// }
+
 // 哈希表
 digraph G{
     nodesep = .05

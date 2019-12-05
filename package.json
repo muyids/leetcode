@@ -4,6 +4,7 @@
   "description": "leetcode解题进行中",
   "main": "workspace/main.js",
   "scripts": {
+    "dot": " dot -Tpng workspace/main.dot -o workspace/main.png",
     "genTOC": "node ./script/genTOC.js",
     "cppRun": "./workspace/main.out",
     "cppCompile": "g++ -std=c++11 workspace/main.cpp -o workspace/main.out",

@@ -136,7 +136,7 @@ function genTocById() {
     let LEVEL = ['', '简单', '中等', '困难']
     let tocById = "### 题目列表--按题号\n\n"
     // 获取题目信息
-    let problems = fs.readFileSync("./problem.json")
+    let problems = fs.readFileSync(PROBLEMS_FILE)
     problems = JSON.parse(problems.toString())
     let pairs = problems.stat_status_pairs
 

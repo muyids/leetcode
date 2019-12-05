@@ -1,19 +1,32 @@
-// 排列对齐
-digraph G{
-   rankdir = LR // 排列方向
-   {
-    node[shape = plaintext]
-    1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001
-   }
-   {
-    node[shape = box, style = filled]
-    WAR3 -> Xhero -> Footman -> DOTA
-    WAR3 -> Battleship
-   }
-   {
-    {rank = same 1996 WAR3}
-    {rank = same 1998 Xhero Battleship}
-    {rank = same 1999 Footman}
-    {rank = same 2001 DOTA}
-   }
+// // 排列对齐
+// digraph G{
+//    rankdir = LR // 排列方向
+//    {
+//     node[shape = plaintext]
+//     1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001
+//    }
+//    {
+//     node[shape = box, style = filled]
+//     WAR3 -> Xhero -> Footman -> DOTA
+//     WAR3 -> Battleship
+//    }
+//    {
+//     {rank = same 1996 WAR3}
+//     {rank = same 1998 Xhero Battleship}
+//     {rank = same 1999 Footman}
+//     {rank = same 2001 DOTA}
+//    }
+// }
+
+digraph G {
+  rankdir = TB;
+  subgraph {
+    A -> B
+    A -> C
+    C -> D
+    X -> Y
+    // note that rank is used in the subgraph
+    {rank = same; A; X;}
+    {rank = same; B; D; Y;}
+  } /* closing subgraph */
 }

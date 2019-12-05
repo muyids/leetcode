@@ -1,13 +1,13 @@
 
+两个数组的位置
+
 ```graphviz
-digraph G
-{
-    rankdir=LR;
-    Array1 [ shape = record, label = "{ <a1>A(1) | <a2>A(2) | <a3>A(...) | <an>A(n)}"] ;
-    Array2 [ shape = record, label = "{ <b1>B(1) | <b2>B(2) | <b3>B(...) | <bn1>B(n+1)}"] ;
+digraph G{
+    // rankdir=LR;
+    Array1 [ shape = record, label = " <a1> A(1) | <a2>A(2) | <an>A(n)"] ;
+    Array2 [ shape = record, label = "<b1> B(1) | <b2>B(2) | <bn1> B(n)"] ;
     Array1:a1 -> Array2:b1 [style=solid];
     Array1:an -> Array2:bn1 [style=solid];
-    //{rank=same; Array1; Array2;}
 }
 ```
 
@@ -22,13 +22,12 @@ digraph so
     Array [ shape = record, label = "{ <f0> A | B | C | D }"] ;
   }
 
-
-
   i -> Array: f0
   j -> Array: f0
 }
 ```
 
+带下标的数组
 
 ```graphviz
 digraph {
