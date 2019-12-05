@@ -1,0 +1,319 @@
+digraph g1{
+    size=",5!"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0> i | <f1>  | <f2>  | <f3> | <f4>   ", color=white];
+    Array [label="<f0> 0| <f1> 1 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> j | <f1>  | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f0 -> Array:f0;
+    p_j:f0->Array:f0;
+}
+
+---
+
+digraph g2{
+    size=",5!"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1>  i| <f2>  | <f3> | <f4>   ", color=white];
+    Array [label="<f0> 0| <f1> 1 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> j | <f1>  | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f1 -> Array:f1;
+    p_j:f0->Array:f0;
+}
+
+---
+
+digraph g3{
+        size=",5!"
+    label= "nums[j]= nums[i], nums[i]=0, j++"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1>  i| <f2>  | <f3> | <f4>   ", color=white];
+    Array [label="<f0> 1 | <f1> 0 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1> j | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f1 -> Array:f1;
+    p_j:f1-> Array:f1;
+
+}
+
+---
+
+digraph g4{
+        size=",5!"
+    label= "if nums[i]==0
+i++;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  i | <f3> | <f4>   ", color=white];
+    Array [label="<f0> 1 | <f1> 0 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1> j | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f2 -> Array:f2;
+    p_j:f1-> Array:f1;
+
+}
+
+
+---
+
+digraph g5{
+    label= "if nums[i]==0
+i++;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  i | <f3> | <f4>   ", color=white];
+    Array [label="<f0> 1 | <f1> 0 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1> j | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f2 -> Array:f2;
+    p_j:f1-> Array:f1;
+
+}
+
+---
+
+
+digraph g6{
+    label= "nums[i]!=0"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  i| <f4>   ", color=white];
+    Array [label="<f0> 1 | <f1> 0 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1> j | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f3 -> Array:f3;
+    p_j:f1-> Array:f1;
+}
+
+---
+
+digraph g7{
+    label= "nums[j]=nums[i];nums[i]=0;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  i| <f4>   ", color=white];
+    Array [label="<f0> 1 | <f1> 0 | <f2> 0 | <f3> 3 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1> j | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f3 -> Array:f3;
+    p_j:f1-> Array:f1;
+}
+
+---
+
+digraph g8{
+    label= "j++;i++;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  i| <f4>   ", color=white];
+    Array [label="<f0> 1 | <f1> 3 | <f2> 0 | <f3> 0 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1> j | <f2>  | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f3 -> Array:f3;
+    p_j:f1-> Array:f1;
+}
+
+
+---
+
+digraph g9{
+    label= "j++;i++;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  | <f4> i ", color=white];
+    Array [label="<f0> 1 | <f1> 3 | <f2> 0 | <f3> 0 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1>  | <f2> j | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f4 -> Array:f4;
+    p_j:f2-> Array:f2;
+}
+
+---
+
+digraph g10{
+    label= "nums[i]!=0"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  | <f4> i ", color=white];
+    Array [label="<f0> 1 | <f1> 3 | <f2> 0 | <f3> 0 | <f4> 12 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1>  | <f2> j | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f4 -> Array:f4;
+    p_j:f2-> Array:f2;
+}
+
+---
+
+digraph g11{
+    label= "nums[j]=nums[j];nums[i]=0;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  | <f4> i ", color=white];
+    Array [label="<f0> 1 | <f1> 3 | <f2> 12 | <f3> 0 | <f4> 0 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1>  | <f2> j | <f3> | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f4 -> Array:f4;
+    p_j:f2-> Array:f2;
+}
+
+---
+
+digraph g12{
+    label= "j++;i++;"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  | <f4> i ", color=white];
+    Array [label="<f0> 1 | <f1> 3 | <f2> 12 | <f3> 0 | <f4> 0 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1>  | <f2>  | <f3> j | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f4 -> Array:f4:e;
+    p_j:f3-> Array:f3;
+}
+
+---
+
+digraph g13{
+    label= "i移动到数组尾部，结束"
+    node [shape=plaintext, fontcolor=red, fontsize=18];
+    i -> "数组" -> j -> "下标" [color=white];
+
+    node [shape=record, fontcolor=black, fontsize=14, width=4.75, fixedsize=true];
+    p_i [label="<f0>  | <f1> | <f2>  | <f3>  | <f4> i ", color=white];
+    Array [label="<f0> 1 | <f1> 3 | <f2> 12 | <f3> 0 | <f4> 0 ", color=blue, fillcolor=lightblue, style=filled];
+    p_j [label="<f0> | <f1>  | <f2>  | <f3> j | <f4>  ", color=white]
+    indices [label="0 | 1| 2 | 3| 4 | 5", color=white];
+
+    { rank=same; "i"; p_i }
+    { rank=same; "数组"; Array }
+    { rank=same; j; p_j }
+    { rank=same; "下标"; indices }
+
+    edge [color=blue];
+
+    p_i:f4 -> Array:f4:e;
+    p_j:f3-> Array:f3;
+}

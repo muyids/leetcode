@@ -2,13 +2,12 @@ const fs = require('fs')
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const gm = require('gm')
-const GIFEncoder = require('gifencoder');
-const pngFileStream = require('png-file-stream');
 const path = require('path')
 
 const DOT_PATH = './workspace/main.dot'
 const TMP_DIR = './tmp'
-const RESULT_GIF = './workspace/main.gif'
+let RESULT_GIF = './workspace/main.gif'
+let VIDEO_FILE = './workspace/main.mp4'
 
 // 图片拼接
 function mosaic(bgPic, upPic) {
@@ -113,12 +112,44 @@ async function dirExists(dir) {
   return mkdirStatus;
 }
 
+function delDir(path) {
+  let files = [];
+  if (fs.existsSync(path)) {
+    files = fs.readdirSync(path);
+    files.forEach((file, index) => {
+      let curPath = path + "/" + file;
+      if (fs.statSync(curPath).isDirectory()) {
+        delDir(curPath); //递归删除文件夹
+      } else {
+        fs.unlinkSync(curPath); //删除文件
+      }
+    });
+    fs.rmdirSync(path);
+  }
+}
+
+async function init() {
+  delDir(TMP_DIR)
+}
+
 async function main() {
+  await init()
+
+  if (process.argv[2]) {
+    let id = process.argv[2]
+    if (!Number.isInteger(+id)) throw new Error('题号非法！')
+    // 保存dot文件
+    let cmd = `cp ${DOT_PATH} ./algorithms/dot/${id}.dot`
+    await exec(cmd);
+    RESULT_GIF = './algorithms/images/' + id + '.gif'
+    VIDEO_FILE = './algorithms/videos/' + id + '.mp4'
+  }
   let data = fs.readFileSync(DOT_PATH).toString()
   let dots = data.split('---')
 
   let maxWidth = 0,
     maxHeight = 0
+  let pngs = []
 
   await dirExists(TMP_DIR)
   // 生成每一个步骤子图
@@ -128,6 +159,7 @@ async function main() {
     fs.writeFileSync(dotPath, dots[i])
     let cmd = `dot -Tpng ${dotPath} -o ${pngPath}`
     await exec(cmd);
+    pngs.push(pngPath)
     // 读图片大小，取最大的
     let data = await identity(pngPath)
     maxWidth = Math.max(maxWidth, data.size.width)
@@ -139,25 +171,28 @@ async function main() {
   await genPic(maxWidth, maxHeight, "#ffffff", bgPic)
 
   // 合成
-  for (let i = 0; i < dots.length; i++) {
-    let pngPath = path.join(TMP_DIR, `g${i}.png`)
-    await mosaic(bgPic, pngPath)
+  for (let i = 0; i < pngs.length; i++) {
+    await mosaic(bgPic, pngs[i])
   }
-
-  console.log('gen gif size: ', maxWidth, maxHeight)
 
   let GM = gm()
-  for (let i = 0; i < dots.length; i++) {
-    let pngPath = path.join(TMP_DIR, `g${i}.png`)
-    GM = GM.in('-delay', 100).in(pngPath)
+  for (let i = 0; i < pngs.length; i++) {
+    GM = GM.in('-delay', 100).in(pngs[i])
   }
-
+  await genVideo(pngs)
   GM.resize(maxWidth, maxHeight).write(RESULT_GIF, function (err) {
-    if (!err) console.log(err)
-    console.log('finish', RESULT_GIF)
+    if (err) console.log(err)
+    console.log(`generate gif file: ${RESULT_GIF}(width: ${maxWidth}, height: ${maxHeight})`, )
   });
 }
 
+async function genVideo(pngs) {
+  // r: 帧率；60帧率表示1秒钟60张图；1/2帧率表示一秒钟半张图，也就是两秒钟一张图；
+  let cmd = `ffmpeg -r 1/2 -y -f image2 -i tmp/g%d.png ${VIDEO_FILE}`
+  await exec(cmd);
+  console.log(`generate video file: ${VIDEO_FILE}`)
+}
+
 main().then().catch(e => {
-  console.log(e)
-})
+  if (e) console.log(e)
+}).finally(() => {})

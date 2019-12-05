@@ -5,3 +5,5 @@ workspace/*
 **/*cmake-build-debug
 node_modules/*
 tmp/*
+package-lock.json
+

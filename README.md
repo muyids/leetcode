@@ -18,6 +18,12 @@
 ├── TOC-By-ID.md      -- 按题号查看目录
 ├── TOC-By-Tag.md     -- 按分类查看目录
 ├── algorithms        -- 题目解析列表
+│   ├── 1-100         -- 按题号分类
+│   ├── ...
+│   ├── README.md
+│   ├── dot           -- dot文件
+│   ├── images        -- 图片素材
+│   └── videos        -- 视频素材
 ├── playground        -- 算法模板
 ├── script            -- 自动化脚本
 ├── tags              -- 按tag分类整理文档
