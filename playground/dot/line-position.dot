@@ -1,0 +1,28 @@
+
+// 线的出发点，结束点
+// digraph G{
+//    node[shape = box]
+//    c:n -> d[label = n]
+//    c1:ne -> d1[label = ne]
+//    c2:e -> d2[label = e]
+//    c3:se -> d3[label = se]
+//    c4:s -> d4[label = s]
+//    c5:sw -> d5[label = sw]
+//    c6:w -> d6[label = w]
+//    c7:nw -> d7[label = nw]
+// }
+
+
+digraph G{
+   label = "Binary Search Tree"
+   node[shape = record]
+   A[label = "<f0> | <f1> A | <f2>"]
+   B[label = "<f0> | <f1> B | <f2>"]
+   C[label = "<f0> | <f1> C | <f2>"]
+   D[label = "<f0> | <f1> D | <f2>"]
+   E[label = "<f0> | <f1> E | <f2>"]
+   A: f0: sw -> B: f1: n
+   A: f2: se -> C: f1
+   B: f0: sw -> D: f1
+   B: f2: se -> E: f1
+}

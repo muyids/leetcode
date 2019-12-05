@@ -1,0 +1,17 @@
+
+diGraph G{
+    // size = "4, 4"  /*设置图片尺寸为4 * 4（英寸）*/
+    main[shape = box] /*设置点main形状为矩形，默认为椭圆形*/
+    main -> parse[weight = 8]  /*设置main到parse的边的重要程度，默认为1*/
+    parse -> execute
+    main -> init[style = dotted] /*设置main到init的边的样式为点，默认为实线*/
+    main -> cleanup
+    execute -> {make_string printf} /*一次连接两条边，以隔开目标点*/
+    init -> make_string
+    edge[color = red]  /*将此语句后的边的颜色设置为红色*/
+    main -> printf[style = bold, label = "100 times"]
+    node[shape = box, style = filled, color = ".7 .3 1.0"] /*设置此语句后的点的默认属性， 其中color的值采用RGB标准*/
+    make_string[label = "make a\nstring"]
+    execute -> compare
+    compare -> return
+}

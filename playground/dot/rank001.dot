@@ -1,0 +1,20 @@
+digraph G {
+    0 [label = "start", shape = none];
+    node [shape = circle];
+    1 [label = "q1"];
+    2 [label = "q2"];
+    3 [label = "q3"];
+    4 [label = "q4"];
+    5 [label = "q5"];
+    6 [label = "q6", shape = doublecircle];
+
+    {rank = same; 0 -> 1; }
+    1 -> 2 [label = "0"];
+    {rank = same; 2 -> 3 [label = "&epsilon;"]; }
+    4 -> 5 [label = "1"];
+    edge [label = "&epsilon;"];
+    3 -> 4;
+    5 -> 6;
+    5 -> 4 [constraint = false];
+    6 -> 3 [constraint = false];
+}

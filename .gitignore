@@ -4,3 +4,4 @@ workspace/*
 .vscode/*
 **/*cmake-build-debug
 node_modules/*
+tmp/*

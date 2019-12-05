@@ -4,16 +4,44 @@
 
 本题集包含以下内容
 
-- 每周更新，周赛同步
 - 题解语言不限，专注于算法实现
-- 目前主要语言为javascript,少部分golang
+- 目前主要语言为javascript
+- 自动更新个人解题列表
+- 一键生成动态图解
 - 欢迎大家交流指正
+
+## 目录树
+
+```tree
+.
+├── README.md         -- README文件
+├── TOC-By-ID.md      -- 按题号查看目录
+├── TOC-By-Tag.md     -- 按分类查看目录
+├── algorithms        -- 题目解析列表
+├── playground        -- 算法模板
+├── script            -- 自动化脚本
+├── tags              -- 按tag分类整理文档
+├── tmp               -- 临时文件
+└── workspace         -- 工作目录
+```
+
+## 特色功能
+
+### 自动生成题目列表
+
+运行脚本`node script/genTOC.js`，程序会获取本地浏览器cookie，并请求得到解题列表，自动生成目录文件`TOC-By-ID.md`和`TOC-By-Tag.md`
+
+### 动态图解制作
+
+图解制作使用开源工具`graphviz`，基于dot语言生成图片，使用`GraphicMagick`进行图片处理，自动生成动图
+
+脚本使用`node script/genPic.js`
 
 &nbsp;
 
-
 ## Problems & Solutions
-完成进度（408 / 1283) [查看全部](./TOC-By-ID.md)
+
+完成进度（408 / 1284) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
@@ -22,5 +50,3 @@
 ## 按题号查看
 
 [查看全部](./TOC-By-ID.md)
-
-

@@ -1,23 +1,91 @@
 const fs = require('fs')
-const os=require('os');
+const os = require('os')
+const path = require('path')
+const chrome = require('chrome-cookies-secure')
+const {
+    exec
+} = require('child_process');
+
 let problemsMap = {}
 
+
+let TMP_DIR = './tmp'
+
+let PROBLEMS_FILE = path.join(TMP_DIR, `problem.json`)
+let TAGS_FILE = path.join(TMP_DIR, `tag.json`)
+
+/**
+ * 读取路径信息
+ * @param {string} path 路径
+ */
+function getStat(path) {
+    return new Promise((resolve, reject) => {
+        fs.stat(path, (err, stats) => {
+            if (err) {
+                resolve(false);
+            } else {
+                resolve(stats);
+            }
+        })
+    })
+}
+
+/**
+ * 创建路径
+ * @param {string} dir 路径
+ */
+function mkdir(dir) {
+    return new Promise((resolve, reject) => {
+        fs.mkdir(dir, err => {
+            if (err) {
+                resolve(false);
+            } else {
+                resolve(true);
+            }
+        })
+    })
+}
+
+/**
+ * 路径是否存在，不存在则创建
+ * @param {string} dir 路径
+ */
+async function dirExists(dir) {
+    let isExists = await getStat(dir);
+    //如果该路径且不是文件，返回true
+    if (isExists && isExists.isDirectory()) {
+        return true;
+    } else if (isExists) { //如果该路径存在但是文件，返回false
+        return false;
+    }
+    //如果该路径不存在
+    let tempDir = path.parse(dir).dir; //拿到上级路径
+    //递归判断，如果上级目录也不存在，则会代码会在此处继续循环执行，直到目录存在
+    let status = await dirExists(tempDir);
+    let mkdirStatus;
+    if (status) {
+        mkdirStatus = await mkdir(dir);
+    }
+    return mkdirStatus;
+}
+
 // 同步问题集
-function syncProblemsStat(cb) {
-    const chrome = require('chrome-cookies-secure');
-    const {exec} = require('child_process');
-    chrome.getCookies('https://leetcode-cn.com/problemset/all/', '', function (err, cookies) {
-        let pairs = []
-        for (let [k, v] of Object.entries(cookies)) {
-            pairs.push(k + '=' + v)
-        }
-        let cookiesPairs = pairs.join('; ')
-        let cmd = `curl https://leetcode-cn.com/api/problems/all/ --cookie "${cookiesPairs}" > problem.json \
-        && curl https://leetcode-cn.com/problems/api/tags/ --cookie "${cookiesPairs}" > tags.json`
-        exec(cmd, (err, stdout, stderr) => {
-            cb(err, stdout, stderr)
-        });
-    }, "Profile 1");
+function syncProblemsStat() {
+    return new Promise(function (resolve, reject) {
+        chrome.getCookies('https://leetcode-cn.com/problemset/all/', '', function (err, cookies) {
+            let pairs = []
+            for (let [k, v] of Object.entries(cookies)) {
+                pairs.push(k + '=' + v)
+            }
+            let cookiesPairs = pairs.join('; ')
+            let cmd = `curl https://leetcode-cn.com/api/problems/all/ --cookie "${cookiesPairs}" > ${PROBLEMS_FILE} \
+        && curl https://leetcode-cn.com/problems/api/tags/ --cookie "${cookiesPairs}" > ${TAGS_FILE}`
+            exec(cmd, (err, stdout, stderr) => {
+                if (err) reject(err)
+                resolve()
+            });
+        }, "Profile 1");
+    })
 }
 
 function drawHot(count) {
@@ -25,7 +93,7 @@ function drawHot(count) {
 }
 
 function genTocByTag() {
-    let tags = fs.readFileSync("./tags.json")
+    let tags = fs.readFileSync(TAGS_FILE)
     tags = JSON.parse(tags.toString())
     tags = tags.topics
     let TOC = "## 题目列表--按分类\n\n"
@@ -43,10 +111,10 @@ function genTocByTag() {
 }
 
 function genProcess() {
-    let problems = fs.readFileSync("./problem.json")
+    let problems = fs.readFileSync(PROBLEMS_FILE)
     problems = JSON.parse(problems.toString())
 
-    let str = "\n## Problems & Solutions\n"
+    let str = "\n## Problems & Solutions\n\n"
     str += `完成进度（${problems.num_solved} / ${problems.num_total}) [查看全部](./TOC-By-ID.md)\n`
     return str
 }
@@ -127,22 +195,19 @@ function save(TOC) {
     fs.writeFileSync("./README.md", data)
 }
 
-(function () {
-    if(os.platform() == 'win32'){
+(async function () {
+    if (os.platform() == 'win32') {
         return
     }
-    syncProblemsStat((err, stdout, stderr) => {
-        if (err) {
-            console.log(err)
-        }
-        console.log(stdout, stderr)
-        fs.writeFileSync('./TOC-By-ID.md', genTocById())
-        fs.writeFileSync('./TOC-By-Tag.md', genTocByTag())
 
-        let TOC = "\n" + genProcess() + "\n" + genTocIndex() + "\n"
-        let data = fs.readFileSync("./README.md");
-        data = data.toString()
-        data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
-        fs.writeFileSync("./README.md", data)
-    })
+    await dirExists(TMP_DIR)
+    await syncProblemsStat()
+    fs.writeFileSync('./TOC-By-ID.md', genTocById())
+    fs.writeFileSync('./TOC-By-Tag.md', genTocByTag())
+
+    let TOC = "\n" + genProcess() + "\n" + genTocIndex() + "\n"
+    let data = fs.readFileSync("./README.md");
+    data = data.toString()
+    data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
+    fs.writeFileSync("./README.md", data)
 })()

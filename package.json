@@ -4,7 +4,7 @@
   "description": "leetcode解题进行中",
   "main": "workspace/main.js",
   "scripts": {
-    "genTOC": "node playground/javascript/genTOC.js && rm -f problem.json && rm -f tags.json",
+    "genTOC": "node ./script/genTOC.js",
     "cppRun": "./workspace/main.out",
     "cppCompile": "g++ -std=c++11 workspace/main.cpp -o workspace/main.out",
     "cppBoot": "npm run cppCompile && echo '--- cpp output ---\n' && npm run cppRun && echo '\n--- cpp end ---'",
@@ -13,7 +13,7 @@
     "goCompile": "go build -o workspace/main.out workspace/main.go",
     "goBoot": "npm run goCompile && echo '--- golang output ---\n' && npm run goRun && echo '\n--- golang end ---'",
     "goWatch": "nodemon --delay 1 --watch workspace/main.go --exec 'npm run goBoot'",
-    "clear": "rm -f workspace/*.out",
+    "clean": "rm -f workspace/*.out && rm -f workspace/*.class && rm -f tmp/*",
     "js": "nodemon --delay 1 --watch workspace/main.js --exec 'node workspace/main.js'",
     "cpp": "npm run cppWatch",
     "go": "npm run goWatch",
@@ -30,6 +30,12 @@
   },
   "homepage": "https://github.com/muyids/leetcode#readme",
   "dependencies": {
-    "chrome-cookies-secure": "^1.2.0"
+    "chrome-cookies-secure": "^1.2.0",
+    "gm": "^1.23.1"
+  },
+  "devDependencies": {
+    "dotparser": "^0.4.0",
+    "get-pixels": "^3.3.2",
+    "png-file-stream": "^1.2.1"
   }
 }
