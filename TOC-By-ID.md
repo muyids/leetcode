@@ -246,7 +246,7 @@
 | 第701-800题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [725](https://leetcode-cn.com/problems/split-linked-list-in-parts/) | [分隔链表](algorithms/701-800/725.%20%E5%88%86%E9%9A%94%E9%93%BE%E8%A1%A8.md) | [27](https://leetcode-cn.com/problems/split-linked-list-in-parts/solution/) | 51.6% | 中等 | YES| ★ |
-| [739](https://leetcode-cn.com/problems/daily-temperatures/) | [每日温度](algorithms/701-800/739.%20%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.md) | [64](https://leetcode-cn.com/problems/daily-temperatures/solution/) | 56.2% | 中等 | YES| ★★ |
+| [739](https://leetcode-cn.com/problems/daily-temperatures/) | [每日温度](algorithms/701-800/739.%20%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.md) | [65](https://leetcode-cn.com/problems/daily-temperatures/solution/) | 56.2% | 中等 | YES| ★★ |
 | [746](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [使用最小花费爬楼梯](algorithms/701-800/746.%20%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | [64](https://leetcode-cn.com/problems/min-cost-climbing-stairs/solution/) | 45.5% | 简单 | YES| ★★ |
 | [763](https://leetcode-cn.com/problems/partition-labels/) | [划分字母区间](algorithms/701-800/763.%20%E5%88%92%E5%88%86%E5%AD%97%E6%AF%8D%E5%8C%BA%E9%97%B4.md) | [27](https://leetcode-cn.com/problems/partition-labels/solution/) | 68.4% | 中等 | YES| ★ |
 | [764](https://leetcode-cn.com/problems/largest-plus-sign/) | [最大加号标志](algorithms/701-800/764.%20%E6%9C%80%E5%A4%A7%E5%8A%A0%E5%8F%B7%E6%A0%87%E5%BF%97.md) | [9](https://leetcode-cn.com/problems/largest-plus-sign/solution/) | 47.2% | 中等 | YES| ★ |

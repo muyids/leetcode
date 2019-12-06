@@ -1,6 +1,6 @@
 # leetcode题集
 
-欢迎关注[muyids的leetcode题解](https://github.com/muyids/leetcode)
+欢迎关注[leetcode题解](https://github.com/muyids/leetcode)
 
 本题集包含以下内容
 
