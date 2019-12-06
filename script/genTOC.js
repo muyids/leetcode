@@ -8,9 +8,7 @@ const {
 
 let problemsMap = {}
 
-
 let TMP_DIR = './tmp'
-
 let PROBLEMS_FILE = path.join(TMP_DIR, `problem.json`)
 let TAGS_FILE = path.join(TMP_DIR, `tag.json`)
 
