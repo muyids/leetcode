@@ -37,6 +37,7 @@
   "devDependencies": {
     "dotparser": "^0.4.0",
     "get-pixels": "^3.3.2",
-    "png-file-stream": "^1.2.1"
+    "png-file-stream": "^1.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.5"
   }
 }

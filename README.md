@@ -4,9 +4,14 @@
 
 推荐阅读
 
+- [单调栈专题](https://github.com/muyids/leetcode/blob/master/tags/%E5%8D%95%E8%B0%83%E6%A0%88.md)
 
+## 声明
 
-本题集包含以下内容
+本项目题目来源：力扣（LeetCode）
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+## 本题集包含以下内容
 
 - 题解语言不限，专注于算法实现
 - 目前主要语言为javascript
@@ -52,7 +57,7 @@
 
 ## Problems & Solutions
 
-完成进度（411 / 1284) [查看全部](./TOC-By-ID.md)
+完成进度（412 / 1285) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
