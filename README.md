@@ -4,6 +4,7 @@
 
 ## 推荐阅读
 
+- [深搜&递归&回溯&剪枝专题](https://github.com/muyids/leetcode/blob/master/tags/%E6%B7%B1%E6%90%9C%26%E9%80%92%E5%BD%92%26%E5%9B%9E%E6%BA%AF.md)
 - [单调栈专题](https://github.com/muyids/leetcode/blob/master/tags/%E5%8D%95%E8%B0%83%E6%A0%88.md)
 
 ## 声明
@@ -51,6 +52,13 @@
 图解制作使用开源工具`graphviz`，基于dot语言生成图片，使用`GraphicMagick`进行图片处理，自动生成动图
 
 脚本使用`node script/genPic.js`
+
+## 联系我
+
+很乐意与您一起探讨，微信扫描二维码填加好友！
+
+
+
 
 &nbsp;
 

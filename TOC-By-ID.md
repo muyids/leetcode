@@ -61,7 +61,7 @@
 | [70](https://leetcode-cn.com/problems/climbing-stairs/) | [爬楼梯](algorithms/1-100/70.%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | [191](https://leetcode-cn.com/problems/climbing-stairs/solution/) | 47.3% | 简单 | YES| ★★★ |
 | [71](https://leetcode-cn.com/problems/simplify-path/) | [简化路径](algorithms/1-100/71.%20%E7%AE%80%E5%8C%96%E8%B7%AF%E5%BE%84.md) | [79](https://leetcode-cn.com/problems/simplify-path/solution/) | 37.9% | 中等 | YES| ★★ |
 | [72](https://leetcode-cn.com/problems/edit-distance/) | [编辑距离](algorithms/1-100/72.%20%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.md) | [55](https://leetcode-cn.com/problems/edit-distance/solution/) | 55.2% | 困难 | YES| ★★ |
-| [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | [79](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/) | 36.4% | 中等 | YES| ★★ |
+| [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | [79](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/) | 36.5% | 中等 | YES| ★★ |
 | [75](https://leetcode-cn.com/problems/sort-colors/) | [颜色分类](algorithms/1-100/75.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md) | [98](https://leetcode-cn.com/problems/sort-colors/solution/) | 54.0% | 中等 | YES| ★★ |
 | [76](https://leetcode-cn.com/problems/minimum-window-substring/) | [最小覆盖子串](algorithms/1-100/76.%20%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2.md) | [38](https://leetcode-cn.com/problems/minimum-window-substring/solution/) | 34.6% | 困难 | YES| ★★ |
 | [77](https://leetcode-cn.com/problems/combinations/) | [组合](algorithms/1-100/77.%20%E7%BB%84%E5%90%88.md) | [50](https://leetcode-cn.com/problems/combinations/solution/) | 71.5% | 中等 | YES| ★★ |
@@ -116,7 +116,7 @@
 | [172](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [阶乘后的零](algorithms/101-200/172.%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) | [51](https://leetcode-cn.com/problems/factorial-trailing-zeroes/solution/) | 39.5% | 简单 | YES| ★★ |
 | [176](https://leetcode-cn.com/problems/second-highest-salary/) | [第二高的薪水](algorithms/101-200/176.%20%E7%AC%AC%E4%BA%8C%E9%AB%98%E7%9A%84%E8%96%AA%E6%B0%B4.md) | [66](https://leetcode-cn.com/problems/second-highest-salary/solution/) | 33.3% | 简单 | YES| ★★★ |
 | [177](https://leetcode-cn.com/problems/nth-highest-salary/) | [第N高的薪水](algorithms/101-200/177.%20%E7%AC%ACN%E9%AB%98%E7%9A%84%E8%96%AA%E6%B0%B4.md) | [43](https://leetcode-cn.com/problems/nth-highest-salary/solution/) | 43.2% | 中等 | YES| ★★ |
-| [178](https://leetcode-cn.com/problems/rank-scores/) | [分数排名](algorithms/101-200/178.%20%E5%88%86%E6%95%B0%E6%8E%92%E5%90%8D.md) | [74](https://leetcode-cn.com/problems/rank-scores/solution/) | 59.2% | 中等 | YES| ★★ |
+| [178](https://leetcode-cn.com/problems/rank-scores/) | [分数排名](algorithms/101-200/178.%20%E5%88%86%E6%95%B0%E6%8E%92%E5%90%8D.md) | [75](https://leetcode-cn.com/problems/rank-scores/solution/) | 59.2% | 中等 | YES| ★★ |
 | [179](https://leetcode-cn.com/problems/largest-number/) | [最大数](algorithms/101-200/179.%20%E6%9C%80%E5%A4%A7%E6%95%B0.md) | [51](https://leetcode-cn.com/problems/largest-number/solution/) | 34.6% | 中等 | YES| ★★ |
 | [180](https://leetcode-cn.com/problems/consecutive-numbers/) | [连续出现的数字](algorithms/101-200/180.%20%E8%BF%9E%E7%BB%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E6%95%B0%E5%AD%97.md) | [51](https://leetcode-cn.com/problems/consecutive-numbers/solution/) | 47.5% | 中等 | YES| ★★ |
 | [181](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/) | [超过经理收入的员工](algorithms/101-200/181.%5Bsql%5D%20%E8%B6%85%E8%BF%87%E7%BB%8F%E7%90%86%E6%94%B6%E5%85%A5%E7%9A%84%E5%91%98%E5%B7%A5.md) | [60](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/solution/) | 67.3% | 简单 | YES| ★★ |
@@ -139,7 +139,7 @@
 | [205](https://leetcode-cn.com/problems/isomorphic-strings/) | [同构字符串](algorithms/201-300/205.%20%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | [64](https://leetcode-cn.com/problems/isomorphic-strings/solution/) | 46.6% | 简单 | YES| ★★ |
 | [206](https://leetcode-cn.com/problems/reverse-linked-list/) | [反转链表](algorithms/201-300/206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | [204](https://leetcode-cn.com/problems/reverse-linked-list/solution/) | 65.8% | 简单 | YES| ★★★ |
 | [207](https://leetcode-cn.com/problems/course-schedule/) | [课程表](algorithms/201-300/207.%20%E8%AF%BE%E7%A8%8B%E8%A1%A8.md) | [53](https://leetcode-cn.com/problems/course-schedule/solution/) | 48.3% | 中等 | YES| ★★ |
-| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [69](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 63.0% | 中等 | YES| ★ |
+| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [69](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 63.1% | 中等 | YES| ★ |
 | [209](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [长度最小的子数组](algorithms/201-300/209.%20%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | [51](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/) | 40.4% | 中等 | YES| ★★ |
 | [210](https://leetcode-cn.com/problems/course-schedule-ii/) | [课程表 II](algorithms/201-300/210.%20%E8%AF%BE%E7%A8%8B%E8%A1%A8%20II.md) | [33](https://leetcode-cn.com/problems/course-schedule-ii/solution/) | 45.4% | 中等 | YES| ★ |
 | [211](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) | [添加与搜索单词 - 数据结构设计](algorithms/201-300/211.%20%E6%B7%BB%E5%8A%A0%E4%B8%8E%E6%90%9C%E7%B4%A2%E5%8D%95%E8%AF%8D%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1.md) | [31](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/solution/) | 40.9% | 中等 | YES| ★ |
@@ -171,7 +171,7 @@
 | [283](https://leetcode-cn.com/problems/move-zeroes/) | [移动零](algorithms/201-300/283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) | [216](https://leetcode-cn.com/problems/move-zeroes/solution/) | 58.1% | 简单 | YES| ★★★ |
 | [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [寻找重复数](algorithms/201-300/287.%20%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E6%95%B0.md) | [73](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/) | 61.9% | 中等 | YES| ★★ |
 | [289](https://leetcode-cn.com/problems/game-of-life/) | [生命游戏](algorithms/201-300/289.%20%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F.md) | [45](https://leetcode-cn.com/problems/game-of-life/solution/) | 66.9% | 中等 | YES| ★ |
-| [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [60](https://leetcode-cn.com/problems/nim-game/solution/) | 69.6% | 简单 | YES| ★★ |
+| [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [61](https://leetcode-cn.com/problems/nim-game/solution/) | 69.6% | 简单 | YES| ★★ |
 | [300](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [最长上升子序列](algorithms/201-300/300.%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md) | [63](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/) | 43.5% | 中等 | YES| ★★ |
 
 
@@ -194,7 +194,7 @@
 | [386](https://leetcode-cn.com/problems/lexicographical-numbers/) | [字典序排数](algorithms/301-400/386.%20%E5%AD%97%E5%85%B8%E5%BA%8F%E6%8E%92%E6%95%B0.md) | [26](https://leetcode-cn.com/problems/lexicographical-numbers/solution/) | 66.2% | 中等 | YES| ★ |
 | [387](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [字符串中的第一个唯一字符](algorithms/301-400/387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) | [89](https://leetcode-cn.com/problems/first-unique-character-in-a-string/solution/) | 41.9% | 简单 | YES| ★★★ |
 | [392](https://leetcode-cn.com/problems/is-subsequence/) | [判断子序列](algorithms/301-400/392.%20%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97.md) | [72](https://leetcode-cn.com/problems/is-subsequence/solution/) | 47.4% | 简单 | YES| ★★ |
-| [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [61](https://leetcode-cn.com/problems/decode-string/solution/) | 47.1% | 中等 | YES| ★ |
+| [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [61](https://leetcode-cn.com/problems/decode-string/solution/) | 47.0% | 中等 | YES| ★ |
 | [395](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [至少有K个重复字符的最长子串](algorithms/301-400/395.%20%E8%87%B3%E5%B0%91%E6%9C%89K%E4%B8%AA%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) | [17](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/solution/) | 41.3% | 中等 | YES| ★ |
 
 
@@ -279,7 +279,7 @@
 
 | 第901-1000题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
-| [901](https://leetcode-cn.com/problems/online-stock-span/) | [股票价格跨度](algorithms/901-1000/901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6.md) | [18](https://leetcode-cn.com/problems/online-stock-span/solution/) | 34.0% | 中等 | YES| ★ |
+| [901](https://leetcode-cn.com/problems/online-stock-span/) | [股票价格跨度](algorithms/901-1000/901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6.md) | [18](https://leetcode-cn.com/problems/online-stock-span/solution/) | 34.1% | 中等 | YES| ★ |
 | [907](https://leetcode-cn.com/problems/sum-of-subarray-minimums/) | [子数组的最小值之和](algorithms/901-1000/907.%20%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C.md) | [13](https://leetcode-cn.com/problems/sum-of-subarray-minimums/solution/) | 26.0% | 中等 | NO| ★ |
 | [916](https://leetcode-cn.com/problems/word-subsets/) | [单词子集](algorithms/901-1000/916.%20%E5%8D%95%E8%AF%8D%E5%AD%90%E9%9B%86.md) | [7](https://leetcode-cn.com/problems/word-subsets/solution/) | 37.1% | 中等 | NO| ★ |
 | [917](https://leetcode-cn.com/problems/reverse-only-letters/) | [仅仅反转字母](algorithms/901-1000/917.%20%E4%BB%85%E4%BB%85%E5%8F%8D%E8%BD%AC%E5%AD%97%E6%AF%8D.md) | [32](https://leetcode-cn.com/problems/reverse-only-letters/solution/) | 52.2% | 简单 | YES| ★ |

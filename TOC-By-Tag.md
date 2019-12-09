@@ -4,7 +4,7 @@
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
-| [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [61](https://leetcode-cn.com/problems/decode-string/solution/) | 47.1% | 中等 | YES| ★ |
+| [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [61](https://leetcode-cn.com/problems/decode-string/solution/) | 47.0% | 中等 | YES| ★ |
 | [402](https://leetcode-cn.com/problems/remove-k-digits/) | [移掉K位数字](algorithms/401-500/402.%20%E7%A7%BB%E6%8E%89K%E4%BD%8D%E6%95%B0%E5%AD%97.md) | [28](https://leetcode-cn.com/problems/remove-k-digits/solution/) | 26.8% | 中等 | YES| ★★ |
 | [496](https://leetcode-cn.com/problems/next-greater-element-i/) | [下一个更大元素 I](algorithms/401-500/496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I.md) | [58](https://leetcode-cn.com/problems/next-greater-element-i/solution/) | 62.2% | 简单 | YES| ★ |
 | [503](https://leetcode-cn.com/problems/next-greater-element-ii/) | [下一个更大元素 II](algorithms/501-600/503.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20II.md) | [27](https://leetcode-cn.com/problems/next-greater-element-ii/solution/) | 50.5% | 中等 | YES| ★ |
@@ -54,7 +54,7 @@
 | [55](https://leetcode-cn.com/problems/jump-game/) | [跳跃游戏](algorithms/1-100/55.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md) | [127](https://leetcode-cn.com/problems/jump-game/solution/) | 37.1% | 中等 | YES| ★★★ |
 | [122](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [买卖股票的最佳时机 II](algorithms/101-200/122.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.md) | [146](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/) | 56.5% | 简单 | YES| ★★★ |
 | [134](https://leetcode-cn.com/problems/gas-station/) | [加油站](algorithms/101-200/134.%20%E5%8A%A0%E6%B2%B9%E7%AB%99.md) | [40](https://leetcode-cn.com/problems/gas-station/solution/) | 49.9% | 中等 | YES| ★★ |
-| [901](https://leetcode-cn.com/problems/online-stock-span/) | [股票价格跨度](algorithms/901-1000/901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6.md) | [18](https://leetcode-cn.com/problems/online-stock-span/solution/) | 34.0% | 中等 | YES| ★ |
+| [901](https://leetcode-cn.com/problems/online-stock-span/) | [股票价格跨度](algorithms/901-1000/901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6.md) | [18](https://leetcode-cn.com/problems/online-stock-span/solution/) | 34.1% | 中等 | YES| ★ |
 | [316](https://leetcode-cn.com/problems/remove-duplicate-letters/) | [去除重复字母](algorithms/301-400/316.%20%E5%8E%BB%E9%99%A4%E9%87%8D%E5%A4%8D%E5%AD%97%E6%AF%8D.md) | [30](https://leetcode-cn.com/problems/remove-duplicate-letters/solution/) | 35.6% | 困难 | YES| ★ |
 | [392](https://leetcode-cn.com/problems/is-subsequence/) | [判断子序列](algorithms/301-400/392.%20%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97.md) | [72](https://leetcode-cn.com/problems/is-subsequence/solution/) | 47.4% | 简单 | YES| ★★ |
 | [917](https://leetcode-cn.com/problems/reverse-only-letters/) | [仅仅反转字母](algorithms/901-1000/917.%20%E4%BB%85%E4%BB%85%E5%8F%8D%E8%BD%AC%E5%AD%97%E6%AF%8D.md) | [32](https://leetcode-cn.com/problems/reverse-only-letters/solution/) | 52.2% | 简单 | YES| ★ |
@@ -122,7 +122,7 @@
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
-| [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [61](https://leetcode-cn.com/problems/decode-string/solution/) | 47.1% | 中等 | YES| ★ |
+| [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [61](https://leetcode-cn.com/problems/decode-string/solution/) | 47.0% | 中等 | YES| ★ |
 | [494](https://leetcode-cn.com/problems/target-sum/) | [目标和](algorithms/401-500/494.%20%E7%9B%AE%E6%A0%87%E5%92%8C.md) | [29](https://leetcode-cn.com/problems/target-sum/solution/) | 42.0% | 中等 | YES| ★ |
 | [491](https://leetcode-cn.com/problems/increasing-subsequences/) | [递增子序列](algorithms/401-500/491.%20%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97.md) | [14](https://leetcode-cn.com/problems/increasing-subsequences/solution/) | 43.6% | 中等 | YES| ★ |
 | [933](https://leetcode-cn.com/problems/number-of-recent-calls/) | [最近的请求次数](algorithms/901-1000/933.%20%E6%9C%80%E8%BF%91%E7%9A%84%E8%AF%B7%E6%B1%82%E6%AC%A1%E6%95%B0.md) | [20](https://leetcode-cn.com/problems/number-of-recent-calls/solution/) | 69.2% | 简单 | YES| ★ |
@@ -173,7 +173,7 @@
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
-| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [69](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 63.0% | 中等 | YES| ★ |
+| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [69](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 63.1% | 中等 | YES| ★ |
 | [211](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) | [添加与搜索单词 - 数据结构设计](algorithms/201-300/211.%20%E6%B7%BB%E5%8A%A0%E4%B8%8E%E6%90%9C%E7%B4%A2%E5%8D%95%E8%AF%8D%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1.md) | [31](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/solution/) | 40.9% | 中等 | YES| ★ |
 | [225](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [用队列实现栈](algorithms/201-300/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md) | [63](https://leetcode-cn.com/problems/implement-stack-using-queues/solution/) | 61.4% | 简单 | YES| ★★ |
 | [232](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [用栈实现队列](algorithms/201-300/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | [86](https://leetcode-cn.com/problems/implement-queue-using-stacks/solution/) | 61.8% | 简单 | YES| ★★ |
@@ -193,7 +193,7 @@
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [692](https://leetcode-cn.com/problems/top-k-frequent-words/) | [前K个高频单词](algorithms/601-700/692.%20%E5%89%8DK%E4%B8%AA%E9%AB%98%E9%A2%91%E5%8D%95%E8%AF%8D.md) | [21](https://leetcode-cn.com/problems/top-k-frequent-words/solution/) | 46.0% | 中等 | YES| ★ |
 | [746](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [使用最小花费爬楼梯](algorithms/701-800/746.%20%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | [67](https://leetcode-cn.com/problems/min-cost-climbing-stairs/solution/) | 45.5% | 简单 | YES| ★★ |
-| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [69](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 63.0% | 中等 | YES| ★ |
+| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [69](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 63.1% | 中等 | YES| ★ |
 | [211](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) | [添加与搜索单词 - 数据结构设计](algorithms/201-300/211.%20%E6%B7%BB%E5%8A%A0%E4%B8%8E%E6%90%9C%E7%B4%A2%E5%8D%95%E8%AF%8D%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1.md) | [31](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/solution/) | 40.9% | 中等 | YES| ★ |
 | [212](https://leetcode-cn.com/problems/word-search-ii/) | [单词搜索 II](algorithms/201-300/212.%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2%20II.md) | [26](https://leetcode-cn.com/problems/word-search-ii/solution/) | 38.0% | 困难 | YES| ★ |
 
@@ -231,7 +231,7 @@
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
-| [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [60](https://leetcode-cn.com/problems/nim-game/solution/) | 69.6% | 简单 | YES| ★★ |
+| [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [61](https://leetcode-cn.com/problems/nim-game/solution/) | 69.6% | 简单 | YES| ★★ |
 | [793](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/) | [阶乘函数后K个零](algorithms/701-800/793.%20%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8EK%E4%B8%AA%E9%9B%B6.md) | [9](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/solution/) | 32.5% | 困难 | NO| ★ |
 
 ------
@@ -253,7 +253,7 @@
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
-| [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [60](https://leetcode-cn.com/problems/nim-game/solution/) | 69.6% | 简单 | YES| ★★ |
+| [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [61](https://leetcode-cn.com/problems/nim-game/solution/) | 69.6% | 简单 | YES| ★★ |
 
 ------
 ### [蓄水池抽样](https://leetcode-cn.com/problemset/all/?topicSlugs=reservoir-sampling)
@@ -320,7 +320,7 @@
 | [62](https://leetcode-cn.com/problems/unique-paths/) | [不同路径](algorithms/1-100/62.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md) | [138](https://leetcode-cn.com/problems/unique-paths/solution/) | 57.7% | 中等 | YES| ★★ |
 | [63](https://leetcode-cn.com/problems/unique-paths-ii/) | [不同路径 II](algorithms/1-100/63.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%20II.md) | [99](https://leetcode-cn.com/problems/unique-paths-ii/solution/) | 32.0% | 中等 | YES| ★★ |
 | [64](https://leetcode-cn.com/problems/minimum-path-sum/) | [最小路径和](algorithms/1-100/64.%20%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.md) | [126](https://leetcode-cn.com/problems/minimum-path-sum/solution/) | 63.4% | 中等 | YES| ★★ |
-| [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | [79](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/) | 36.4% | 中等 | YES| ★★ |
+| [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | [79](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/) | 36.5% | 中等 | YES| ★★ |
 | [75](https://leetcode-cn.com/problems/sort-colors/) | [颜色分类](algorithms/1-100/75.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md) | [98](https://leetcode-cn.com/problems/sort-colors/solution/) | 54.0% | 中等 | YES| ★★ |
 | [78](https://leetcode-cn.com/problems/subsets/) | [子集](algorithms/1-100/78.%20%E5%AD%90%E9%9B%86.md) | [109](https://leetcode-cn.com/problems/subsets/solution/) | 75.6% | 中等 | YES| ★★ |
 | [79](https://leetcode-cn.com/problems/word-search/) | [单词搜索](algorithms/1-100/79.%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md) | [81](https://leetcode-cn.com/problems/word-search/solution/) | 39.5% | 中等 | YES| ★★ |
@@ -344,7 +344,7 @@
 | [217](https://leetcode-cn.com/problems/contains-duplicate/) | [存在重复元素](algorithms/201-300/217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.md) | [94](https://leetcode-cn.com/problems/contains-duplicate/solution/) | 50.9% | 简单 | YES| ★★★ |
 | [219](https://leetcode-cn.com/problems/contains-duplicate-ii/) | [存在重复元素 II](algorithms/201-300/219.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20II.md) | [77](https://leetcode-cn.com/problems/contains-duplicate-ii/solution/) | 36.7% | 简单 | YES| ★★ |
 | [268](https://leetcode-cn.com/problems/missing-number/) | [缺失数字](algorithms/201-300/268.%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) | [79](https://leetcode-cn.com/problems/missing-number/solution/) | 53.3% | 简单 | YES| ★★ |
-| [901](https://leetcode-cn.com/problems/online-stock-span/) | [股票价格跨度](algorithms/901-1000/901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6.md) | [18](https://leetcode-cn.com/problems/online-stock-span/solution/) | 34.0% | 中等 | YES| ★ |
+| [901](https://leetcode-cn.com/problems/online-stock-span/) | [股票价格跨度](algorithms/901-1000/901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6.md) | [18](https://leetcode-cn.com/problems/online-stock-span/solution/) | 34.1% | 中等 | YES| ★ |
 | [1027](https://leetcode-cn.com/problems/longest-arithmetic-sequence/) | [最长等差数列](algorithms/1001-1100/1027.%20%E6%9C%80%E9%95%BF%E7%AD%89%E5%B7%AE%E6%95%B0%E5%88%97.md) | [13](https://leetcode-cn.com/problems/longest-arithmetic-sequence/solution/) | 37.4% | 中等 | YES| ★ |
 | [1262](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/) | [可被三整除的最大和](algorithms/1201-1300/1262.%20%E5%8F%AF%E8%A2%AB%E4%B8%89%E6%95%B4%E9%99%A4%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.md) | [35](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/solution/) | 40.2% | 中等 | YES| ★ |
 
@@ -544,7 +544,7 @@
 | [34](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [在排序数组中查找元素的第一个和最后一个位置](algorithms/1-100/34.%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md) | [173](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/) | 38.2% | 中等 | YES| ★★★ |
 | [35](https://leetcode-cn.com/problems/search-insert-position/) | [搜索插入位置](algorithms/1-100/35.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE.md) | [202](https://leetcode-cn.com/problems/search-insert-position/solution/) | 44.7% | 简单 | YES| ★★★ |
 | [69](https://leetcode-cn.com/problems/sqrtx/) | [x 的平方根](algorithms/1-100/69.%20x%20%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md) | [122](https://leetcode-cn.com/problems/sqrtx/solution/) | 37.2% | 简单 | YES| ★★★ |
-| [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | [79](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/) | 36.4% | 中等 | YES| ★★ |
+| [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [搜索二维矩阵](algorithms/1-100/74.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5.md) | [79](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/) | 36.5% | 中等 | YES| ★★ |
 | [81](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [搜索旋转排序数组 II](algorithms/1-100/81.%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%20II.md) | [39](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/) | 34.6% | 中等 | NO| ★★ |
 | [153](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [寻找旋转排序数组中的最小值](algorithms/101-200/153.%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC.md) | [66](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/) | 50.0% | 中等 | YES| ★★ |
 | [154](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [寻找旋转排序数组中的最小值 II](algorithms/101-200/154.%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%20II.md) | [35](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/) | 46.1% | 困难 | YES| ★ |
