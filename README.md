@@ -60,14 +60,14 @@
 
 很乐意与您一起探讨，微信扫一扫，多一个并肩战斗的伙伴！
 
-![微信二维码](./algorithms/images/wechat.png)
+![微信二维码](https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg)
 
 &nbsp;
 
 
 ## Problems & Solutions
 
-完成进度（439 / 1289) [查看全部](./TOC-By-ID.md)
+完成进度（440 / 1289) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
