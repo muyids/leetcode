@@ -1,10 +1,13 @@
 # leetcode题集
 
+> 算法学习是一件需要长期坚持的事情
+> 懂得延迟满足，欲速则不达
+> 目标：通过力扣打卡，掌握常用算法
 > 本题解目前持续更新中，欢迎大家关注！
 
 ## 推荐阅读
 
-- [深搜&递归&回溯&剪枝专题](https://github.com/muyids/leetcode/blob/master/tags/%E6%B7%B1%E6%90%9C%26%E9%80%92%E5%BD%92%26%E5%9B%9E%E6%BA%AF.md)
+- [深搜&递归&回溯专题](https://github.com/muyids/leetcode/blob/master/tags/%E6%B7%B1%E6%90%9C%26%E9%80%92%E5%BD%92%26%E5%9B%9E%E6%BA%AF.md)
 - [单调栈专题](https://github.com/muyids/leetcode/blob/master/tags/%E5%8D%95%E8%B0%83%E6%A0%88.md)
 
 ## 声明
@@ -55,17 +58,16 @@
 
 ## 联系我
 
-很乐意与您一起探讨，微信扫描二维码填加好友！
+很乐意与您一起探讨，微信扫一扫，多一个并肩战斗的伙伴！
 
-
-
+![微信二维码](./algorithms/images/wechat.png)
 
 &nbsp;
 
 
 ## Problems & Solutions
 
-完成进度（436 / 1289) [查看全部](./TOC-By-ID.md)
+完成进度（439 / 1289) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
