@@ -45,7 +45,7 @@
 
 很乐意与您一起探讨，微信扫一扫，多一个并肩战斗的伙伴！
 
-![微信二维码](https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg){:height="300px" width="300px"}
+<img src="https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg" height="200px" width="200px">
 
 &nbsp;
 
