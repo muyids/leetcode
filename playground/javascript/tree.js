@@ -72,10 +72,11 @@ Tree.prototype.bfs = function () {
 // 中序遍历非递归
 var inorderTraversal = function (root) {
     if (root == null) return []
-    let stack = [], ans = []
+    let stack = [],
+        ans = []
     let p = root
     while (p || stack.length > 0) {
-        while (p) {  // 左孩子全部入栈
+        while (p) { // 左孩子全部入栈
             stack.push(p)
             p = p.left
         }

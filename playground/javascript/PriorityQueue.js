@@ -1,10 +1,12 @@
 /**
  * 优先队列实现
- * 基于一维数组
+ * 基于一维有序数组
  *
  * N: 队列长度
  * 解决topK问题，堆是一种特殊的优先队列
  * java,c++语言中有priority_queue的实现
+ *
+ * 优先队列基于二叉树实现较为推荐，这里是基于一维有序数组
  */
 function PriorityQueue(N) {
     this.queue = []

@@ -14,7 +14,7 @@
     "goCompile": "go build -o workspace/main.out workspace/main.go",
     "goBoot": "npm run goCompile && echo '--- golang output ---\n' && npm run goRun && echo '\n--- golang end ---'",
     "goWatch": "nodemon --delay 1 --watch workspace/main.go --exec 'npm run goBoot'",
-    "clean": "rm -f workspace/*.out && rm -f workspace/*.class && rm -f tmp/*",
+    "clean": "rm -f workspace/*.(out|class) && rm -f tmp/*.(png|dot)",
     "js": "nodemon --delay 1 --watch workspace/main.js --exec 'node workspace/main.js'",
     "cpp": "npm run cppWatch",
     "go": "npm run goWatch",

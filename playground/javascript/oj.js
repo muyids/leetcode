@@ -1,5 +1,5 @@
 /**
- * OJ网站模板
+ * OJ网站获取输入模板
  */
 var readline = require('readline');
 const rl = readline.createInterface({

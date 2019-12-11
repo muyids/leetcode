@@ -57,7 +57,7 @@ Trie.prototype = {
     printData: function () {
         this.printHelper(this.root, '')
     },
-    printHelper: function (node, data) {// 递归
+    printHelper: function (node, data) { // 递归
         if (node.has === true) {
             if (data.length > this.maxWord.length) {
                 console.log('change', this.maxWord, data)
@@ -79,6 +79,7 @@ Trie.prototype = {
         })
     }
 }
+
 module.exports = {
     Trie: Trie,
     TrieNode: TrieNode

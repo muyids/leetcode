@@ -1,8 +1,5 @@
 # leetcode题集
 
-> 算法学习是一件需要长期坚持的事情
-> 懂得延迟满足，欲速则不达
-> 目标：通过力扣打卡，掌握常用算法
 > 本题解目前持续更新中，欢迎大家关注！
 
 ## 推荐阅读
@@ -44,30 +41,18 @@
 └── workspace         -- 工作目录
 ```
 
-## 特色功能
-
-### 自动生成题目列表
-
-运行脚本`node script/genTOC.js`，程序会获取本地浏览器cookie，并请求得到解题列表，自动生成目录文件`TOC-By-ID.md`和`TOC-By-Tag.md`
-
-### 动态图解制作
-
-图解制作使用开源工具`graphviz`，基于dot语言生成图片，使用`GraphicMagick`进行图片处理，自动生成动图
-
-脚本使用`node script/genPic.js`
-
 ## 联系我
 
 很乐意与您一起探讨，微信扫一扫，多一个并肩战斗的伙伴！
 
-![微信二维码](https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg)
+![微信二维码](https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg){:height="300px" width="300px"}
 
 &nbsp;
 
 
 ## Problems & Solutions
 
-完成进度（440 / 1289) [查看全部](./TOC-By-ID.md)
+完成进度（441 / 1289) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
