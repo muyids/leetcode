@@ -1,4 +1,4 @@
-# leetcode题集
+# LeetCode
 
 > 本题解目前持续更新中，欢迎大家关注！
 
@@ -41,18 +41,12 @@
 └── workspace         -- 工作目录
 ```
 
-## 联系我
-
-很乐意与您一起探讨，微信扫一扫，多一个并肩战斗的伙伴！
-
-<img src="https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg" height="200px" width="200px">
-
 &nbsp;
 
 
 ## Problems & Solutions
 
-完成进度（458 / 1298) [查看全部](./TOC-By-ID.md)
+完成进度（459 / 1298) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
