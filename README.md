@@ -24,6 +24,7 @@
 ```tree
 .
 ├── README.md         -- README文件
+├── brain.md          -- 趣味题
 ├── TOC-By-ID.md      -- 按题号查看目录
 ├── TOC-By-Tag.md     -- 按分类查看目录
 ├── algorithms        -- 题目解析列表
@@ -42,9 +43,10 @@
 
 &nbsp;
 
+
 ## Problems & Solutions
 
-完成进度（458 / 1298) [查看全部](./TOC-By-ID.md)
+完成进度（464 / 1298) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
@@ -54,6 +56,4 @@
 
 [查看全部](./TOC-By-ID.md)
 
-## 联系我
 
-<img src="https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg" height="200px" width="200px">
