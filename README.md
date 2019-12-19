@@ -17,7 +17,6 @@
 - 题解语言不限，专注于算法实现
 - 目前主要语言为javascript
 - 自动更新个人解题列表
-- 一键生成动态图解
 - 欢迎大家交流指正
 
 ## 目录树
@@ -43,10 +42,9 @@
 
 &nbsp;
 
-
 ## Problems & Solutions
 
-完成进度（459 / 1298) [查看全部](./TOC-By-ID.md)
+完成进度（458 / 1298) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
@@ -56,4 +54,6 @@
 
 [查看全部](./TOC-By-ID.md)
 
+## 联系我
 
+<img src="https://raw.githubusercontent.com/muyids/leetcode/master/algorithms/images/wechat.jpeg" height="200px" width="200px">
