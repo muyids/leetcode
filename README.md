@@ -46,7 +46,7 @@
 
 ## Problems & Solutions
 
-完成进度（490 / 1303) [查看全部](./TOC-By-ID.md)
+完成进度（1 / 1303) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
