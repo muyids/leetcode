@@ -4,8 +4,10 @@
 
 ## 推荐阅读
 
-- [深搜&递归&回溯专题](https://github.com/muyids/leetcode/blob/master/tags/%E6%B7%B1%E6%90%9C%26%E9%80%92%E5%BD%92%26%E5%9B%9E%E6%BA%AF.md)
 - [单调栈专题](https://github.com/muyids/leetcode/blob/master/tags/%E5%8D%95%E8%B0%83%E6%A0%88.md)
+- [滑动窗口专题](./tags/滑动窗口.md)
+- [深搜&递归&回溯专题](https://github.com/muyids/leetcode/blob/master/tags/%E6%B7%B1%E6%90%9C%26%E9%80%92%E5%BD%92%26%E5%9B%9E%E6%BA%AF.md)
+- [动态规划专题](./tags/动态规划.md)
 
 ## 声明
 
@@ -15,7 +17,6 @@
 ## 说明
 
 - 题解语言不限，专注于算法实现
-- 目前主要语言为javascript
 - 自动更新个人解题列表
 - 欢迎大家交流指正
 
@@ -46,7 +47,7 @@
 
 ## Problems & Solutions
 
-完成进度（503 / 1312) [查看全部](./TOC-By-ID.md)
+完成进度（517 / 1312) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 
