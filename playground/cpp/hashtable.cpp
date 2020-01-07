@@ -20,6 +20,9 @@ public:
         {
             cout << it->first << ":" << it->second.front() << endl;
         }
+
+        m.find("1") == m.end(); // 是否存在
+        m.count("1") == 1;      // 是否存在
     }
 };
 

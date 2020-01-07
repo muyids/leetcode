@@ -1,5 +1,7 @@
 # LeetCode
 
+欢迎关注[leetcode题解](https://github.com/muyids/leetcode)
+
 > 本题解目前持续更新中，欢迎大家关注！
 
 ## 推荐阅读
@@ -47,7 +49,7 @@
 
 ## Problems & Solutions
 
-完成进度（517 / 1312) [查看全部](./TOC-By-ID.md)
+完成进度（540 / 1316) [查看全部](./TOC-By-ID.md)
 
 ## 按分类查看
 

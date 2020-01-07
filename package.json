@@ -18,7 +18,8 @@
     "js": "nodemon --delay 1 --watch workspace/main.js --exec 'node workspace/main.js'",
     "cpp": "npm run cppWatch",
     "go": "npm run goWatch",
-    "publish": "npm run genTOC && git add . && git commit && git push"
+    "publish": "npm run genTOC && git add . && git commit && git push",
+    "publishBook": "npm run genTOC && git add . && git commit && git push"
   },
   "repository": {
     "type": "git",
