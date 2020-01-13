@@ -19,7 +19,13 @@ public:
         dp.erase(dp.begin());
         // 删除尾部
         dp.erase(dp.end());
+        dp.pop_back();
     };
+
+    int getEnd(vector<int> v)
+    {
+        return v.back();
+    }
     // 判断某元素是否存在
     bool is_element_in_vector(vector<int> v, int element)
     {

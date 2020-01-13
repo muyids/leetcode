@@ -12,6 +12,8 @@ let TMP_DIR = './tmp'
 let PROBLEMS_FILE = path.join(TMP_DIR, `problem.json`)
 let TAGS_FILE = path.join(TMP_DIR, `tag.json`)
 
+const LEVEL = ['', '简单', '中等', '困难']
+
 /**
  * 读取路径信息
  * @param {string} path 路径
@@ -108,6 +110,32 @@ function genTocByTag() {
     return TOC
 }
 
+function genHotByTag() {
+
+    let tags = fs.readFileSync(TAGS_FILE)
+    tags = JSON.parse(tags.toString())
+    tags = tags.topics
+    let TOC = "## Hot题目\n\n"
+
+
+    for (let tag of tags) {
+        let subToc = `### [${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
+        subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
+        let count = 0;
+        for (let id of tag.questions) {
+            if (count >= 5) continue
+
+            if (problemsMap.hasOwnProperty(id)) {
+                if (problemsMap[id].indexOf('★★') == -1) continue
+                subToc += problemsMap[id]
+                count++
+            }
+        }
+        TOC += subToc + '\n------\n'
+    }
+    return TOC
+}
+
 function genProcess() {
     let problems = fs.readFileSync(PROBLEMS_FILE)
     problems = JSON.parse(problems.toString())
@@ -131,7 +159,6 @@ function genTocIndex() {
  */
 function genTocById() {
     let files = fs.readdirSync("./algorithms")
-    let LEVEL = ['', '简单', '中等', '困难']
     let tocById = "### 题目列表--按题号\n\n"
     // 获取题目信息
     let problems = fs.readFileSync(PROBLEMS_FILE)
@@ -155,36 +182,47 @@ function genTocById() {
         })
 
         for (let problem of problems) {
-            let title = problem.split('.').map(v => v.trim())
-            let str = title[1].match(/\[(\S*)\]/)
-            if (str) {
-                title[1] = title[1].substr(title[1].indexOf(str[0]) + str[0].length)
-                title[1] = title[1].replace(/^\s*/, "");
-            }
-            let stat = pairs.find((item) => {
-                return item.stat.frontend_question_id == title[0]
-            })
-            let id = title[0]
-            let solutions = 0
-            let passRate = "no"
-            let hot = "★"
-            let level = 1
-            let status = 'NO'
-            if (stat) {
-                level = stat.difficulty.level
-                title[0] = `[${title[0]}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/)`
-                if (stat.status == 'ac') status = 'YES'
-                solutions = `[${stat.stat.total_column_articles}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/solution/)`
-                passRate = (stat.stat.total_acs / stat.stat.total_submitted * 100).toFixed(1) + "%"
-                hot = drawHot(stat.stat.total_submitted)
-            }
-            let line = `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${solutions} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
+            const {
+                id,
+                line
+            } = genLine(problem, pairs, nums)
             subToc += line
             problemsMap[id] = line
         }
         tocById += subToc + '\n\n'
     }
     return tocById
+}
+
+function genLine(problem, pairs, nums) {
+    let title = problem.split('.').map(v => v.trim())
+    let str = title[1].match(/\[(\S*)\]/)
+    if (str) {
+        title[1] = title[1].substr(title[1].indexOf(str[0]) + str[0].length)
+        title[1] = title[1].replace(/^\s*/, "");
+    }
+    let stat = pairs.find((item) => {
+        return item.stat.frontend_question_id == title[0]
+    })
+    let id = title[0]
+    let solutions = 0
+    let passRate = "no"
+    let hot = "★"
+    let level = 1
+    let status = 'NO'
+    if (stat) {
+        level = stat.difficulty.level
+        title[0] = `[${title[0]}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/)`
+        if (stat.status == 'ac') status = 'YES'
+        solutions = `[${stat.stat.total_column_articles}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/solution/)`
+        passRate = (stat.stat.total_acs / stat.stat.total_submitted * 100).toFixed(1) + "%"
+        hot = drawHot(stat.stat.total_submitted)
+    }
+    let line = `| ${title[0]} | [${title[1]}](algorithms/${nums}/${encodeURI(problem)}) | ${solutions} | ${passRate} | ${LEVEL[level]} | ${status}| ${hot} |\n`
+    return {
+        id,
+        line
+    }
 }
 
 function save(TOC) {
@@ -207,5 +245,7 @@ function save(TOC) {
     let data = fs.readFileSync("./README.md");
     data = data.toString()
     data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
+    data += genHotByTag()
     fs.writeFileSync("./README.md", data)
+
 })()
