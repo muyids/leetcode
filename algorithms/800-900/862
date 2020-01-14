@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int shortestSubarray(vector<int>& A, int K) {
+        if (A.size() == 0) return -1;
+        int ans = A.size()+1;
+
+        // 滑动窗口
+        int l = 0;
+        int r = 0;
+        int sum = 0;
+        while (r < A.size()){
+            sum+= A[r];
+            r++;
+            while (l < r && sum >= K) {
+                ans = min(ans, r - l);
+                if (ans == 1) return 1;
+                sum -= A[l];
+                l++;
+            }
+        }
+
+        if (ans == A.size()+1) return -1;
+        return ans;
+    }
+};
