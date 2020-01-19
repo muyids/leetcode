@@ -96,7 +96,7 @@ function genTocByTag() {
     let tags = fs.readFileSync(TAGS_FILE)
     tags = JSON.parse(tags.toString())
     tags = tags.topics
-    let TOC = "## 题目列表--按分类\n\n"
+    let TOC = "## 🔗LeetCode标签分类(LeetCode Tags)\n\n"
     for (let tag of tags) {
         let subToc = `### [${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
         subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
@@ -115,8 +115,7 @@ function genHotByTag() {
     let tags = fs.readFileSync(TAGS_FILE)
     tags = JSON.parse(tags.toString())
     tags = tags.topics
-    let TOC = "## Hot题目\n\n"
-
+    let TOC = "## 🔥Hot题目\n\n"
 
     for (let tag of tags) {
         let subToc = `### [${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
@@ -140,16 +139,14 @@ function genProcess() {
     let problems = fs.readFileSync(PROBLEMS_FILE)
     problems = JSON.parse(problems.toString())
 
-    let str = "\n## Problems & Solutions\n\n"
-    str += `完成进度（${problems.num_solved} / ${problems.num_total}) [查看全部](./TOC-By-ID.md)\n`
+    let str = "\n## 🔐Problems & Solutions\n\n"
+    str += `完成进度（[${problems.num_solved}](./TOC-By-ID.md)🔑/ [${problems.num_total}](https://leetcode-cn.com/problemset/all/)🔒) `
     return str
 }
 
 function genTocIndex() {
-    let str = "## 按分类查看\n\n"
-    str += "[查看全部](./TOC-By-Tag.md)\n\n"
-    str += "## 按题号查看\n\n"
-    str += "[查看全部](./TOC-By-ID.md)\n\n"
+    let str = "- 🔗[标签查找](./TOC-By-Tag.md)\n\n\n\n"
+    str += "- 🔗[题号查找](./TOC-By-ID.md)\n\n"
     return str
 }
 
@@ -159,7 +156,7 @@ function genTocIndex() {
  */
 function genTocById() {
     let files = fs.readdirSync("./algorithms")
-    let tocById = "### 题目列表--按题号\n\n"
+    let tocById = "## 🔗LeetCode题号(LeetCode Pids)\n\n"
     // 获取题目信息
     let problems = fs.readFileSync(PROBLEMS_FILE)
     problems = JSON.parse(problems.toString())

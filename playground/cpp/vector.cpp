@@ -35,10 +35,10 @@ public:
     // 寻找位置
     int findPosVector(vector<int> input, int number)
     {
-        vector<int>::iterator iter = std::find(input.begin(), input.end(), number); //返回的是一个迭代器指针
+        auto iter = find(input.begin(), input.end(), number); //返回的是一个迭代器指针
         if (iter == input.end())
             return -1;
-        return std::distance(input.begin(), iter);
+        return distance(input.begin(), iter);
     }
 
     // 去重
