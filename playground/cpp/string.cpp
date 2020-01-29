@@ -9,6 +9,16 @@ public:
     {
         return reverse(s.begin(), s.end());
     }
+
+    int atoiTest(string s)
+    {
+        return atoi(s.c_str());
+    }
+
+    string itoa(int z)
+    {
+        return to_string(z);
+    }
 };
 
 int main()

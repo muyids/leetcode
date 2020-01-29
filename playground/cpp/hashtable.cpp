@@ -18,7 +18,7 @@ public:
 
         for (auto it = m.begin(); it != m.end(); it++)
         {
-            cout << it->first << ":" << it->second.front() << endl;
+            cout << it->first << ":" << it->second << endl;
         }
 
         m.find("1") == m.end(); // 是否存在
