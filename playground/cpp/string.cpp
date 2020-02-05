@@ -19,6 +19,23 @@ public:
     {
         return to_string(z);
     }
+
+    // char* -> string
+
+    void toCharArr()
+    {
+        string str = "HelloWorld";
+        char *str2 = (char *)str.c_str();  //string => char*
+    }
+
+    // string -> char[]
+
+    // new char*
+    void newChar()
+    {
+        char *res = new char[10];
+        res[0] = 'a';
+    }
 };
 
 int main()
