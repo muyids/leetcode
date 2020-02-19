@@ -6,6 +6,36 @@ updating every day, just for learning how to improve coding skill. And I will al
 collect some good articles about data structure and algorithm.
 ```
 
+## 🙉 说明
+
+- 本项目题目来源：[力扣（LeetCode）](https://leetcode-cn.com)
+- 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+- 题解语言不限，专注于算法实现
+- 自动更新个人解题列表
+- 欢迎大家交流指正
+
+
+## 🌲目录
+
+```tree
+.
+├── README.md         -- README文件
+├── TOC-By-ID.md      -- 按题号查看目录
+├── TOC-By-Tag.md     -- 按分类查看目录
+├── algorithms        -- 题目解析列表
+│   ├── 1-100         -- 按题号分类
+│   ├── ...
+│   ├── README.md
+│   ├── dot           -- dot文件
+│   ├── images        -- 图片素材
+│   └── videos        -- 视频素材
+├── playground        -- 算法模板
+├── script            -- 自动化脚本
+├── tags              -- 按tag分类整理文档
+├── tmp               -- 临时文件
+└── workspace         -- 工作目录
+```
+
 ## ♨️ 推荐阅读
 
 - [动态规划专题](https://github.com/muyids/leetcode/blob/master/tags/动态规划.md)
@@ -88,53 +118,21 @@ collect some good articles about data structure and algorithm.
 35. [蓄水池抽样](https://leetcode-cn.com/tag/reservoir-sampling/)
 36. [记忆化](https://leetcode-cn.com/tag/memoization/)
 
-## 🌲目录树
-
-```tree
-.
-├── README.md         -- README文件
-├── TOC-By-ID.md      -- 按题号查看目录
-├── TOC-By-Tag.md     -- 按分类查看目录
-├── algorithms        -- 题目解析列表
-│   ├── 1-100         -- 按题号分类
-│   ├── ...
-│   ├── README.md
-│   ├── dot           -- dot文件
-│   ├── images        -- 图片素材
-│   └── videos        -- 视频素材
-├── playground        -- 算法模板
-├── script            -- 自动化脚本
-├── tags              -- 按tag分类整理文档
-├── tmp               -- 临时文件
-└── workspace         -- 工作目录
-```
-
-## 🙉 说明
-
-- 本项目题目来源：[力扣（LeetCode）](https://leetcode-cn.com)
-- 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-- 题解语言不限，专注于算法实现
-- 自动更新个人解题列表
-- 欢迎大家交流指正
-
 &nbsp;
-
 
 ## 🔐Problems & Solutions
 
-完成进度（[641](./TOC-By-ID.md)🔑/ [1429](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[641](./TOC-By-ID.md)🔑/ [1429](https://leetcode-cn.com/problemset/all/)🔒)
 - 🔗[标签查找](./TOC-By-Tag.md)
 
 
-
 - 🔗[题号查找](./TOC-By-ID.md)
-
 
 ## 🔥Hot题目
 
 ### [栈](https://leetcode-cn.com/problemset/all/?topicSlugs=stack)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [117](https://leetcode-cn.com/problems/decode-string/solution/) | 48.4% | 中等 | YES| ★★ |
 | [402](https://leetcode-cn.com/problems/remove-k-digits/) | [移掉K位数字](algorithms/401-500/402.%20%E7%A7%BB%E6%8E%89K%E4%BD%8D%E6%95%B0%E5%AD%97.md) | [58](https://leetcode-cn.com/problems/remove-k-digits/solution/) | 27.9% | 中等 | YES| ★★ |
@@ -145,7 +143,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [堆](https://leetcode-cn.com/problemset/all/?topicSlugs=heap)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [347](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [前 K 个高频元素](algorithms/301-400/347.%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) | [121](https://leetcode-cn.com/problems/top-k-frequent-elements/solution/) | 60.1% | 中等 | YES| ★★ |
 | [23](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [合并K个排序链表](algorithms/1-100/23.%20%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | [270](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/) | 48.7% | 困难 | YES| ★★★ |
@@ -156,7 +154,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [贪心算法](https://leetcode-cn.com/problemset/all/?topicSlugs=greedy)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [402](https://leetcode-cn.com/problems/remove-k-digits/) | [移掉K位数字](algorithms/401-500/402.%20%E7%A7%BB%E6%8E%89K%E4%BD%8D%E6%95%B0%E5%AD%97.md) | [58](https://leetcode-cn.com/problems/remove-k-digits/solution/) | 27.9% | 中等 | YES| ★★ |
 | [455](https://leetcode-cn.com/problems/assign-cookies/) | [分发饼干](algorithms/401-500/455.%20%E5%88%86%E5%8F%91%E9%A5%BC%E5%B9%B2.md) | [93](https://leetcode-cn.com/problems/assign-cookies/solution/) | 52.8% | 简单 | YES| ★★ |
@@ -167,7 +165,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [排序](https://leetcode-cn.com/problemset/all/?topicSlugs=sort)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [349](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [两个数组的交集](algorithms/301-400/349.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.md) | [166](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/) | 68.0% | 简单 | YES| ★★ |
 | [350](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [两个数组的交集 II](algorithms/301-400/350.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) | [177](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/) | 46.4% | 简单 | YES| ★★★ |
@@ -178,7 +176,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [位运算](https://leetcode-cn.com/problemset/all/?topicSlugs=bit-manipulation)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [371](https://leetcode-cn.com/problems/sum-of-two-integers/) | [两整数之和](algorithms/301-400/371.%20%E4%B8%A4%E6%95%B4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | [63](https://leetcode-cn.com/problems/sum-of-two-integers/solution/) | 53.6% | 简单 | YES| ★★ |
 | [78](https://leetcode-cn.com/problems/subsets/) | [子集](algorithms/1-100/78.%20%E5%AD%90%E9%9B%86.md) | [216](https://leetcode-cn.com/problems/subsets/solution/) | 76.3% | 中等 | YES| ★★ |
@@ -189,7 +187,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [树](https://leetcode-cn.com/problemset/all/?topicSlugs=tree)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [297](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [二叉树的序列化与反序列化](algorithms/201-300/297.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md) | [68](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/solution/) | 44.2% | 困难 | YES| ★★ |
 | [404](https://leetcode-cn.com/problems/sum-of-left-leaves/) | [左叶子之和](algorithms/401-500/404.%20%E5%B7%A6%E5%8F%B6%E5%AD%90%E4%B9%8B%E5%92%8C.md) | [111](https://leetcode-cn.com/problems/sum-of-left-leaves/solution/) | 53.4% | 简单 | YES| ★★ |
@@ -200,7 +198,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [深度优先搜索](https://leetcode-cn.com/problemset/all/?topicSlugs=depth-first-search)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [394](https://leetcode-cn.com/problems/decode-string/) | [字符串解码](algorithms/301-400/394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | [117](https://leetcode-cn.com/problems/decode-string/solution/) | 48.4% | 中等 | YES| ★★ |
 | [494](https://leetcode-cn.com/problems/target-sum/) | [目标和](algorithms/401-500/494.%20%E7%9B%AE%E6%A0%87%E5%92%8C.md) | [56](https://leetcode-cn.com/problems/target-sum/solution/) | 43.2% | 中等 | YES| ★★ |
@@ -211,7 +209,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [广度优先搜索](https://leetcode-cn.com/problemset/all/?topicSlugs=breadth-first-search)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [279](https://leetcode-cn.com/problems/perfect-squares/) | [完全平方数](algorithms/201-300/279.%20%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) | [115](https://leetcode-cn.com/problems/perfect-squares/solution/) | 53.4% | 中等 | YES| ★★ |
 | [101](https://leetcode-cn.com/problems/symmetric-tree/) | [对称二叉树(镜像二叉树)](algorithms/101-200/101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91(%E9%95%9C%E5%83%8F%E4%BA%8C%E5%8F%89%E6%A0%91).md) | [264](https://leetcode-cn.com/problems/symmetric-tree/solution/) | 49.9% | 简单 | YES| ★★★ |
@@ -222,7 +220,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [并查集](https://leetcode-cn.com/problemset/all/?topicSlugs=union-find)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [547](https://leetcode-cn.com/problems/friend-circles/) | [朋友圈](algorithms/501-600/547.%20%E6%9C%8B%E5%8F%8B%E5%9C%88.md) | [104](https://leetcode-cn.com/problems/friend-circles/solution/) | 54.6% | 中等 | YES| ★★ |
 | [128](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [最长连续序列](algorithms/101-200/128.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97.md) | [83](https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/) | 47.6% | 困难 | YES| ★★ |
@@ -231,14 +229,14 @@ collect some good articles about data structure and algorithm.
 ------
 ### [图](https://leetcode-cn.com/problemset/all/?topicSlugs=graph)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [207](https://leetcode-cn.com/problems/course-schedule/) | [课程表](algorithms/201-300/207.%20%E8%AF%BE%E7%A8%8B%E8%A1%A8.md) | [95](https://leetcode-cn.com/problems/course-schedule/solution/) | 49.1% | 中等 | YES| ★★ |
 
 ------
 ### [设计](https://leetcode-cn.com/problemset/all/?topicSlugs=design)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [297](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [二叉树的序列化与反序列化](algorithms/201-300/297.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md) | [68](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/solution/) | 44.2% | 困难 | YES| ★★ |
 | [155](https://leetcode-cn.com/problems/min-stack/) | [最小栈](algorithms/101-200/155.%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) | [223](https://leetcode-cn.com/problems/min-stack/solution/) | 51.4% | 简单 | YES| ★★★ |
@@ -249,14 +247,14 @@ collect some good articles about data structure and algorithm.
 ------
 ### [拓扑排序](https://leetcode-cn.com/problemset/all/?topicSlugs=topological-sort)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [207](https://leetcode-cn.com/problems/course-schedule/) | [课程表](algorithms/201-300/207.%20%E8%AF%BE%E7%A8%8B%E8%A1%A8.md) | [95](https://leetcode-cn.com/problems/course-schedule/solution/) | 49.1% | 中等 | YES| ★★ |
 
 ------
 ### [字典树](https://leetcode-cn.com/problemset/all/?topicSlugs=trie)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [746](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [使用最小花费爬楼梯](algorithms/701-800/746.%20%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | [132](https://leetcode-cn.com/problems/min-cost-climbing-stairs/solution/) | 46.5% | 简单 | YES| ★★ |
 | [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](algorithms/201-300/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).md) | [98](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/) | 64.3% | 中等 | YES| ★★ |
@@ -264,75 +262,75 @@ collect some good articles about data structure and algorithm.
 ------
 ### [树状数组](https://leetcode-cn.com/problemset/all/?topicSlugs=binary-indexed-tree)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [线段树](https://leetcode-cn.com/problemset/all/?topicSlugs=segment-tree)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [二叉搜索树](https://leetcode-cn.com/problemset/all/?topicSlugs=binary-search-tree)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [递归](https://leetcode-cn.com/problemset/all/?topicSlugs=recursion)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [脑筋急转弯](https://leetcode-cn.com/problemset/all/?topicSlugs=brainteaser)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [117](https://leetcode-cn.com/problems/nim-game/solution/) | 69.7% | 简单 | YES| ★★ |
 
 ------
 ### [记忆化](https://leetcode-cn.com/problemset/all/?topicSlugs=memoization)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [队列](https://leetcode-cn.com/problemset/all/?topicSlugs=queue)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [极小化极大](https://leetcode-cn.com/problemset/all/?topicSlugs=minimax)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [292](https://leetcode-cn.com/problems/nim-game/) | [Nim 游戏](algorithms/201-300/292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | [117](https://leetcode-cn.com/problems/nim-game/solution/) | 69.7% | 简单 | YES| ★★ |
 
 ------
 ### [蓄水池抽样](https://leetcode-cn.com/problemset/all/?topicSlugs=reservoir-sampling)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [几何](https://leetcode-cn.com/problemset/all/?topicSlugs=geometry)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [Map](https://leetcode-cn.com/problemset/all/?topicSlugs=map)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [数组](https://leetcode-cn.com/problemset/all/?topicSlugs=array)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [283](https://leetcode-cn.com/problems/move-zeroes/) | [移动零](algorithms/201-300/283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) | [397](https://leetcode-cn.com/problems/move-zeroes/solution/) | 59.2% | 简单 | YES| ★★★ |
 | [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [寻找重复数](algorithms/201-300/287.%20%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E6%95%B0.md) | [116](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/) | 62.9% | 中等 | YES| ★★ |
@@ -343,7 +341,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [哈希表](https://leetcode-cn.com/problemset/all/?topicSlugs=hash-table)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [347](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [前 K 个高频元素](algorithms/301-400/347.%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) | [121](https://leetcode-cn.com/problems/top-k-frequent-elements/solution/) | 60.1% | 中等 | YES| ★★ |
 | [349](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [两个数组的交集](algorithms/301-400/349.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.md) | [166](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/) | 68.0% | 简单 | YES| ★★ |
@@ -354,7 +352,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [链表](https://leetcode-cn.com/problemset/all/?topicSlugs=linked-list)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [328](https://leetcode-cn.com/problems/odd-even-linked-list/) | [奇偶链表](algorithms/301-400/328.%20%E5%A5%87%E5%81%B6%E9%93%BE%E8%A1%A8.md) | [99](https://leetcode-cn.com/problems/odd-even-linked-list/solution/) | 61.1% | 中等 | NO| ★★ |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [两数相加](algorithms/1-100/2.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md) | [1083](https://leetcode-cn.com/problems/add-two-numbers/solution/) | 36.6% | 中等 | YES| ★★★★★ |
@@ -365,7 +363,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [数学](https://leetcode-cn.com/problemset/all/?topicSlugs=math)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [279](https://leetcode-cn.com/problems/perfect-squares/) | [完全平方数](algorithms/201-300/279.%20%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) | [115](https://leetcode-cn.com/problems/perfect-squares/solution/) | 53.4% | 中等 | YES| ★★ |
 | [326](https://leetcode-cn.com/problems/power-of-three/) | [3的幂](algorithms/301-400/326.%203%E7%9A%84%E5%B9%82.md) | [54](https://leetcode-cn.com/problems/power-of-three/solution/) | 46.4% | 简单 | YES| ★★ |
@@ -376,7 +374,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [双指针](https://leetcode-cn.com/problemset/all/?topicSlugs=two-pointers)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [283](https://leetcode-cn.com/problems/move-zeroes/) | [移动零](algorithms/201-300/283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) | [397](https://leetcode-cn.com/problems/move-zeroes/solution/) | 59.2% | 简单 | YES| ★★★ |
 | [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [寻找重复数](algorithms/201-300/287.%20%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E6%95%B0.md) | [116](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/) | 62.9% | 中等 | YES| ★★ |
@@ -387,7 +385,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [字符串](https://leetcode-cn.com/problemset/all/?topicSlugs=string)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [344](https://leetcode-cn.com/problems/reverse-string/) | [反转字符串](algorithms/301-400/344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | [275](https://leetcode-cn.com/problems/reverse-string/solution/) | 68.9% | 简单 | YES| ★★★ |
 | [387](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [字符串中的第一个唯一字符](algorithms/301-400/387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) | [141](https://leetcode-cn.com/problems/first-unique-character-in-a-string/solution/) | 43.1% | 简单 | YES| ★★★ |
@@ -398,7 +396,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [二分查找](https://leetcode-cn.com/problemset/all/?topicSlugs=binary-search)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [寻找重复数](algorithms/201-300/287.%20%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E6%95%B0.md) | [116](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/) | 62.9% | 中等 | YES| ★★ |
 | [300](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [最长上升子序列](algorithms/201-300/300.%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md) | [118](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/) | 43.9% | 中等 | YES| ★★★ |
@@ -409,7 +407,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [分治算法](https://leetcode-cn.com/problemset/all/?topicSlugs=divide-and-conquer)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [4](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [寻找两个有序数组的中位数](algorithms/1-100/4.%20%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md) | [502](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/) | 36.7% | 困难 | YES| ★★★★ |
 | [23](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [合并K个排序链表](algorithms/1-100/23.%20%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | [270](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/) | 48.7% | 困难 | YES| ★★★ |
@@ -420,7 +418,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [动态规划](https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [279](https://leetcode-cn.com/problems/perfect-squares/) | [完全平方数](algorithms/201-300/279.%20%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) | [115](https://leetcode-cn.com/problems/perfect-squares/solution/) | 53.4% | 中等 | YES| ★★ |
 | [300](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [最长上升子序列](algorithms/201-300/300.%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md) | [118](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/) | 43.9% | 中等 | YES| ★★★ |
@@ -431,7 +429,7 @@ collect some good articles about data structure and algorithm.
 ------
 ### [回溯算法](https://leetcode-cn.com/problemset/all/?topicSlugs=backtracking)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [10](https://leetcode-cn.com/problems/regular-expression-matching/) | [正则表达式匹配](algorithms/1-100/10.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md) | [213](https://leetcode-cn.com/problems/regular-expression-matching/solution/) | 26.0% | 困难 | YES| ★★★ |
 | [17](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [电话号码的字母组合](algorithms/1-100/17.%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88.md) | [431](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/) | 52.4% | 中等 | YES| ★★★ |
@@ -442,19 +440,19 @@ collect some good articles about data structure and algorithm.
 ------
 ### [Random](https://leetcode-cn.com/problemset/all/?topicSlugs=random)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [Rejection Sampling](https://leetcode-cn.com/problemset/all/?topicSlugs=rejection-sampling)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
 ### [Sliding Window](https://leetcode-cn.com/problemset/all/?topicSlugs=sliding-window)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [3](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [无重复字符的最长子串](algorithms/1-100/3.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) | [1015](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/) | 32.8% | 中等 | YES| ★★★★★ |
 | [76](https://leetcode-cn.com/problems/minimum-window-substring/) | [最小覆盖子串](algorithms/1-100/76.%20%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2.md) | [87](https://leetcode-cn.com/problems/minimum-window-substring/solution/) | 35.3% | 困难 | YES| ★★ |
@@ -463,14 +461,14 @@ collect some good articles about data structure and algorithm.
 ------
 ### [Ordered Map](https://leetcode-cn.com/problemset/all/?topicSlugs=ordered-map)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [876](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | [链表的中间结点](algorithms/801-900/876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.md) | [136](https://leetcode-cn.com/problems/middle-of-the-linked-list/solution/) | 64.6% | 简单 | YES| ★★ |
 
 ------
 ### [Line Sweep](https://leetcode-cn.com/problemset/all/?topicSlugs=line-sweep)
 
-| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
+| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 |
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------

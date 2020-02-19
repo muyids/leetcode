@@ -16,10 +16,12 @@
     "goWatch": "nodemon --delay 1 --watch workspace/main.go --exec 'npm run goBoot'",
     "clean": "rm -f workspace/*.(out|class) && rm -f tmp/*.(png|dot)",
     "js": "nodemon --delay 1 --watch workspace/main.js --exec 'node workspace/main.js'",
-    "cpp": "npm run cppWatch",
+    "cpp": "npm run cppBoot",
+    "cppDamon": "npm run cppWatch",
     "go": "npm run goWatch",
     "publish": "npm run genTOC && git add . && git commit && git push",
-    "publishBook": "npm run genTOC && git add . && git commit && git push"
+    "publishBook": "npm run genTOC && git add . && git commit && git push",
+    "clang": "clang-format -style=\"llvm\" -dump-config > .clang-format"
   },
   "repository": {
     "type": "git",
