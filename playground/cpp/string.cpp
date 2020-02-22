@@ -1,14 +1,25 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <string.h>
 
 using namespace std;
 
-class Sort
-{
-public:
-    string reverse(string s)
-    {
-        return reverse(s.begin(), s.end());
+void SplitString(std::vector<std::string> &v, const std::string &s,  const std::string &c) {
+    std::string::size_type pos1, pos2;
+    pos2 = s.find(c);
+    pos1 = 0;
+    while (std::string::npos != pos2) {
+        v.push_back(s.substr(pos1, pos2 - pos1));
+        pos1 = pos2 + c.size();
+        pos2 = s.find(c, pos1);
     }
+    if (pos1 != s.length()) v.push_back(s.substr(pos1));
+}
+
+string reverse(string s){
+    return reverse(s.begin(), s.end());
+}
 
     int atoiTest(string s)
     {
@@ -19,6 +30,12 @@ public:
     {
         return to_string(z);
     }
+
+class Sort
+{
+public:
+
+
 
     // char* -> string
 

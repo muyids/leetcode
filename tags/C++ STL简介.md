@@ -17,10 +17,39 @@ while (k--){
 }
 ```
 
+Q: 请问为为什么是 `while(~scanf("%d%d",&n,&m))`，而不是 `while(scanf("%d%d",&n,&m))`？
+A: 论如何正确认识scanf的返回值。百科里说什么没读到n和m返回0对吧，下一句，如果碰到错误，比如End Of File这个，返回常量EOF，EOF一般默认定义为-1，-1按位取反就是0，其他的按位取反当然非0、最保险的写法其实是，`scanf()!=EOF`
+
 ## 字符串
 
+stdlib.h库
+
 字符串转数字 atoi(s.c_str());
+将数字字符串(如”136”)转换为int型：int i = atoi(str);
+将数字字符串(如”136”)转换为float型：int f = atof(str);
+将数字字符串(如”136”)转换为long型：int l = atol(str);
+
 数字转字符串 to_string(123)
+
+字符插入到字符串指定位置
+
+- 插到尾部 `s += c`
+- 插到头部 `s.insert(s.begin(), c)`
+- 插到中间 `s.insert(s.begin() + 3, 'i')`
+
+删除区间 `s.erase(s.begin() + 3, s.begin() + 5)`
+删除头部空格`s.erase(0,s.find_first_not_of(" "));`
+删除尾部空格`s.erase(s.find_last_not_of(" ") + 1);`
+反转字符串 `reverse(s.begin(),s.end());`
+
+string.h库
+
+求字符串长度： int len = strlen(str);
+字符串复制： strcpy();
+字符串比较： strcmp();
+字符串拼接： strcat();
+查询字串： strchr();
+查询子串： strstr();
 
 ## 数学
 
@@ -52,6 +81,9 @@ while (k--){
     clear()
     substr(起始下标，(子串长度))  返回子串
     c_str()  返回字符串所在字符数组的起始地址
+    append(1, c) // 末尾追加一个字符
+    erase(str.begin()) // 删除开头。删除最后一个用     erase(str.end() -1)
+
 
 ## queue, 队列
 
@@ -69,7 +101,6 @@ while (k--){
     pop()  弹出堆顶元素
     priority_queue<int> q; // 大根堆
     定义成小根堆的方式：priority_queue<int, vector<int>, greater<int>> q;
-
 
 ## stack, 栈
 
@@ -112,11 +143,11 @@ while (k--){
 
 ### map/multimap
 
-        insert()  插入的数是一个pair
-        erase()  输入的参数是pair或者迭代器
-        find()
-        []  注意multimap不支持此操作。 时间复杂度是 O(logn)
-        lower_bound()/upper_bound()
+    insert()  插入的数是一个pair
+    erase()  输入的参数是pair或者迭代器
+    find()
+    []  注意multimap不支持此操作。 时间复杂度是 O(logn)
+    lower_bound()/upper_bound()
 
 ### unordered_set, unordered_map, unordered_multiset, unordered_multimap, 哈希表
 
