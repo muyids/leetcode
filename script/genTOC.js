@@ -242,7 +242,7 @@ function save(TOC) {
     let data = fs.readFileSync("./README.md");
     data = data.toString()
     data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
-    data += genHotByTag()
+    // data += genHotByTag()
     fs.writeFileSync("./README.md", data)
 
 })()

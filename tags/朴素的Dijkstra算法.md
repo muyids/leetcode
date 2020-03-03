@@ -10,7 +10,7 @@
 
 朴素的Dijkstra算法往往是稠密图，用邻接矩阵来存储
 
-### 算法模板
+## 算法模板
 
 ```cpp
 int g[N][N];  // 存储每条边；为稠密阵所以用邻接矩阵存储
@@ -44,9 +44,8 @@ int dijkstra()
 
 时间复杂是 O(n2+m), n 表示点数，m 表示边数
 
-### 题目
+## 题目
 
-AcWing849. Dijkstra求最短路 I
-lc743. 网络延迟时间
-lc1368. Minimum Cost to Make at Least One Valid Path in a Grid
+### AcWing849. Dijkstra求最短路 I
 
+### lc743. 网络延迟时间
