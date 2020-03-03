@@ -47,3 +47,6 @@ int dijkstra()
 ### 题目
 
 AcWing849. Dijkstra求最短路 I
+lc743. 网络延迟时间
+lc1368. Minimum Cost to Make at Least One Valid Path in a Grid
+
