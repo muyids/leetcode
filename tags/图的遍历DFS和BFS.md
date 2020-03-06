@@ -14,20 +14,16 @@ DFS
 - 有爆栈的风险，比如深度最坏可能有1e5层，会爆栈（C++一般4M）；层信息都放在栈空间里
 - 不能搜最短、最小
 
-处理图的问题，注意事项：
+## 注意事项
 
 - 判断当前节点、层是否已得到最终解
 - 判断是否可以剪枝
-
-- 重复遍历问题
-- 区别有环，无环
-- 弧头到弧尾还是弧尾到弧头，遍历顺序如何选择
+- 防止循环遍历问题（比如存在环路，要退出）
+- 遍历顺序如何选择（比如是弧头到弧尾还是弧尾到弧头）
 
 ## 题目列表
 
-### LeetCode 111. Minimum Depth of Binary Tree（easy）
-
-### LeetCode 279. Perfect Squares (medium)
+### flood fill算法
 
 ### LeetCode 733. Flood Fill (easy)
 
@@ -38,6 +34,12 @@ flood fill算法, dfs和bfs两种实现
 - flood fill算法
 - 并查集
 
+---
+
+### LeetCode 111. Minimum Depth of Binary Tree（easy）
+
+### LeetCode 279. Perfect Squares (medium)
+
 ### LeetCode 130. Surrounded Regions （medium）
 
 LeetCode 543. Diameter of Binary Tree
@@ -46,19 +48,11 @@ LeetCode 127. Word Ladder
 
 LeetCode 542. 01 Matrix
 
-LeetCode 207. Course Schedule
-
-LeetCode 210. Course Schedule II
-
 ### LeetCode 695. Max Area of Island
 
 ### LeetCode 886. Possible Bipartition（medium）
 
 二分图判定
-
-### LeetCode 802. Find Eventual Safe States (medium)
-
-判断一个图中有没有环 & 图中每一个点是否在环里
 
 ### 851. Loud and Rich (medium)
 
@@ -67,3 +61,17 @@ LeetCode 210. Course Schedule II
 ### LeetCode 980. Unique Paths III (hard)
 
 ### LeetCode 1254. Number of Closed Islands（medium）
+
+---
+
+### 拓扑排序相关
+
+拓扑排序，将AOV网转化成线性序列
+
+应用场景：判断一个图中有没有环 & 图中每一个点是否在环里；
+
+### LeetCode 207. Course Schedule
+
+### LeetCode 210. Course Schedule II
+
+### LeetCode 802. Find Eventual Safe States (medium)
