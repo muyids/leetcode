@@ -2,8 +2,8 @@
 
 这四种算法结合使用，可以解决几类问题
 
-- 棋盘搜索的问题，往往是在一个棋盘上查找最短路径、路径方案数
 - 排列组合问题
+- 棋盘搜索的问题，往往是在一个棋盘上查找最短路径、路径方案数
 
 ## 递归代码模板
 
@@ -48,7 +48,7 @@ for all router { // 遍历所有路径
 - 深度优先搜索经常用来处理数据量非常庞大的问题
     > 比如数独问题，用宽搜搜不完的
 - 常用于解决树形问题
-- 宽度优先搜索经常用来处理最短路径，或最短距离
+- `宽度优先搜索`经常用来处理最短路径，或最短距离
 - 深度搜索不一定等于递归，也可以用循环来实现
 - 所谓回溯就是恢复初始状态（恢复现场）
     > 如果我们的状态是整个棋盘，就需要恢复现场，如果是某一个格子，就不需要恢复现场
@@ -68,7 +68,7 @@ for all router { // 遍历所有路径
 
 1. 把上面的n-1，从A->B;
 2. 把最下面的盘子，从A->C;
-3.把B上的n-1，从B->A;
+3. 把B上的n-1，从B->A;
 
 递归求解
 
@@ -120,38 +120,48 @@ int main()
 
 参考[力扣51.N皇后](../algorithms/1-100/51.%20N皇后.md)
 
-## 其他练习题
+## 练习题
 
-- [17.电话号码的字母组合](../algorithms/1-100/17.%20电话号码的字母组合.md)
-- [22.括号生成](TODO)
-- [37.解数独](../algorithms/1-100/37.%20解数独.md)
-- [46.全排列](../algorithms/1-100/46.%20全排列.md)
-- [47.全排列 2](../algorithms/1-100/47.%20全排列%202.md)
-- [52.八皇后问题 II](../algorithms/1-100/52.%20八皇后问题%20II.md)
-- [78.子集](../algorithms/1-100/78.%20子集.md)
-- [79.单词搜索](../algorithms/1-100/79.%20单词搜索.md)
-- [90.子集II](../algorithms/1-100/90.%20子集%20II.md)
-- [131.分割回文串](../algorithms/101-200/131.%20分割回文串.md)
-- [216.组合数III](../algorithms/201-300/216.%20组合数%20III.md)
-- [306.累加数](../algorithms/301-400/306.%20累加数.md)
-- [329.矩阵中的最长递增路径](TODO)
-- [473.火柴拼正方形](../algorithms/401-500/473.%20火柴拼正方形.md)
-- [695.岛屿的最大面积](../algorithms/601-700/695.%20岛屿的最大面积.md)
-- [980.不同路径 III](../algorithms/1-100/980.%20不同路径%20III.md)
-- [1254.统计封闭岛屿的数目](../algorithms/1201-1300/1254.%20统计封闭岛屿的数目.md)
+### 排列、组合、子集相关
 
-### [78.子集](../algorithms/1-100/78.%20子集.md)
+### LeetCode 79. Word Search （medium）
+
+### LeetCode 46. Permutations（medium）
+
+### LeetCode 47. Permutations II（medium）
+
+### LeetCode 78. Subsets（medium）
 
 两种思路：dfs + 回溯；二进制法
 
-### [37.解数独](../algorithms/1-100/37.%20解数独.md)
+### LeetCode 90. Subsets II（medium）
+
+### LeetCode 39. Combination Sum（medium）
+
+### LeetCode 40. Combination Sum II（medium）
+
+### LeetCode 216. Combination Sum III（medium）
+
+---
+
+### LeetCode 17. Letter Combinations of a Phone Number（medium）
+
+### LeetCode 52. N-Queens II
+
+### LeetCode 37. Sudoku Solver
 
 拓展:数据结构 Dancing Links
 
-### [473.火柴拼正方形](../algorithms/401-500/473.%20火柴拼正方形.md)
+### LeetCode 473. Matchsticks to Square
 
 剪枝的经典题目,通过增加剪枝，极大优化宽搜效率
 
-### [695.岛屿的最大面积](../algorithms/601-700/695.%20岛屿的最大面积.md)
+### LeetCode 22. Generate Parentheses（medium）
 
-可以用宽搜解决
+### LeetCode 131. Palindrome Partitioning（medium）
+
+### LeetCode 306. Additive Number（medium）
+
+### LeetCode 329. Longest Increasing Path in a Matrix (hard)
+
+dp, dfs

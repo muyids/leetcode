@@ -11,7 +11,9 @@ collect some good articles about data structure and algorithm.
 - [二分](https://github.com/muyids/leetcode/blob/master/tags/%E4%BA%8C%E5%88%86.md)
 - [单调栈](https://github.com/muyids/leetcode/blob/master/tags/单调栈.md)
 - [滑动窗口](https://github.com/muyids/leetcode/blob/master/tags/滑动窗口.md)
-- [深搜、递归、回溯](https://github.com/muyids/leetcode/blob/master/tags/深搜&递归&回溯.md)
+- [并查集](https://github.com/muyids/leetcode/blob/master/tags/并查集.md)
+- [DFS+回溯](https://github.com/muyids/leetcode/blob/master/tags/DFS+回溯.md)
+- [图的遍历](https://github.com/muyids/leetcode/blob/master/tags/图的遍历DFS+BFS.md)
 - [动态规划](https://github.com/muyids/leetcode/blob/master/tags/动态规划.md)
 
 ## 🙉 说明
@@ -49,7 +51,7 @@ collect some good articles about data structure and algorithm.
 
 ## 🔐Problems & Solutions
 
-完成进度（[729](./TOC-By-ID.md)🔑/ [1557](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[732](./TOC-By-ID.md)🔑/ [1558](https://leetcode-cn.com/problemset/all/)🔒) 
 - 🔗[标签查找](./TOC-By-Tag.md)
 
 

@@ -53,8 +53,8 @@ string.h库
 
 ## 数学
 
-#define MaxN  0x3f3f3f3f // 无穷大
-#define MinN  0xc0c0c0c0 // 无穷小
+`#define MaxN  0x3f3f3f3f` // 无穷大
+`#define MinN  0xc0c0c0c0` // 无穷小
 
 ## vector, 变长数组，倍增的思想
 
