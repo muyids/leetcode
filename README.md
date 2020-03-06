@@ -6,13 +6,12 @@ updating every day, just for learning how to improve coding skill. And I will al
 collect some good articles about data structure and algorithm.
 ```
 
-我从19年8月份开始刷力扣，到现在AC了700多道题目，随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种；
-
-最常见的考察点 包括：`二分，滑动窗口，双指针，链表，二叉树，字符串处理，dfs + 回溯，单调栈（单调队列），并查集，动态规划，贪心，图的遍历（dfs,bfs,flood fill, 拓扑排序，二分染色，最短路）`这些，我决定按照分类进行总结（参考`tags目录` 或 `推荐阅读`），以后的刷题也会更多的围绕`指定分类或知识点`展开
+作为一名几乎无算法经验的码农，我从19年8月份开始刷力扣，到现在AC了700多道题目，随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种,包括：*二分，滑动窗口，双指针，链表，二叉树，字符串处理，dfs + 回溯，单调栈（单调队列），并查集，动态规划，贪心，位运算，数学知识，图的遍历（dfs,bfs,flood fill, 拓扑排序，二分染色，最短路，最小生成树）*这些，我决定按照分类进行总结（参考[tags目录](./tags) 或 [推荐阅读](#推荐阅读)），以后的刷题也会更多的围绕 __指定分类或知识点__ 展开
 
 ## ♨️ 推荐阅读
 
 - [二分](https://github.com/muyids/leetcode/blob/master/tags/%E4%BA%8C%E5%88%86.md)
+- [位运算](https://github.com/muyids/leetcode/blob/master/tags/位运算.md)
 - [单调栈](https://github.com/muyids/leetcode/blob/master/tags/单调栈.md)
 - [滑动窗口](https://github.com/muyids/leetcode/blob/master/tags/滑动窗口.md)
 - [并查集](https://github.com/muyids/leetcode/blob/master/tags/并查集.md)
