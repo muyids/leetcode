@@ -16,6 +16,7 @@ collect some good articles about data structure and algorithm.
 
 ## ♨️ 推荐阅读
 
+- [《从零开始学算法》](https://muyids.github.io/simple-algorithm/)
 - [二分](https://github.com/muyids/leetcode/blob/master/tags/%E4%BA%8C%E5%88%86.md)
 - [位运算](https://github.com/muyids/leetcode/blob/master/tags/位运算.md)
 - [单调栈](https://github.com/muyids/leetcode/blob/master/tags/单调栈.md)
@@ -37,9 +38,6 @@ collect some good articles about data structure and algorithm.
 
 ```tree
 .
-├── README.md         -- README文件
-├── TOC-By-ID.md      -- 按题号查看目录
-├── TOC-By-Tag.md     -- 按分类查看目录
 ├── algorithms        -- 题目解析列表
 │   ├── 1-100         -- 按题号分类
 │   ├── ...
@@ -47,11 +45,13 @@ collect some good articles about data structure and algorithm.
 │   ├── dot           -- dot文件
 │   ├── images        -- 图片素材
 │   └── videos        -- 视频素材
+├── chapter           -- 知识点归纳
 ├── playground        -- 算法模板
 ├── script            -- 自动化脚本
-├── tags              -- 按tag分类整理文档
-├── tmp               -- 临时文件
 └── workspace         -- 工作目录
+├── README.md         -- README文件
+├── TOC-By-ID.md      -- 按题号查看目录
+├── TOC-By-Tag.md     -- 按分类查看目录
 ```
 
 &nbsp;
@@ -59,8 +59,11 @@ collect some good articles about data structure and algorithm.
 
 ## 🔐Problems & Solutions
 
-完成进度（[732](./TOC-By-ID.md)🔑/ [1558](https://leetcode-cn.com/problemset/all/)🔒)
-
+完成进度（[732](./TOC-By-ID.md)🔑/ [1558](https://leetcode-cn.com/problemset/all/)🔒) 
 - 🔗[标签查找](./TOC-By-Tag.md)
 
+
+
 - 🔗[题号查找](./TOC-By-ID.md)
+
+

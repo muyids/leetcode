@@ -29,7 +29,7 @@ func dfs(){
 
 dfs & 递归 & 回溯 & 剪枝 结合使用，代码模板
 
-```template
+```cpp
 for all router { // 遍历所有路径
     doCounter() // 统计结果
     doCut() // 剪枝
