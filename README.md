@@ -6,7 +6,13 @@ updating every day, just for learning how to improve coding skill. And I will al
 collect some good articles about data structure and algorithm.
 ```
 
-作为一名几乎无算法经验的码农，我从19年8月份开始刷力扣，到现在AC了700多道题目，随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种,包括：*二分，滑动窗口，双指针，链表，二叉树，字符串处理，dfs + 回溯，单调栈（单调队列），并查集，动态规划，贪心，位运算，数学知识，图的遍历（dfs,bfs,flood fill, 拓扑排序，二分染色，最短路，最小生成树）*这些，我决定按照分类进行总结（参考[tags目录](./tags) 或 [推荐阅读](#推荐阅读)），以后的刷题也会更多的围绕 __指定分类或知识点__ 展开
+作为算法初学者的我从19年8月份开始在力扣学习算法，到现在AC了700多道题目。
+
+随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种，包括：**二分，滑动窗口，双指针，链表，二叉树，字符串处理，dfs + 回溯，单调栈（单调队列），并查集，动态规划，贪心，位运算，数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树等）**。
+
+[推荐阅读](#%20♨️%20推荐阅读) 是一些 按照分类总结的题目，更多的题解 在 [algorithms](./algorithms) 目录下
+
+同时，也可以访问[我的电子书《从零开始学算法》](https://muyids.github.io/simple-algorithm/)，获取更好的阅读体验
 
 ## ♨️ 推荐阅读
 
@@ -48,17 +54,13 @@ collect some good articles about data structure and algorithm.
 └── workspace         -- 工作目录
 ```
 
-
 &nbsp;
 
 
 ## 🔐Problems & Solutions
 
-完成进度（[732](./TOC-By-ID.md)🔑/ [1558](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[732](./TOC-By-ID.md)🔑/ [1558](https://leetcode-cn.com/problemset/all/)🔒)
+
 - 🔗[标签查找](./TOC-By-Tag.md)
 
-
-
 - 🔗[题号查找](./TOC-By-ID.md)
-
-
