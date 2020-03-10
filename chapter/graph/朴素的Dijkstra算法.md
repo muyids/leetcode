@@ -1,4 +1,4 @@
-## 朴素的Dijkstra算法
+# 朴素的Dijkstra算法
 
 集合S：当前已经确定最短距离的点
 
@@ -49,3 +49,4 @@ int dijkstra()
 ### AcWing849. Dijkstra求最短路 I
 
 ### lc743. 网络延迟时间
+

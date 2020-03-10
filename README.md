@@ -26,6 +26,14 @@ collect some good articles about data structure and algorithm.
 - [图的遍历](https://github.com/muyids/leetcode/blob/master/tags/图的遍历DFS+BFS.md)
 - [动态规划](https://github.com/muyids/leetcode/blob/master/tags/动态规划.md)
 
+## 每日打卡
+
+运行命令，获取今日打卡题目
+
+```shell
+npm run card
+```
+
 ## 🙉 说明
 
 - 本项目题目来源：[力扣（LeetCode）](https://leetcode-cn.com)
@@ -59,7 +67,7 @@ collect some good articles about data structure and algorithm.
 
 ## 🔐Problems & Solutions
 
-完成进度（[732](./TOC-By-ID.md)🔑/ [1558](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[742](./TOC-By-ID.md)🔑/ [1566](https://leetcode-cn.com/problemset/all/)🔒) 
 - 🔗[标签查找](./TOC-By-Tag.md)
 
 
