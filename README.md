@@ -17,14 +17,14 @@ collect some good articles about data structure and algorithm.
 ## ♨️ 推荐阅读
 
 - [《从零开始学算法》](https://muyids.github.io/simple-algorithm/)
-- [二分](https://github.com/muyids/leetcode/blob/master/tags/%E4%BA%8C%E5%88%86.md)
-- [位运算](https://github.com/muyids/leetcode/blob/master/tags/位运算.md)
-- [单调栈](https://github.com/muyids/leetcode/blob/master/tags/单调栈.md)
-- [滑动窗口](https://github.com/muyids/leetcode/blob/master/tags/滑动窗口.md)
-- [并查集](https://github.com/muyids/leetcode/blob/master/tags/并查集.md)
-- [DFS+回溯](https://github.com/muyids/leetcode/blob/master/tags/DFS+回溯.md)
-- [图的遍历](https://github.com/muyids/leetcode/blob/master/tags/图的遍历DFS+BFS.md)
-- [动态规划](https://github.com/muyids/leetcode/blob/master/tags/动态规划.md)
+- [二分](https://github.com/muyids/leetcode/blob/master/chapter/%E4%BA%8C%E5%88%86.md)
+- [位运算](https://github.com/muyids/leetcode/blob/master/chapter/位运算.md)
+- [单调栈](https://github.com/muyids/leetcode/blob/master/chapter/单调栈.md)
+- [滑动窗口](https://github.com/muyids/leetcode/blob/master/chapter/滑动窗口.md)
+- [并查集](https://github.com/muyids/leetcode/blob/master/chapter/并查集.md)
+- [DFS+回溯](https://github.com/muyids/leetcode/blob/master/chapter/DFS+回溯.md)
+- [图的遍历](https://github.com/muyids/leetcode/blob/master/chapter/图的遍历DFS+BFS.md)
+- [动态规划](https://github.com/muyids/leetcode/blob/master/chapter/动态规划.md)
 
 ## 每日打卡
 
@@ -79,7 +79,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[742](./TOC-By-ID.md)🔑/ [1566](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[744](./TOC-By-ID.md)🔑/ [1568](https://leetcode-cn.com/problemset/all/)🔒) 
 - 🔗[标签查找](./TOC-By-Tag.md)
 
 

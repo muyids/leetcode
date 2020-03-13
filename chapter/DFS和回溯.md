@@ -1,4 +1,4 @@
-## dfs & 递归 & 回溯 & 剪枝
+# DFS & 递归 & 回溯 & 剪枝
 
 这四种算法结合使用，可以解决几类问题
 
@@ -120,7 +120,8 @@ int main()
 
 参考[力扣51.N皇后](../algorithms/1-100/51.%20N皇后.md)
 
-## 练习题
+
+## 题目分类
 
 ### 排列、组合、子集相关
 
@@ -144,6 +145,8 @@ int main()
 
 ---
 
+### 棋盘搜索
+
 ### LeetCode 17. Letter Combinations of a Phone Number（medium）
 
 ### LeetCode 52. N-Queens II
@@ -165,3 +168,7 @@ int main()
 ### LeetCode 329. Longest Increasing Path in a Matrix (hard)
 
 dp, dfs
+
+### 力扣351. 安卓系统手势解锁
+
+有趣的dfs解决实际问题
