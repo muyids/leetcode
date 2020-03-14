@@ -6,4 +6,6 @@ BFS常用来求最短距离
 
 ## 题目
 
-力扣317. 离建筑物最近的距离
+- [LeetCode 317. Shortest Distance from All Buildings (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/317.shortest-distance-from-all-buildings.md)
+
+

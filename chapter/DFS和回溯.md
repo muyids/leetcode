@@ -123,52 +123,25 @@ int main()
 
 ## 题目分类
 
-### 排列、组合、子集相关
-
-### LeetCode 79. Word Search （medium）
-
-### LeetCode 46. Permutations（medium）
-
-### LeetCode 47. Permutations II（medium）
-
-### LeetCode 78. Subsets（medium）
-
-两种思路：dfs + 回溯；二进制法
-
-### LeetCode 90. Subsets II（medium）
-
-### LeetCode 39. Combination Sum（medium）
-
-### LeetCode 40. Combination Sum II（medium）
-
-### LeetCode 216. Combination Sum III（medium）
-
----
+### [排列、组合、子集问题](./组合、排列、子集.md)
 
 ### 棋盘搜索
 
-### LeetCode 17. Letter Combinations of a Phone Number（medium）
+- [LeetCode 351. Android Unlock Patterns (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/351.android-unlock-patterns.md)
 
-### LeetCode 52. N-Queens II
+- [LeetCode 17. Letter Combinations of a Phone Number (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/17.letter-combinations-of-a-phone-number.md)
 
-### LeetCode 37. Sudoku Solver
+- [LeetCode 52. N-Queens II (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/52.n-queens-ii.md)
 
-拓展:数据结构 Dancing Links
+- [LeetCode 37. Sudoku Solver (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/37.sudoku-solver.md)
 
-### LeetCode 473. Matchsticks to Square
+- [LeetCode 473. Matchsticks to Square (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/401-500/473.matchsticks-to-square.md)
 
-剪枝的经典题目,通过增加剪枝，极大优化宽搜效率
+- [LeetCode 22. Generate Parentheses (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/22.generate-parentheses.md)
 
-### LeetCode 22. Generate Parentheses（medium）
+- [LeetCode 131. Palindrome Partitioning (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/101-200/131.palindrome-partitioning.md)
 
-### LeetCode 131. Palindrome Partitioning（medium）
+- [LeetCode 306. Additive Number (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/306.additive-number.md)
 
-### LeetCode 306. Additive Number（medium）
+- [LeetCode 329. Longest Increasing Path in a Matrix (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/329.longest-increasing-path-in-a-matrix.md)
 
-### LeetCode 329. Longest Increasing Path in a Matrix (hard)
-
-dp, dfs
-
-### 力扣351. 安卓系统手势解锁
-
-有趣的dfs解决实际问题
