@@ -15,7 +15,16 @@ for (let p of questions.stat_status_pairs) {
     mp[p.stat.frontend_question_id] = p
 }
 
-function syncTitle(dir_path) {
+function getTitleByNum(num) {
+    let scope = (parseInt(num / 100) * 100 + 1) + '-' + (100 * (parseInt(num / 100) + 1))
+    let githubRouter = `https://github.com/muyids/leetcode/blob/master/algorithms/${scope}/${num}.${mp[num].stat.question__title_slug}.md`
+    let level = levels[mp[num].difficulty.level]
+    let newLine = `### [LeetCode ${num}. ${mp[num].stat.question__title}](${githubRouter}) (${level})`
+    console.log(newLine)
+    return newLine
+}
+
+async function syncTitle(dir_path) {
     let rows = fs.readdirSync(dir_path, {
         withFileTypes: true
     })
@@ -29,7 +38,7 @@ function syncTitle(dir_path) {
             fs.renameSync(path.join(dir_path, row.name), path.join(dir_path, newName))
             continue
         }
-        syncTitle(path.join(dir_path, row.name))
+        await syncTitle(path.join(dir_path, row.name))
     }
 }
 
@@ -46,10 +55,12 @@ let readWriteFileByLineWithProcess = function (readName, writeName) {
         let readLine = rl.createInterface({
             input: readStream
         })
+        let content = ''
         readLine.on('line', function (line) {
-            writeStream.write(line + os.EOL);
+            content += getSolveTitle(line)
         })
         readLine.on('close', function () {
+            writeStream.write(content + os.EOL);
             resolve()
         })
         readLine.on('error', function (err) {
@@ -58,23 +69,50 @@ let readWriteFileByLineWithProcess = function (readName, writeName) {
     })
 }
 
+const levels = {
+    1: 'easy',
+    2: 'medium',
+    3: 'hard'
+}
+
 let getSolveTitle = function (line) {
+    if (line.indexOf('lc') == -1 && line.indexOf('力扣') == -1 && line.indexOf('LeetCode') == -1) return line
     let num = ''
     if (line.indexOf('lc') > -1) {
         let l = line.indexOf('lc') + 2,
             r = l
         while (line[r] != '.') r++
-        num = line.substr(l, r - l)
+        num = line.substr(l, r - l).trim()
+    } else if (line.indexOf('力扣') > -1) {
+        let l = line.indexOf('力扣') + 2,
+            r = l
+        while (line[r] != '.') r++
+        num = line.substr(l, r - l).trim()
+    } else if (line.indexOf('LeetCode') > -1) {
+        let l = line.indexOf('LeetCode') + 8,
+            r = l
+        while (line[r] != '.') r++
+        num = line.substr(l, r - l).trim()
     }
-
-    console.log(num)
-    let newLine = `### [${num}.${mp[num].stat.question__title}]()`
-    console.log(newLine)
-    // ### 
-    // lc39.组合总和
+    return getTitleByNum(num)
 }
 
-function delFile(dir_path) {
+async function delFile(dir_path) {
+    let rows = fs.readdirSync(dir_path, {
+        withFileTypes: true
+    })
+    for (let row of rows) {
+        if (!row.isDirectory()) {
+            if (row.name.indexOf('.copy') == -1) {
+                fs.unlinkSync(path.join(dir_path, row.name))
+            }
+            continue
+        }
+        await delFile(path.join(dir_path, row.name))
+    }
+}
+
+async function cleanFiles(dir_path) {
     let rows = fs.readdirSync(dir_path, {
         withFileTypes: true
     })
@@ -85,10 +123,27 @@ function delFile(dir_path) {
             }
             continue
         }
-        delFile(path.join(dir_path, row.name))
+        await cleanFiles(path.join(dir_path, row.name))
     }
 }
 
+async function mvFile(dir_path) {
+    let rows = fs.readdirSync(dir_path, {
+        withFileTypes: true
+    })
+    for (let row of rows) {
+        if (!row.isDirectory()) {
+            if (row.name.indexOf('.copy') > -1) {
+                console.log(path.join(dir_path, row.name.substr(0, row.name.length - 5)))
+                fs.renameSync(path.join(dir_path, row.name), path.join(dir_path, row.name.substr(0, row.name.length - 5)))
+            }
+            continue
+        }
+        await mvFile(path.join(dir_path, row.name))
+    }
+}
+
+// 解决每一行中力扣题解引用
 async function syncSolve(dir_path) {
     let rows = fs.readdirSync(dir_path, {
         withFileTypes: true
@@ -97,23 +152,30 @@ async function syncSolve(dir_path) {
         if (!row.isDirectory()) {
             console.log(row)
             await readWriteFileByLineWithProcess(path.join(dir_path, row.name), path.join(dir_path, row.name + '.copy'))
-            return
+            continue
         }
-        syncSolve(path.join(dir_path, row.name))
+        await syncSolve(path.join(dir_path, row.name))
     }
 }
 
+async function main() {
+    try {
+        // 删除.copy文件
+        // await cleanFiles('./chapter')
+        // 更新algorithms目录
+        // await syncTitle('./algorithms')
+        // 更新chapter中【力扣题解引用】
+        // await syncSolve('./chapter')
 
-function main() {
-    // 更新algorithms目录
-    syncTitle('./algorithms')
-    // 更新chapter中【力扣题解引用】
-    // syncSolve('./chapter')
-    // delFile('./chapter')
-    // getSolveTitle('lc216. 组合总和 III')
+        // await delFile('./chapter')
+
+        // await mvFile('./chapter')
+    } catch (e) {
+        console.log(e)
+    }
 }
 
-main()
+getTitleByNum(process.argv[3])
 
 //  {
 //      "stat": {

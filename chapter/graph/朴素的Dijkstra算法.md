@@ -2,11 +2,11 @@
 
 集合S：当前已经确定最短距离的点
 
-1. dist[1] = 0, dist[i] = 正无穷
-2. for v: 1 ~ n
-    t <- 不在s中的距离最近的点
-    s <- t
-    用t更新其他点的距离
+- dist[1] = 0, dist[i] = 正无穷
+- for v: 1 ~ n
+  - t <- 不在s中的距离最近的点
+  - s <- t
+  - 用t更新其他点的距离
 
 朴素的Dijkstra算法往往是稠密图，用邻接矩阵来存储
 
@@ -48,5 +48,6 @@ int dijkstra()
 
 ### AcWing849. Dijkstra求最短路 I
 
-### lc743. 网络延迟时间
+### [LeetCode743.Network Delay Time](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/743.network-delay-time.md) (medium)
+
 

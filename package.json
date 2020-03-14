@@ -20,6 +20,7 @@
     "cppDamon": "npm run cppWatch",
     "go": "npm run goWatch",
     "card": "python script/randQuestion.py",
+    "title": "node script/syncSolve.js -v $1 ",
     "publish": "npm run genTOC && git add . && git commit && git push && npm run publishBook",
     "publishBook": "cd /Users/dw/go/src/github.com/muyids/simple-algorithm && npm run publish",
     "clang": "clang-format -style=\"llvm\" -dump-config > .clang-format"
