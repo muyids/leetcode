@@ -19,7 +19,7 @@ function getTitleByNum(num) {
     let scope = (parseInt(num / 100) * 100 + 1) + '-' + (100 * (parseInt(num / 100) + 1))
     let githubRouter = `https://github.com/muyids/leetcode/blob/master/algorithms/${scope}/${num}.${mp[num].stat.question__title_slug}.md`
     let level = levels[mp[num].difficulty.level]
-    let newLine = `### [LeetCode ${num}. ${mp[num].stat.question__title}](${githubRouter}) (${level})`
+    let newLine = `- [LeetCode ${num}. ${mp[num].stat.question__title} (${level})](${githubRouter})`
     console.log(newLine)
     return newLine
 }
