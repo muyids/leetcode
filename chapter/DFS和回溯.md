@@ -123,13 +123,50 @@ int main()
 
 ## 题目分类
 
-### [排列、组合、子集问题](./组合、排列、子集.md)
+### 排列、组合、子集问题
+
+组合、排列、子集 问题 可以用DFS解决
+
+#### 排列问题
+
+求所有排列方案;
+
+- [LeetCode 46. Permutations (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/46.permutations.md)
+
+- [LeetCode 47. Permutations II (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/47.permutations-ii.md)
+
+#### 组合问题
+
+求所有组合方案; 如果存在重复，则需要排序，过滤重复位置
+
+##### 题目
+
+- [LeetCode 39. Combination Sum (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/39.combination-sum.md)
+
+- [LeetCode 40. Combination Sum II (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/40.combination-sum-ii.md)
+
+
+- [LeetCode 216. Combination Sum III (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/216.combination-sum-iii.md)
+
+- [LeetCode 93. Restore IP Addresses (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/93.restore-ip-addresses.md)
+
+- [LeetCode 131. Palindrome Partitioning (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/101-200/131.palindrome-partitioning.md)
+
+#### 子集问题
+
+求所有子集
+
+- [LeetCode 78. Subsets (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/78.subsets.md)
+
+- [LeetCode 90. Subsets II (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/90.subsets-ii.md)
 
 ### 棋盘搜索
 
+棋盘搜索一般配合 DFS + memorization
+
 - [LeetCode 351. Android Unlock Patterns (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/351.android-unlock-patterns.md)
 
-- [LeetCode 17. Letter Combinations of a Phone Number (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/17.letter-combinations-of-a-phone-number.md)
+- [LeetCode 329. Longest Increasing Path in a Matrix (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/329.longest-increasing-path-in-a-matrix.md)
 
 - [LeetCode 52. N-Queens II (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/52.n-queens-ii.md)
 
@@ -137,11 +174,13 @@ int main()
 
 - [LeetCode 473. Matchsticks to Square (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/401-500/473.matchsticks-to-square.md)
 
+### 其他问题
+
 - [LeetCode 22. Generate Parentheses (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/22.generate-parentheses.md)
 
 - [LeetCode 131. Palindrome Partitioning (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/101-200/131.palindrome-partitioning.md)
 
 - [LeetCode 306. Additive Number (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/306.additive-number.md)
 
-- [LeetCode 329. Longest Increasing Path in a Matrix (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/301-400/329.longest-increasing-path-in-a-matrix.md)
+- [LeetCode 17. Letter Combinations of a Phone Number (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/17.letter-combinations-of-a-phone-number.md)
 
