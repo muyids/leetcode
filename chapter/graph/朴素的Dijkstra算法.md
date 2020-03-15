@@ -46,8 +46,6 @@ int dijkstra()
 
 ## 题目
 
-### AcWing849. Dijkstra求最短路 I
+- AcWing849. Dijkstra求最短路 I
 
-### [LeetCode743.Network Delay Time](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/743.network-delay-time.md) (medium)
-
-
+- [LeetCode 743. Network Delay Time (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/743.network-delay-time.md)

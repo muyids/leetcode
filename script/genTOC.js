@@ -145,7 +145,7 @@ function genProcess() {
 }
 
 function genTocIndex() {
-    let str = "- 🔗[标签查找](./TOC-By-Tag.md)\n\n\n\n"
+    let str = "\n\n\n- 🔗[标签查找](./TOC-By-Tag.md)\n\n"
     str += "- 🔗[题号查找](./TOC-By-ID.md)\n\n"
     return str
 }
