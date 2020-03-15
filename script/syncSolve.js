@@ -16,7 +16,7 @@ for (let p of questions.stat_status_pairs) {
 }
 
 function getTitleByNum(num) {
-    let scope = (parseInt(num / 100) * 100 + 1) + '-' + (100 * (parseInt(num / 100) + 1))
+    let scope = (parseInt((num - 1) / 100) * 100 + 1) + '-' + (100 * (parseInt((num - 1) / 100) + 1))
     let githubRouter = `https://github.com/muyids/leetcode/blob/master/algorithms/${scope}/${num}.${mp[num].stat.question__title_slug}.md`
     let level = levels[mp[num].difficulty.level]
     let newLine = `- [LeetCode ${num}. ${mp[num].stat.question__title} (${level})](${githubRouter})`
