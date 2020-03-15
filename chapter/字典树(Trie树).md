@@ -127,13 +127,13 @@ Trie树检索的时间复杂度可以做到n，n是要检索单词的长度，
 后缀树可以用于全文搜索
 
 
----
+## 题目
 
-相关题目
+- [LeetCode 208. Implement Trie (Prefix Tree) (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/208.implement-trie-prefix-tree.md)
 
-- 力扣208. 实现 Trie (前缀树)
-- 力扣211. 添加与搜索单词 - 数据结构设计
-- 力扣212. 单词搜索 II
-- 力扣1268. 搜索推荐系统
+- [LeetCode 211. Add and Search Word - Data structure design (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/211.add-and-search-word-data-structure-design.md)
 
----
+- [LeetCode 212. Word Search II (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/212.word-search-ii.md)
+
+- [LeetCode 1268. Search Suggestions System (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1201-1300/1268.search-suggestions-system.md)
+
