@@ -21,6 +21,10 @@ n个点，m条边
 
 ## 代码实现
 
+- [LeetCode 787. Cheapest Flights Within K Stops (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/787.cheapest-flights-within-k-stops.md)
+
+Bellman-Ford算法
+
 ```cpp
 class Solution {
 public:
@@ -42,9 +46,6 @@ public:
 };
 ```
 
-## 题目
-
-- [LeetCode 787. Cheapest Flights Within K Stops (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/787.cheapest-flights-within-k-stops.md)
 
 
 
