@@ -8,18 +8,16 @@ collect some good articles about data structure and algorithm.
 
 作为算法初学者的我从19年8月份开始在力扣学习算法，到现在AC了700多道题目。
 
-随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种，包括：
+随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种，包括：**二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs + 回溯，并查集，动态规划，贪心，位运算，数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树）**等
 
-**二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs + 回溯，并查集，动态规划，贪心，位运算，数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树）**等
+系统性地学习算法会有事半功倍的效果，于是我归纳了一些基础算法的知识点，并对力扣上的相关题目进行了整理
 
-系统性地学习算法会有事半功倍的效果，于是我分为一些基础算法的知识点进行讲解，并对力扣上的题目进行了整理
-
-同时，也可以访问[我的电子书《从零开始学算法》](https://muyids.github.io/simple-algorithm/)，获取更好的阅读体验
+访问[我的电子书《从零开始学算法》](https://muyids.github.io/simple-algorithm/)，获取更好的阅读体验
 
 ## ♨️ 基础算法
 
 * [《从零开始学算法》](https://muyids.github.io/simple-algorithm/)
-* [力扣题解](./Questions.md)
+* [力扣题解](./questions.md)
 * [二分](https://muyids.github.io/simple-algorithm/chapter/二分.html)
 * [排序算法及应用](https://muyids.github.io/simple-algorithm/chapter/sort/排序.html)
   * [快速排序](https://muyids.github.io/simple-algorithm/chapter/sort/快排.html)

@@ -35,4 +35,4 @@ let generateQuestionsTOC = function (dir_path) {
 
 generateQuestionsTOC('./algorithms')
 
-fs.writeFileSync('Questions.md', content)
+fs.writeFileSync('questions.md', content)
