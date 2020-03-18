@@ -41,6 +41,7 @@ collect some good articles about data structure and algorithm.
 * [字典树](https://muyids.github.io/simple-algorithm/chapter/字典树.html)
 * [贪心](https://muyids.github.io/simple-algorithm/chapter/greedy/贪心.html)
   * [区间问题](https://muyids.github.io/simple-algorithm/chapter/greedy/区间问题.html)
+  * [子集问题](https://muyids.github.io/simple-algorithm/chapter/greedy/子集问题.html)
 * [动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/动态规划.html)
   * [坐标型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/坐标型动态规划.html)
   * [序列型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/序列型动态规划.html)
@@ -67,8 +68,10 @@ collect some good articles about data structure and algorithm.
   * [最小生成树](https://muyids.github.io/simple-algorithm/chapter/graph/最小生成树.html)
     * [Prim算法](https://muyids.github.io/simple-algorithm/chapter/graph/Prim算法.html)
     * [Kruskal算法](https://muyids.github.io/simple-algorithm/chapter/graph/Kruskal算法.html)
-* [数论](https://muyids.github.io/simple-algorithm/chapter/math/数论.html)
-  * [抽屉原理](https://muyids.github.io/simple-algorithm/chapter/math/抽屉原理.html)
+* [数学](https://muyids.github.io/simple-algorithm/chapter/math/数学.html)
+  * [数论](https://muyids.github.io/simple-algorithm/chapter/math/数论.html)
+    * [抽屉原理](https://muyids.github.io/simple-algorithm/chapter/math/抽屉原理.html)
+  * [几何问题](https://muyids.github.io/simple-algorithm/chapter/math/几何问题.html)
 
 ## 进阶算法
 
