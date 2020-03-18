@@ -108,7 +108,7 @@ int main()
 
 所有递归问题都可以转化为递推求解
 
-> 比如题目[62.不同路径](../algorithms/1-100/62.%20不同路径.md)可以使用递归求路径总数，也可以用动态规划，根据状态转换方程，递推求解
+> 比如题目[LeetCode 62. Unique Paths (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/62.unique-paths.md)可以使用递归求路径总数，也可以用动态规划，根据状态转换方程，递推求解
 
 我的习惯是如果方便使用递推求解，可以直接递推，如果递归更容易理解，也可以递归
 
@@ -118,22 +118,29 @@ int main()
 
 八皇后问题是讲解**回溯**的经典案例
 
-参考[力扣51.N皇后](../algorithms/1-100/51.%20N皇后.md)
+参考
 
+- [LeetCode 51. N-Queens (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/51.n-queens.md)
 
 ## 题目分类
 
 ### 排列、组合、子集问题
 
-组合、排列、子集 问题 可以用DFS解决
+- 组合、排列、子集 问题 属于一类基础问题，有一些问题会抽象成求解组合、排列、子集
+- 这类问题数据量不会太大
+- 往往可以用DFS进行暴搜求解
 
 #### 排列问题
 
-求所有排列方案;
+题目特征: 请枚举所有排列
 
 - [LeetCode 46. Permutations (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/46.permutations.md)
 
 - [LeetCode 47. Permutations II (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/47.permutations-ii.md)
+
+##### 拓展
+
+- [LeetCode 996. Number of Squareful Arrays (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/996.number-of-squareful-arrays.md)
 
 #### 组合问题
 
@@ -141,12 +148,15 @@ int main()
 
 ##### 题目
 
+题目特征: 请枚举所有组合
+
 - [LeetCode 39. Combination Sum (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/39.combination-sum.md)
 
 - [LeetCode 40. Combination Sum II (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/40.combination-sum-ii.md)
 
-
 - [LeetCode 216. Combination Sum III (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/216.combination-sum-iii.md)
+
+##### 拓展
 
 - [LeetCode 93. Restore IP Addresses (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/93.restore-ip-addresses.md)
 
@@ -154,7 +164,7 @@ int main()
 
 #### 子集问题
 
-求所有子集
+题目特征: 请枚举所有子集
 
 - [LeetCode 78. Subsets (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/78.subsets.md)
 
