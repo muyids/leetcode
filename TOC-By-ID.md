@@ -132,6 +132,7 @@
 | [146](https://leetcode-cn.com/problems/lru-cache/) | [lru-cache](algorithms/101-200/146.lru-cache.md) | [160](https://leetcode-cn.com/problems/lru-cache/solution/) | 46.2% | 中等 | YES| ★★ |
 | [147](https://leetcode-cn.com/problems/insertion-sort-list/) | [insertion-sort-list](algorithms/101-200/147.insertion-sort-list.md) | [115](https://leetcode-cn.com/problems/insertion-sort-list/solution/) | 63.4% | 中等 | YES| ★★ |
 | [148](https://leetcode-cn.com/problems/sort-list/) | [sort-list](algorithms/101-200/148.sort-list.md) | [189](https://leetcode-cn.com/problems/sort-list/solution/) | 64.3% | 中等 | YES| ★★ |
+| [149](https://leetcode-cn.com/problems/max-points-on-a-line/) | [max-points-on-a-line](algorithms/101-200/149.max-points-on-a-line.md) | [69](https://leetcode-cn.com/problems/max-points-on-a-line/solution/) | 21.1% | 困难 | NO| ★★ |
 | [150](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [evaluate-reverse-polish-notation](algorithms/101-200/150.evaluate-reverse-polish-notation.md) | [135](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/solution/) | 49.3% | 中等 | YES| ★★ |
 | [151](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [reverse-words-in-a-string](algorithms/101-200/151.reverse-words-in-a-string.md) | [180](https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/) | 36.6% | 中等 | YES| ★★ |
 | [152](https://leetcode-cn.com/problems/maximum-product-subarray/) | [maximum-product-subarray](algorithms/101-200/152.maximum-product-subarray.md) | [171](https://leetcode-cn.com/problems/maximum-product-subarray/solution/) | 37.6% | 中等 | YES| ★★★ |
@@ -518,6 +519,7 @@
 | [1277](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/) | [count-square-submatrices-with-all-ones](algorithms/1201-1300/1277.count-square-submatrices-with-all-ones.md) | [45](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/solution/) | 66.3% | 中等 | YES| ★ |
 | [1278](https://leetcode-cn.com/problems/palindrome-partitioning-iii/) | [palindrome-partitioning-iii](algorithms/1201-1300/1278.palindrome-partitioning-iii.md) | [21](https://leetcode-cn.com/problems/palindrome-partitioning-iii/solution/) | 55.5% | 困难 | YES| ★ |
 | [1286](https://leetcode-cn.com/problems/iterator-for-combination/) | [iterator-for-combination](algorithms/1201-1300/1286.iterator-for-combination.md) | [18](https://leetcode-cn.com/problems/iterator-for-combination/solution/) | 57.4% | 中等 | NO| ★ |
+| [1293](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [shortest-path-in-a-grid-with-obstacles-elimination](algorithms/1201-1300/1293.shortest-path-in-a-grid-with-obstacles-elimination.md) | [39](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/solution/) | 35.3% | 困难 | NO| ★ |
 
 
 | 第1301-1400题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
