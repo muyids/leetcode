@@ -15,6 +15,7 @@ for (let p of questions.stat_status_pairs) {
     mp[p.stat.frontend_question_id] = p
 }
 
+
 function getTitleByNum(num) {
     let scope = (parseInt((num - 1) / 100) * 100 + 1) + '-' + (100 * (parseInt((num - 1) / 100) + 1))
     let githubRouter = `https://github.com/muyids/leetcode/blob/master/algorithms/${scope}/${num}.${mp[num].stat.question__title_slug}.md`
@@ -23,8 +24,6 @@ function getTitleByNum(num) {
     console.log(newLine)
     return newLine
 }
-
-
 
 /**
  * 按行读写，中间包涵对读取的行内容的处理
