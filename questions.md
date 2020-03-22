@@ -409,6 +409,7 @@
   * [934.shortest-bridge](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/934.shortest-bridge.md)
   * [938.range-sum-of-bst](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/938.range-sum-of-bst.md)
   * [941.valid-mountain-array](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/941.valid-mountain-array.md)
+  * [945.minimum-increment-to-make-array-unique](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/945.minimum-increment-to-make-array-unique.md)
   * [946.validate-stack-sequences](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/946.validate-stack-sequences.md)
   * [951.flip-equivalent-binary-trees](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/951.flip-equivalent-binary-trees.md)
   * [958.check-completeness-of-a-binary-tree](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/958.check-completeness-of-a-binary-tree.md)
