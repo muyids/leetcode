@@ -347,6 +347,7 @@
   * [695.max-area-of-island](https://github.com/muyids/leetcode/blob/master/algorithms/601-700/695.max-area-of-island.md)
   * [698.partition-to-k-equal-sum-subsets](https://github.com/muyids/leetcode/blob/master/algorithms/601-700/698.partition-to-k-equal-sum-subsets.md)
 * [701-800](./Questions.md)
+  * [704.binary-search](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/704.binary-search.md)
   * [714.best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md)
   * [725.split-linked-list-in-parts](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/725.split-linked-list-in-parts.md)
   * [726.number-of-atoms](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/726.number-of-atoms.md)
