@@ -271,7 +271,7 @@
 | [349](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [intersection-of-two-arrays](algorithms/301-400/349.intersection-of-two-arrays.md) | [223](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/) | 68.5% | 简单 | YES| ★★ |
 | [350](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [intersection-of-two-arrays-ii](algorithms/301-400/350.intersection-of-two-arrays-ii.md) | [237](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/) | 47.3% | 简单 | YES| ★★★ |
 | [351](https://leetcode-cn.com/problems/android-unlock-patterns/) | [android-unlock-patterns](algorithms/301-400/351.android-unlock-patterns.md) | [29](https://leetcode-cn.com/problems/android-unlock-patterns/solution/) | 58.6% | 中等 | YES| ★ |
-| [354](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [russian-doll-envelopes](algorithms/301-400/354.russian-doll-envelopes.md) | [40](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/) | 34.5% | 困难 | YES| ★ |
+| [354](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [russian-doll-envelopes](algorithms/301-400/354.russian-doll-envelopes.md) | [40](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/) | 34.4% | 困难 | YES| ★ |
 | [357](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) | [count-numbers-with-unique-digits](algorithms/301-400/357.count-numbers-with-unique-digits.md) | [53](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/solution/) | 50.6% | 中等 | YES| ★ |
 | [358](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/) | [rearrange-string-k-distance-apart](algorithms/301-400/358.rearrange-string-k-distance-apart.md) | [8](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/solution/) | 33.9% | 困难 | YES| ★ |
 | [365](https://leetcode-cn.com/problems/water-and-jug-problem/) | [water-and-jug-problem](algorithms/301-400/365.water-and-jug-problem.md) | [375](https://leetcode-cn.com/problems/water-and-jug-problem/solution/) | 35.1% | 中等 | YES| ★★ |
@@ -322,6 +322,7 @@
 | [455](https://leetcode-cn.com/problems/assign-cookies/) | [assign-cookies](algorithms/401-500/455.assign-cookies.md) | [144](https://leetcode-cn.com/problems/assign-cookies/solution/) | 53.5% | 简单 | YES| ★★ |
 | [460](https://leetcode-cn.com/problems/lfu-cache/) | [lfu-cache](algorithms/401-500/460.lfu-cache.md) | [28](https://leetcode-cn.com/problems/lfu-cache/solution/) | 34.4% | 困难 | NO| ★ |
 | [469](https://leetcode-cn.com/problems/convex-polygon/) | [convex-polygon](algorithms/401-500/469.convex-polygon.md) | [12](https://leetcode-cn.com/problems/convex-polygon/solution/) | 44.9% | 中等 | NO| ★ |
+| [473](https://leetcode-cn.com/problems/matchsticks-to-square/) | [matchsticks-to-square](algorithms/401-500/473.matchsticks-to-square.md) | [38](https://leetcode-cn.com/problems/matchsticks-to-square/solution/) | 37.0% | 中等 | YES| ★ |
 | [474](https://leetcode-cn.com/problems/ones-and-zeroes/) | [ones-and-zeroes](algorithms/401-500/474.ones-and-zeroes.md) | [34](https://leetcode-cn.com/problems/ones-and-zeroes/solution/) | 51.2% | 中等 | YES| ★ |
 | [480](https://leetcode-cn.com/problems/sliding-window-median/) | [sliding-window-median](algorithms/401-500/480.sliding-window-median.md) | [29](https://leetcode-cn.com/problems/sliding-window-median/solution/) | 33.7% | 困难 | NO| ★ |
 | [486](https://leetcode-cn.com/problems/predict-the-winner/) | [predict-the-winner](algorithms/401-500/486.predict-the-winner.md) | [42](https://leetcode-cn.com/problems/predict-the-winner/solution/) | 50.7% | 中等 | YES| ★ |
@@ -430,7 +431,7 @@
 | [886](https://leetcode-cn.com/problems/possible-bipartition/) | [possible-bipartition](algorithms/801-900/886.possible-bipartition.md) | [14](https://leetcode-cn.com/problems/possible-bipartition/solution/) | 35.5% | 中等 | YES| ★ |
 | [889](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [construct-binary-tree-from-preorder-and-postorder-traversal](algorithms/801-900/889.construct-binary-tree-from-preorder-and-postorder-traversal.md) | [22](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/solution/) | 63.0% | 中等 | YES| ★ |
 | [892](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/) | [surface-area-of-3d-shapes](algorithms/801-900/892.surface-area-of-3d-shapes.md) | [64](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/solution/) | 56.1% | 简单 | YES| ★ |
-| [895](https://leetcode-cn.com/problems/maximum-frequency-stack/) | [maximum-frequency-stack](algorithms/801-900/895.maximum-frequency-stack.md) | [11](https://leetcode-cn.com/problems/maximum-frequency-stack/solution/) | 45.7% | 困难 | YES| ★ |
+| [895](https://leetcode-cn.com/problems/maximum-frequency-stack/) | [maximum-frequency-stack](algorithms/801-900/895.maximum-frequency-stack.md) | [11](https://leetcode-cn.com/problems/maximum-frequency-stack/solution/) | 45.8% | 困难 | YES| ★ |
 
 
 | 第901-1000题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
@@ -471,7 +472,7 @@
 | [1008](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [construct-binary-search-tree-from-preorder-traversal](algorithms/1001-1100/1008.construct-binary-search-tree-from-preorder-traversal.md) | [50](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/solution/) | 71.7% | 中等 | YES| ★ |
 | [1009](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | [complement-of-base-10-integer](algorithms/1001-1100/1009.complement-of-base-10-integer.md) | [59](https://leetcode-cn.com/problems/complement-of-base-10-integer/solution/) | 59.3% | 简单 | YES| ★ |
 | [1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) | [partition-array-into-three-parts-with-equal-sum](algorithms/1001-1100/1013.partition-array-into-three-parts-with-equal-sum.md) | [705](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/solution/) | 40.9% | 简单 | YES| ★★ |
-| [1014](https://leetcode-cn.com/problems/best-sightseeing-pair/) | [best-sightseeing-pair](algorithms/1001-1100/1014.best-sightseeing-pair.md) | [24](https://leetcode-cn.com/problems/best-sightseeing-pair/solution/) | 47.4% | 中等 | NO| ★ |
+| [1014](https://leetcode-cn.com/problems/best-sightseeing-pair/) | [best-sightseeing-pair](algorithms/1001-1100/1014.best-sightseeing-pair.md) | [24](https://leetcode-cn.com/problems/best-sightseeing-pair/solution/) | 47.5% | 中等 | NO| ★ |
 | [1019](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) | [next-greater-node-in-linked-list](algorithms/1001-1100/1019.next-greater-node-in-linked-list.md) | [52](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/solution/) | 52.4% | 中等 | YES| ★ |
 | [1024](https://leetcode-cn.com/problems/video-stitching/) | [video-stitching](algorithms/1001-1100/1024.video-stitching.md) | [29](https://leetcode-cn.com/problems/video-stitching/solution/) | 46.0% | 中等 | YES| ★ |
 | [1026](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/) | [maximum-difference-between-node-and-ancestor](algorithms/1001-1100/1026.maximum-difference-between-node-and-ancestor.md) | [33](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/solution/) | 58.0% | 中等 | YES| ★ |
@@ -481,7 +482,7 @@
 | [1079](https://leetcode-cn.com/problems/letter-tile-possibilities/) | [letter-tile-possibilities](algorithms/1001-1100/1079.letter-tile-possibilities.md) | [43](https://leetcode-cn.com/problems/letter-tile-possibilities/solution/) | 72.6% | 中等 | YES| ★ |
 | [1081](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/) | [smallest-subsequence-of-distinct-characters](algorithms/1001-1100/1081.smallest-subsequence-of-distinct-characters.md) | [23](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/solution/) | 44.8% | 中等 | YES| ★ |
 | [1093](https://leetcode-cn.com/problems/statistics-from-a-large-sample/) | [statistics-from-a-large-sample](algorithms/1001-1100/1093.statistics-from-a-large-sample.md) | [18](https://leetcode-cn.com/problems/statistics-from-a-large-sample/solution/) | 40.1% | 中等 | YES| ★ |
-| [1094](https://leetcode-cn.com/problems/car-pooling/) | [car-pooling](algorithms/1001-1100/1094.car-pooling.md) | [71](https://leetcode-cn.com/problems/car-pooling/solution/) | 53.6% | 中等 | YES| ★ |
+| [1094](https://leetcode-cn.com/problems/car-pooling/) | [car-pooling](algorithms/1001-1100/1094.car-pooling.md) | [71](https://leetcode-cn.com/problems/car-pooling/solution/) | 53.7% | 中等 | YES| ★ |
 
 
 | 第1101-1200题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
@@ -537,7 +538,7 @@
 | [1334](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](algorithms/1301-1400/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) | [35](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/) | 45.1% | 中等 | NO| ★ |
 | [1368](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | [minimum-cost-to-make-at-least-one-valid-path-in-a-grid](algorithms/1301-1400/1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md) | [57](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution/) | 47.2% | 困难 | YES| ★ |
 | [1377](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) | [frog-position-after-t-seconds](algorithms/1301-1400/1377.frog-position-after-t-seconds.md) | [75](https://leetcode-cn.com/problems/frog-position-after-t-seconds/solution/) | 28.2% | 困难 | YES| ★ |
-| [1383](https://leetcode-cn.com/problems/maximum-performance-of-a-team/) | [maximum-performance-of-a-team](algorithms/1301-1400/1383.maximum-performance-of-a-team.md) | [55](https://leetcode-cn.com/problems/maximum-performance-of-a-team/solution/) | 26.9% | 困难 | YES| ★ |
+| [1383](https://leetcode-cn.com/problems/maximum-performance-of-a-team/) | [maximum-performance-of-a-team](algorithms/1301-1400/1383.maximum-performance-of-a-team.md) | [55](https://leetcode-cn.com/problems/maximum-performance-of-a-team/solution/) | 27.0% | 困难 | YES| ★ |
 
 
 | 第1401-1500题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
