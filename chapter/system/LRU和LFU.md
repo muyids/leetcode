@@ -16,5 +16,4 @@ LRU 和 LFU 是一类系统设计题目
 
 - [LeetCode 460. LFU Cache (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/401-500/460.lfu-cache.md)
 
-
 - [LeetCode 895. Maximum Frequency Stack (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/895.maximum-frequency-stack.md)
