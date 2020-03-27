@@ -75,6 +75,7 @@ collect some good articles about data structure and algorithm.
 * [数学](https://muyids.github.io/simple-algorithm/chapter/math/数学.html)
   * [数论](https://muyids.github.io/simple-algorithm/chapter/math/数论.html)
     * [抽屉原理](https://muyids.github.io/simple-algorithm/chapter/math/抽屉原理.html)
+    * [约瑟夫环](https://muyids.github.io/simple-algorithm/chapter/math/约瑟夫环.md)
   * [几何问题](https://muyids.github.io/simple-algorithm/chapter/math/几何问题.html)
 
 ## 进阶算法
@@ -106,10 +107,9 @@ npm run card
 
 ## 🙉 说明
 
-* 本项目题目来源：[力扣（LeetCode）](https://leetcode-cn.com)
-* 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+* 本项目大部分题目来源：[力扣（LeetCode）](https://leetcode-cn.com)，少部分来源[acwing](https://www.acwing.com/)
+* 题目著作权归[力扣（LeetCode）](https://leetcode-cn.com) 和[acwing](https://www.acwing.com/)所有。商业转载请联系官方授权，非商业转载请注明出处。
 * 题解语言不限，专注于算法实现
-* 自动更新个人解题列表
 * 欢迎大家交流指正
 
 ## 🌲目录
@@ -133,7 +133,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[776](./TOC-By-ID.md)🔑/ [1581](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[778](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
