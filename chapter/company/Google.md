@@ -1,17 +1,16 @@
-## How Far Can We Reach Use Ropes And Bricks
+
+## How Far Can We Reach Use Ropes And Bricks (Google Onsite)
 
 From: Google Onsite
 
 ![题目链接](https://muyids.oss-cn-beijing.aliyuncs.com/Google|Onsite|how-far-can-we-reach-use-ropes-and-bricks.png)
 
+- https://leetcode.com/discuss/interview-question/528584/Google-or-Onsite-or-How-Far-Can-We-Reach-using-Rope-and-Bricks
 
 
-
-https://leetcode.com/discuss/interview-question/528584/Google-or-Onsite-or-How-Far-Can-We-Reach-using-Rope-and-Bricks
-
+贪心思路
 
 ```cpp
-
 class Solution {
 
 public:

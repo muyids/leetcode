@@ -76,6 +76,7 @@ collect some good articles about data structure and algorithm.
   * [数论](https://muyids.github.io/simple-algorithm/chapter/math/数论.html)
     * [抽屉原理](https://muyids.github.io/simple-algorithm/chapter/math/抽屉原理.html)
     * [约瑟夫环](https://muyids.github.io/simple-algorithm/chapter/math/约瑟夫环.md)
+    * [卡特兰数](https://muyids.github.io/simple-algorithm/chapter/math/卡特兰数.md)
   * [几何问题](https://muyids.github.io/simple-algorithm/chapter/math/几何问题.html)
 
 ## 进阶算法
@@ -133,7 +134,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[778](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[779](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
