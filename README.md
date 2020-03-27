@@ -111,7 +111,6 @@ npm run card
 * 本项目大部分题目来源：[力扣（LeetCode）](https://leetcode-cn.com)，少部分来源[acwing](https://www.acwing.com/)
 * 题目著作权归[力扣（LeetCode）](https://leetcode-cn.com) 和[acwing](https://www.acwing.com/)所有。商业转载请联系官方授权，非商业转载请注明出处。
 * 题解语言不限，专注于算法实现
-* 欢迎大家交流指正
 
 ## 🌲目录
 
@@ -134,7 +133,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[779](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[781](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 

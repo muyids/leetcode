@@ -508,5 +508,6 @@
   * [1349.maximum-students-taking-exam](https://github.com/muyids/leetcode/blob/master/algorithms/1301-1400/1349.maximum-students-taking-exam.md)
   * [1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/muyids/leetcode/blob/master/algorithms/1301-1400/1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
   * [1377.frog-position-after-t-seconds](https://github.com/muyids/leetcode/blob/master/algorithms/1301-1400/1377.frog-position-after-t-seconds.md)
+  * [1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/muyids/leetcode/blob/master/algorithms/1301-1400/1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md)
   * [1383.maximum-performance-of-a-team](https://github.com/muyids/leetcode/blob/master/algorithms/1301-1400/1383.maximum-performance-of-a-team.md)
 * [1401-1500](./Questions.md)
