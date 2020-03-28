@@ -1,10 +1,14 @@
 # 📓 LeetCode笔记
 
+本笔记适用于目标在于掌握基础算法的工程师
+
 ```bash
 There are problems in leetcode, most of code are C++ and Javascript, and I will keep
 updating every day, just for learning how to improve coding skill. And I will also
 collect some good articles about data structure and algorithm.
 ```
+
+## 简介
 
 作为算法初学者的我从19年8月份开始在力扣学习算法，到现在AC了700多道题目。
 
@@ -133,7 +137,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[781](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[782](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 

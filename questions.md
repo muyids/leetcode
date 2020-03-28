@@ -389,6 +389,7 @@
   * [803.bricks-falling-when-hit](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/803.bricks-falling-when-hit.md)
   * [807.max-increase-to-keep-city-skyline](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/807.max-increase-to-keep-city-skyline.md)
   * [814.binary-tree-pruning](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/814.binary-tree-pruning.md)
+  * [820.short-encoding-of-words](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/820.short-encoding-of-words.md)
   * [829.consecutive-numbers-sum](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/829.consecutive-numbers-sum.md)
   * [832.flipping-an-image](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/832.flipping-an-image.md)
   * [835.image-overlap](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/835.image-overlap.md)
