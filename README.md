@@ -78,9 +78,11 @@ collect some good articles about data structure and algorithm.
     * [Kruskal算法](https://muyids.github.io/simple-algorithm/chapter/graph/Kruskal算法.html)
 * [数学](https://muyids.github.io/simple-algorithm/chapter/math/数学.html)
   * [数论](https://muyids.github.io/simple-algorithm/chapter/math/数论.html)
-    * [抽屉原理](https://muyids.github.io/simple-algorithm/chapter/math/抽屉原理.html)
-    * [约瑟夫环](https://muyids.github.io/simple-algorithm/chapter/math/约瑟夫环.md)
-    * [卡特兰数](https://muyids.github.io/simple-algorithm/chapter/math/卡特兰数.md)
+    * [容斥原理](./chapter/math/容斥原理.md)
+    * [抽屉原理](./chapter/math/抽屉原理.md)
+    * [约瑟夫环](./chapter/math/约瑟夫环.md)
+    * [卡特兰数](./chapter/math/卡特兰数.md)
+    * [概率论--三门问题](./chapter/math/三门问题.md)
   * [几何问题](https://muyids.github.io/simple-algorithm/chapter/math/几何问题.html)
 
 ## 进阶算法
@@ -137,7 +139,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[782](./TOC-By-ID.md)🔑/ [1582](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[787](./TOC-By-ID.md)🔑/ [1586](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
