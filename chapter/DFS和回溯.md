@@ -66,9 +66,9 @@ for all router { // 遍历所有路径
 
 分三步：
 
-1. 把上面的n-1，从A->B;
-2. 把最下面的盘子，从A->C;
-3. 把B上的n-1，从B->A;
+1. 把上面的n-1，从`A->B`;
+2. 把最下面的盘子，从`A->C`;
+3. 把B上的n-1，从`B->A`;
 
 递归求解
 
@@ -79,6 +79,8 @@ function Hanoi(n){
     return 2*Hanoi(n-1) + 1 // 可以通过递推公式得到
 }
 ```
+
+- [面试题 08.06. 汉诺塔问题](https://github.com/muyids/leetcode/blob/master/lcci/hanota-lcci.md)
 
 拓展：
 

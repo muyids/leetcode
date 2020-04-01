@@ -143,7 +143,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[794](./TOC-By-ID.md)🔑/ [1586](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[795](./TOC-By-ID.md)🔑/ [1586](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
