@@ -55,16 +55,17 @@ collect some good articles about data structure and algorithm.
   * [区间问题](https://muyids.github.io/simple-algorithm/chapter/greedy/区间问题.html)
   * [子集问题](https://muyids.github.io/simple-algorithm/chapter/greedy/子集问题.html)
 * [动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/动态规划.html)
-  * [坐标型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/坐标型动态规划.html)
-  * [序列型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/序列型动态规划.html)
-  * [划分型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/划分型动态规划.html)
-  * [区间型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/区间型动态规划.html)
-  * [背包型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/背包型动态规划.html)
-  * [双序列型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/双序列型动态规划.html)
-  * [博弈型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/博弈型动态规划.html)
-  * [位操作型动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/位操作型动态规划.html)
-  * [数位dp](https://muyids.github.io/simple-algorithm/chapter/dp/数位dp.html)
-  * [状态压缩dp](https://muyids.github.io/simple-algorithm/chapter/dp/状态压缩dp.html)
+  * [线性dp](https://muyids.github.io/simple-algorithm/chapter/dp/线性dp.md)
+  * [区间dp](https://muyids.github.io/simple-algorithm/chapter/dp/区间dp.md)
+  * [背包dp](https://muyids.github.io/simple-algorithm/chapter/dp/背包dp.md)
+  * [树形dp](https://muyids.github.io/simple-algorithm/chapter/dp/树形dp.md)
+  * [状态压缩dp](https://muyids.github.io/simple-algorithm/chapter/dp/状态压缩dp.md)
+  * [数位dp](https://muyids.github.io/simple-algorithm/chapter/dp/数位dp.md)
+  * [计数型dp](https://muyids.github.io/simple-algorithm/chapter/dp/计数型dp.md)
+  * [递推型dp](https://muyids.github.io/simple-algorithm/chapter/dp/递推型dp.md)
+  * [概率型dp](https://muyids.github.io/simple-algorithm/chapter/dp/概率型dp.md)
+  * [博弈型dp](https://muyids.github.io/simple-algorithm/chapter/dp/博弈型dp.md)
+  * [记忆化搜索](https://muyids.github.io/simple-algorithm/chapter/dp/记忆化搜索.md)
 * [并查集](https://muyids.github.io/simple-algorithm/chapter/并查集.html)
 * [位运算](https://muyids.github.io/simple-algorithm/chapter/位运算.html)
 * [图论](https://muyids.github.io/simple-algorithm/chapter/graph/图论.html)
@@ -143,7 +144,7 @@ npm run card
 
 ## 🔐Problems & Solutions
 
-完成进度（[798](./TOC-By-ID.md)🔑/ [1587](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[813](./TOC-By-ID.md)🔑/ [1595](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 

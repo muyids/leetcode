@@ -1,6 +1,6 @@
-# 状态压缩DP
+# 状态压缩dp
 
-状态压缩DP，用整数来描述一个集合从而达到节省时间空间，让代码更加的好写
+状态压缩dp，用整数来描述一个集合从而达到节省时间空间，让代码更加的好写
 
 整数的**二进制**表示状态，通过位运算进行状态转换
 
@@ -128,6 +128,12 @@ NPC问题（NP-complete）：存在归约关系的NP问题，可以用归约的�
 - [AcWing91.最短Hamilton路径（最短哈密顿距离）](https://www.acwing.com/problem/content/93/)
 
 - [AcWing327.玉米田](https://www.acwing.com/problem/content/description/329/)
+
+- [LeetCode 464. Can I Win (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/401-500/464.can-i-win.md)
+
+- [LeetCode 526. Beautiful Arrangement (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/501-600/526.beautiful-arrangement.md)
+
+- [LeetCode 935. Knight Dialer (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/901-1000/935.knight-dialer.md)
 
 - [LeetCode 1125. Smallest Sufficient Team (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/1101-1200/1125.smallest-sufficient-team.md)
 
