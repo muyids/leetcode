@@ -15,7 +15,6 @@ for (let p of questions.stat_status_pairs) {
     mp[p.stat.frontend_question_id] = p
 }
 
-
 function getTitleByNum(num) {
     let scope = (parseInt((num - 1) / 100) * 100 + 1) + '-' + (100 * (parseInt((num - 1) / 100) + 1))
     let githubRouter = `https://github.com/muyids/leetcode/blob/master/algorithms/${scope}/${num}.${mp[num].stat.question__title_slug}.md`
@@ -27,9 +26,9 @@ function getTitleByNum(num) {
 
 /**
  * 按行读写，中间包涵对读取的行内容的处理
- * @param {string} readName 
- * @param {string} writeName 
- * @param {Function} callback 
+ * @param {string} readName
+ * @param {string} writeName
+ * @param {Function} callback
  */
 let readWriteFileByLineWithProcess = function (readName, writeName) {
     return new Promise(function (resolve, reject) {
@@ -80,52 +79,6 @@ let getSolveTitle = function (line) {
     return getTitleByNum(num)
 }
 
-async function delFile(dir_path) {
-    let rows = fs.readdirSync(dir_path, {
-        withFileTypes: true
-    })
-    for (let row of rows) {
-        if (!row.isDirectory()) {
-            if (row.name.indexOf('.copy') == -1) {
-                fs.unlinkSync(path.join(dir_path, row.name))
-            }
-            continue
-        }
-        await delFile(path.join(dir_path, row.name))
-    }
-}
-
-async function cleanFiles(dir_path) {
-    let rows = fs.readdirSync(dir_path, {
-        withFileTypes: true
-    })
-    for (let row of rows) {
-        if (!row.isDirectory()) {
-            if (row.name.indexOf('.copy') > -1) {
-                fs.unlinkSync(path.join(dir_path, row.name))
-            }
-            continue
-        }
-        await cleanFiles(path.join(dir_path, row.name))
-    }
-}
-
-async function mvFile(dir_path) {
-    let rows = fs.readdirSync(dir_path, {
-        withFileTypes: true
-    })
-    for (let row of rows) {
-        if (!row.isDirectory()) {
-            if (row.name.indexOf('.copy') > -1) {
-                console.log(path.join(dir_path, row.name.substr(0, row.name.length - 5)))
-                fs.renameSync(path.join(dir_path, row.name), path.join(dir_path, row.name.substr(0, row.name.length - 5)))
-            }
-            continue
-        }
-        await mvFile(path.join(dir_path, row.name))
-    }
-}
-
 // 解决每一行中力扣题解引用
 async function syncSolve(dir_path) {
     let rows = fs.readdirSync(dir_path, {
@@ -141,43 +94,4 @@ async function syncSolve(dir_path) {
     }
 }
 
-async function main() {
-    try {
-        // 删除.copy文件
-        // await cleanFiles('./chapter')
-        // 更新algorithms目录
-        // await syncTitle('./algorithms')
-        // 更新chapter中【力扣题解引用】
-        // await syncSolve('./chapter')
-
-        // await delFile('./chapter')
-
-        // await mvFile('./chapter')
-    } catch (e) {
-        console.log(e)
-    }
-}
-
 getTitleByNum(process.argv[3])
-
-//  {
-//      "stat": {
-//          "question_id": 1000044,
-//          "question__title": "Missing Two LCCI",
-//          "question__title_slug": "missing-two-lcci",
-//          "question__hide": false,
-//          "total_acs": 336,
-//          "total_submitted": 572,
-//          "total_column_articles": 16,
-//          "frontend_question_id": "面试题 17.19",
-//          "is_new_question": false
-//      },
-//      "status": null,
-//      "difficulty": {
-//          "level": 3
-//      },
-//      "paid_only": false,
-//      "is_favor": false,
-//      "frequency": 0,
-//      "progress": 0
-//  },

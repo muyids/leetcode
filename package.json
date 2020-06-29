@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "leetcode解题进行中",
   "main": "workspace/main.js",
+  "engines": {
+    "node": "8.17.0"
+  },
   "scripts": {
     "dot": " dot -Tpng workspace/main.dot -o workspace/main.png",
-    "genTOC": "node ./script/genTOC.js",
+    "genTOC": "node script/genTOC.js",
+    "syncTitle": "node script/syncTitle.js",
+    "allQuestions": "node script/syncQuestions",
     "cppRun": "./workspace/main.out",
     "cppCompile": "g++ -std=c++11 workspace/main.cpp -o workspace/main.out",
     "cppBoot": "npm run cppCompile && echo '--- cpp output ---\n' && npm run cppRun && echo '\n--- cpp end ---'",
@@ -21,9 +26,7 @@
     "go": "npm run goWatch",
     "card": "python script/randQuestion.py",
     "title": "node script/syncSolve.js -v $1 ",
-    "syncTitle": "node script/syncTitle.js",
-    "allQuestions": "node script/syncQuestions",
-    "publish": "npm run syncTitle && npm run genTOC && npm run allQuestions && git add . && git commit && git push && npm run publishBook",
+    "publish": " npm run genTOC && npm run syncTitle && npm run allQuestions && git add . && git commit && git push && npm run publishBook",
     "publishBook": "cd /Users/dw/go/src/github.com/muyids/simple-algorithm && npm run publish",
     "clang": "clang-format -style=\"llvm\" -dump-config > .clang-format"
   },

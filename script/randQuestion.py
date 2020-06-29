@@ -6,7 +6,6 @@ import requests
 import hashlib
 import json
 
-
 def getData():
     url = "http://api.k780.com/?app=finance.rate&scur=USD&tcur=CNY&appkey=49208&sign=2f5dd3710fdcfb0c255635c2f5bdb315"
     r = requests.get(url)

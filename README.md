@@ -142,14 +142,14 @@ npm run card
 &nbsp;
 
 
-## 🔐Problems & Solutions
+## 🔐 Problems & Solutions
 
-完成进度（[813](./TOC-By-ID.md)🔑/ [1595](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[833](./TOC-By-ID.md)🔑/ [1699](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
-- 🔗[标签查找](./TOC-By-Tag.md)
+- 🔗 [标签查找](./TOC-By-Tag.md)
 
-- 🔗[题号查找](./TOC-By-ID.md)
+- 🔗 [题号查找](./TOC-By-ID.md)
 
 
