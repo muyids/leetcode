@@ -71,9 +71,10 @@ async function dirExists(dir) {
 
 // 同步问题集
 function syncProblemsStat() {
-    return new Promise(function (resolve, reject) {
-        chrome.getCookies('https://leetcode-cn.com/problemset/all/', '', function (err, cookies) {
-            let pairs = []
+    return new Promise(function(resolve, reject) {
+        chrome.getCookies('https://leetcode-cn.com/problemset/all/', '', function(err, cookies) {
+          console.log(err)
+          let pairs = []
             for (let [k, v] of Object.entries(cookies)) {
                 pairs.push(k + '=' + v)
             }
@@ -157,7 +158,7 @@ function genTocIndex() {
 function genTocById() {
     let files = fs.readdirSync("./algorithms")
     let tocById = "## 🔗LeetCode题号(LeetCode Pids)\n\n"
-    // 获取题目信息
+        // 获取题目信息
     let problems = fs.readFileSync(PROBLEMS_FILE)
     problems = JSON.parse(problems.toString())
     let pairs = problems.stat_status_pairs
@@ -172,7 +173,7 @@ function genTocById() {
         if (nums.indexOf('-') == -1) continue;
         let subToc = `| 第${nums}题 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
         let problems = fs.readdirSync("./algorithms/" + nums)
-        problems.sort(function (a, b) {
+        problems.sort(function(a, b) {
             a = a.split('.').map(v => v.trim())
             b = b.split('.').map(v => v.trim())
             return +a[0] - b[0]
@@ -228,7 +229,7 @@ function save(TOC) {
     fs.writeFileSync("./README.md", data)
 }
 
-(async function () {
+(async function() {
     if (os.platform() == 'win32') {
         return
     }
@@ -242,7 +243,7 @@ function save(TOC) {
     let data = fs.readFileSync("./README.md");
     data = data.toString()
     data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
-    // data += genHotByTag()
+        // data += genHotByTag()
     fs.writeFileSync("./README.md", data)
 
 })()

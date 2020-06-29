@@ -97,26 +97,6 @@ collect some good articles about data structure and algorithm.
 * [线段树](https://muyids.github.io/simple-algorithm/chapter/线段树.html)
 * [ST表](https://muyids.github.io/simple-algorithm/chapter/ST表.html)
 
-## 每日打卡
-
-获取今日打卡题目
-
-```shell
-npm run card
-```
-
-输出
-
-```cpp
-在岸人民币汇率 2020-03-10 23:29:56 收盘价: 6.957
-根据汇率计算得今日打卡题目
-第 1 题： 500
-第 2 题： 964
-第 3 题： 1222
-```
-
-根据上一天在岸人民币汇率收盘价作为随机数种子，随机三道题目
-
 ## 🙉 说明
 
 * 本项目大部分题目来源：[力扣（LeetCode）](https://leetcode-cn.com)，少部分来源[acwing](https://www.acwing.com/)
@@ -140,6 +120,10 @@ npm run card
 ```
 
 &nbsp;
+
+
+## Deploy
+
 
 
 ## 🔐Problems & Solutions

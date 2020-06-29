@@ -44,7 +44,6 @@ f(i) 表示凑出i元所有的最少硬币数（凑出i元的方案数）
 
 ### 最长序列
 
-
 - [LeetCode 300. Longest Increasing Subsequence (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/300.longest-increasing-subsequence.md)
 
 - [LeetCode 1143. Longest Common Subsequence (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/1101-1200/1143.longest-common-subsequence.md)
@@ -72,7 +71,7 @@ f(i) 表示凑出i元所有的最少硬币数（凑出i元的方案数）
 
 - [LeetCode 265. Paint House II (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/201-300/265.paint-house-ii.md)
 
-## 打家劫舍系列
+### 打家劫舍系列
 
 - [LeetCode 198. House Robber (easy)](https://github.com/muyids/leetcode/blob/master/algorithms/101-200/198.house-robber.md)
 
@@ -80,7 +79,7 @@ f(i) 表示凑出i元所有的最少硬币数（凑出i元的方案数）
 
 打家劫舍3 是树形DP
 
-## 股票系列
+### 股票系列
 
 - [LeetCode 121. Best Time to Buy and Sell Stock (easy)](https://github.com/muyids/leetcode/blob/master/algorithms/101-200/121.best-time-to-buy-and-sell-stock.md)
  
@@ -94,7 +93,7 @@ f(i) 表示凑出i元所有的最少硬币数（凑出i元的方案数）
 
 - [LeetCode 714. Best Time to Buy and Sell Stock with Transaction Fee (medium)](https://github.com/muyids/leetcode/blob/master/algorithms/701-800/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md)
 
-## 字符串匹配系列
+### 字符串匹配系列
 
 - [LeetCode 10. Regular Expression Matching (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/1-100/10.regular-expression-matching.md)
 
