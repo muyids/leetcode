@@ -22,80 +22,11 @@ collect some good articles about data structure and algorithm.
 
 读者可以根据自己的需要阅读，希望能够对您有所帮助，有何不足之处请多指正！
 
-访问[我的电子书《从零开始学算法》](https://muyids.github.io/simple-algorithm/)，获取更好的阅读体验
+访问[我的电子书《从零开始学算法》](http://alg.muyids.com/)，获取更好的阅读体验
 
-## ♨️ 基础算法
+## ♨️ 导图
 
-* [《从零开始学算法》](https://muyids.github.io/simple-algorithm/)
-* [力扣题解](./questions.md)
-* [二分](https://muyids.github.io/simple-algorithm/chapter/二分.html)
-* [排序算法及应用](https://muyids.github.io/simple-algorithm/chapter/sort/排序.html)
-  * [冒泡排序](https://muyids.github.io/simple-algorithm/chapter/sort/冒泡.html)
-  * [快速排序](https://muyids.github.io/simple-algorithm/chapter/sort/快排.html)
-  * [归并排序](https://muyids.github.io/simple-algorithm/chapter/sort/归并.html)
-  * [桶排序](https://muyids.github.io/simple-algorithm/chapter/sort/桶排序.html)
-* [字符串处理](https://muyids.github.io/simple-algorithm/chapter/字符串处理.html)
-* [DFS和回溯](https://muyids.github.io/simple-algorithm/chapter/DFS和回溯.html)
-* [单调栈](https://muyids.github.io/simple-algorithm/chapter/单调栈.html)
-* [双指针](https://muyids.github.io/simple-algorithm/chapter/双指针.html)
-* [滑动窗口](https://muyids.github.io/simple-algorithm/chapter/滑动窗口.html)
-* [前缀和](https://muyids.github.io/simple-algorithm/chapter/前缀和.html)
-* [差分数组](https://muyids.github.io/simple-algorithm/chapter/差分数组.html)
-* [链表](https://muyids.github.io/simple-algorithm/chapter/链表.html)
-* [二叉树](https://muyids.github.io/simple-algorithm/chapter/binary-tree/二叉树.html)
-  * [二叉树的遍历](https://muyids.github.io/simple-algorithm/chapter/binary-tree/二叉树的遍历.html)
-  * [深度优先--前序遍历](https://muyids.github.io/simple-algorithm/chapter/binary-tree/深度优先--前序遍历.html)
-  * [深度优先--中序遍历](https://muyids.github.io/simple-algorithm/chapter/binary-tree/深度优先--中序遍历.html)
-  * [深度优先--后序遍历](https://muyids.github.io/simple-algorithm/chapter/binary-tree/深度优先--后序遍历.html)
-  * [广度优先遍历](https://muyids.github.io/simple-algorithm/chapter/binary-tree/广度优先遍历.html)
-  * [二叉搜索树](https://muyids.github.io/simple-algorithm/chapter/binary-tree/二叉搜索树.html)
-  * [二叉树相关题目](https://muyids.github.io/simple-algorithm/chapter/binary-tree/练习题目.html)
-* [字典树](https://muyids.github.io/simple-algorithm/chapter/字典树.html)
-* [贪心](https://muyids.github.io/simple-algorithm/chapter/greedy/贪心.html)
-  * [区间问题](https://muyids.github.io/simple-algorithm/chapter/greedy/区间问题.html)
-  * [子集问题](https://muyids.github.io/simple-algorithm/chapter/greedy/子集问题.html)
-* [动态规划](https://muyids.github.io/simple-algorithm/chapter/dp/动态规划.html)
-  * [线性dp](https://muyids.github.io/simple-algorithm/chapter/dp/线性dp.md)
-  * [区间dp](https://muyids.github.io/simple-algorithm/chapter/dp/区间dp.md)
-  * [背包dp](https://muyids.github.io/simple-algorithm/chapter/dp/背包dp.md)
-  * [树形dp](https://muyids.github.io/simple-algorithm/chapter/dp/树形dp.md)
-  * [状态压缩dp](https://muyids.github.io/simple-algorithm/chapter/dp/状态压缩dp.md)
-  * [数位dp](https://muyids.github.io/simple-algorithm/chapter/dp/数位dp.md)
-  * [计数型dp](https://muyids.github.io/simple-algorithm/chapter/dp/计数型dp.md)
-  * [递推型dp](https://muyids.github.io/simple-algorithm/chapter/dp/递推型dp.md)
-  * [概率型dp](https://muyids.github.io/simple-algorithm/chapter/dp/概率型dp.md)
-  * [博弈型dp](https://muyids.github.io/simple-algorithm/chapter/dp/博弈型dp.md)
-  * [记忆化搜索](https://muyids.github.io/simple-algorithm/chapter/dp/记忆化搜索.md)
-* [并查集](https://muyids.github.io/simple-algorithm/chapter/并查集.html)
-* [位运算](https://muyids.github.io/simple-algorithm/chapter/位运算.html)
-* [图论](https://muyids.github.io/simple-algorithm/chapter/graph/图论.html)
-  * [树与图的遍历](https://muyids.github.io/simple-algorithm/chapter/graph/树与图的遍历.html)
-  * [拓扑排序](https://muyids.github.io/simple-algorithm/chapter/graph/拓扑排序.html)
-  * [最短路](https://muyids.github.io/simple-algorithm/chapter/graph/最短路.html)
-    * [朴素的Dijkstra算法](https://muyids.github.io/simple-algorithm/chapter/graph/朴素的Dijkstra算法.html)
-    * [堆优化版的Dijkstra算法](https://muyids.github.io/simple-algorithm/chapter/graph/堆优化版的Dijkstra算法.html)
-    * [Bellman-Ford算法](https://muyids.github.io/simple-algorithm/chapter/graph/Bellman-Ford算法.html)
-    * [spfa算法](https://muyids.github.io/simple-algorithm/chapter/graph/spfa算法.html)
-    * [Floyd算法](https://muyids.github.io/simple-algorithm/chapter/graph/Floyd算法.html)
-  * [二分图](https://muyids.github.io/simple-algorithm/chapter/graph/二分图.html)
-  * [最小生成树](https://muyids.github.io/simple-algorithm/chapter/graph/最小生成树.html)
-    * [Prim算法](https://muyids.github.io/simple-algorithm/chapter/graph/Prim算法.html)
-    * [Kruskal算法](https://muyids.github.io/simple-algorithm/chapter/graph/Kruskal算法.html)
-* [数学](https://muyids.github.io/simple-algorithm/chapter/math/数学.html)
-  * [数论](https://muyids.github.io/simple-algorithm/chapter/math/初等数论.html)
-    * [容斥原理](./chapter/math/容斥原理.md)
-    * [抽屉原理](./chapter/math/抽屉原理.md)
-    * [约瑟夫环](./chapter/math/约瑟夫环.md)
-    * [卡特兰数](./chapter/math/卡特兰数.md)
-    * [概率论--三门问题](./chapter/math/三门问题.md)
-  * [几何问题](https://muyids.github.io/simple-algorithm/chapter/math/计算几何.html)
-
-## 进阶算法
-
-* [离散化](https://muyids.github.io/simple-algorithm/chapter/离散化.html)
-* [树状数组](https://muyids.github.io/simple-algorithm/chapter/树状数组.html)
-* [线段树](https://muyids.github.io/simple-algorithm/chapter/线段树.html)
-* [ST表](https://muyids.github.io/simple-algorithm/chapter/ST表.html)
+![simple-algorithm](https://muyids.oss-cn-beijing.aliyuncs.com/simple-algorithm.png)
 
 ## 🙉 说明
 
