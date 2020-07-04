@@ -26,6 +26,8 @@ collect some good articles about data structure and algorithm.
 
 ## ♨️ 导图
 
+[原图链接](https://www.processon.com/view/link/5efd6fb007912929cb6c4974#map)
+
 ![simple-algorithm](https://muyids.oss-cn-beijing.aliyuncs.com/simple-algorithm.png)
 
 ## 🙉 说明
@@ -55,7 +57,7 @@ collect some good articles about data structure and algorithm.
 
 ## 🔐 Problems & Solutions
 
-完成进度（[833](./TOC-By-ID.md)🔑/ [1699](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[833](./TOC-By-ID.md)🔑/ [1701](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 

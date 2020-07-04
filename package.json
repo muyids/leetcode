@@ -42,7 +42,8 @@
   "homepage": "https://github.com/muyids/leetcode#readme",
   "dependencies": {
     "chrome-cookies-secure": "^1.2.0",
-    "gm": "^1.23.1"
+    "gm": "^1.23.1",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "dotparser": "^0.4.0",
