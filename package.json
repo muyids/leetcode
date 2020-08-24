@@ -7,7 +7,7 @@
     "node": "8.17.0"
   },
   "scripts": {
-    "dot": " dot -Tpng workspace/main.dot -o workspace/main.png",
+    "test": "node workspace/test.js",
     "genTOC": "node script/genTOC.js",
     "syncTitle": "node script/syncTitle.js",
     "allQuestions": "node script/syncQuestions",
@@ -26,7 +26,7 @@
     "go": "npm run goWatch",
     "card": "python script/randQuestion.py",
     "title": "node script/syncSolve.js -v $1 ",
-    "publish": " npm run genTOC && npm run syncTitle && npm run allQuestions && git add . && git commit && git push && npm run publishBook",
+    "publish": "npm run genTOC && npm run syncTitle && npm run allQuestions && git add . && git commit && git push && npm run publishBook",
     "publishBook": "cd /Users/dw/workspace/muyids/simple-algorithm && npm run publish",
     "clang": "clang-format -style=\"llvm\" -dump-config > .clang-format"
   },

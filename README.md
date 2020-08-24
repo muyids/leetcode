@@ -57,7 +57,7 @@ collect some good articles about data structure and algorithm.
 
 ## 🔐 Problems & Solutions
 
-完成进度（[833](./TOC-By-ID.md)🔑/ [1715](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[834](./TOC-By-ID.md)🔑/ [1763](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
