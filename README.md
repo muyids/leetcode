@@ -10,11 +10,7 @@ collect some good articles about data structure and algorithm.
 
 ## 简介
 
-作为算法初学者的我从19年8月份开始在力扣学习算法，到现在AC了大约一半的题目。
-
-[我的力扣主页](https://leetcode-cn.com/u/muyids/)
-
-随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种，包括：**二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs + 回溯，并查集，动态规划，贪心，位运算，数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树等）**
+力扣常见考察的知识点大概有十几种，包括：**二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs + 回溯，并查集，动态规划，贪心，位运算，数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树等）**
 
 系统性地学习算法会有事半功倍的效果，于是我归纳了一些基础算法的知识点，并对力扣上的相关题目进行了整理
 
@@ -22,7 +18,9 @@ collect some good articles about data structure and algorithm.
 
 读者可以根据自己的需要阅读，希望能够对您有所帮助，有何不足之处请多指正！
 
-访问[我的电子书《从零开始学算法》](http://alg.muyids.com/)，获取更好的阅读体验
+[我的力扣主页](https://leetcode-cn.com/u/muyids/)
+
+访问[我的电子书《从零开始学算法》](http://muyids.com/alg/)，获取更好的阅读体验
 
 ## ♨️ 导图
 
@@ -32,8 +30,8 @@ collect some good articles about data structure and algorithm.
 
 ## 🙉 说明
 
-* 本项目大部分题目来源：[力扣（LeetCode）](https://leetcode-cn.com)，少部分来源[acwing](https://www.acwing.com/)
-* 题目著作权归[力扣（LeetCode）](https://leetcode-cn.com) 和[acwing](https://www.acwing.com/)所有。商业转载请联系官方授权，非商业转载请注明出处。
+* 本项目题目来源：[力扣（LeetCode）](https://leetcode-cn.com)
+* 题目著作权归[力扣（LeetCode）](https://leetcode-cn.com) 所有。商业转载请联系官方授权，非商业转载请注明出处。
 * 题解语言不限，专注于算法实现
 
 ## 🌲目录
@@ -43,7 +41,6 @@ collect some good articles about data structure and algorithm.
 ├── algorithms        -- 题目解析列表
 │   ├── 1-100         -- 按题号分类
 │   ├── ...
-├── chapter           -- 知识点归纳
 ├── playground        -- 算法模板
 ├── script            -- 自动化脚本
 ├── workspace         -- 工作目录
@@ -57,7 +54,7 @@ collect some good articles about data structure and algorithm.
 
 ## 🔐 Problems & Solutions
 
-完成进度（[834](./TOC-By-ID.md)🔑/ [1763](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[834](./TOC-By-ID.md)🔑/ [1770](https://leetcode-cn.com/problemset/all/)🔒) 
 
 
 
