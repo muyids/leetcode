@@ -1,7 +1,12 @@
+#!/usr/local/bin/node
+
 'use strict';
 
-/**同步chapter目录下的力扣题解 */
-
+/**
+ * 同步chapter目录下的力扣题解
+ * node v12.18.3
+ * node script/syncTitle.js
+ **/
 const path = require('path')
 const fs = require('fs')
 let TMP_DIR = './tmp'
@@ -24,6 +29,7 @@ async function syncTitle(dir_path) {
 			let id = ''
 			let r = 0;
 			while (row.name[r++] !== '.') id += row.name[r - 1]
+			console.log(id, mp[id])
 			let newName = `${id}.${mp[id].stat.question__title_slug}.md`
 			fs.renameSync(path.join(dir_path, row.name), path.join(dir_path, newName))
 			continue

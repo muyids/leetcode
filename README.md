@@ -10,7 +10,8 @@ collect some good articles about data structure and algorithm.
 
 ## 简介
 
-力扣常见考察的知识点大概有十几种，包括：**二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs + 回溯，并查集，动态规划，贪心，位运算，数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树等）**
+力扣常见考察的知识点大概有十几种，包括：**二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs + 回溯，并查集，动态规划，贪心，位运算，
+数论（质数、约数、欧拉函数、欧几里得算法、中国剩余定理、简单博弈论等），图论（dfs、bfs、flood fill、拓扑排序、二分染色、最短路、最小生成树等）**
 
 系统性地学习算法会有事半功倍的效果，于是我归纳了一些基础算法的知识点，并对力扣上的相关题目进行了整理
 
@@ -20,7 +21,7 @@ collect some good articles about data structure and algorithm.
 
 [我的力扣主页](https://leetcode-cn.com/u/muyids/)
 
-访问[我的电子书《从零开始学算法》](http://muyids.com/alg/)，获取更好的阅读体验
+访问[我的电子书《从零开始学算法》](https://muyids.github.io/alg/)，获取更好的阅读体验
 
 ## ♨️ 导图
 
@@ -49,17 +50,16 @@ collect some good articles about data structure and algorithm.
 └── TOC-By-Tag.md     -- 按分类查看目录
 ```
 
-&nbsp;
+## 工具
 
+
+&nbsp;
 
 ## 🔐 Problems & Solutions
 
-完成进度（[834](./TOC-By-ID.md)🔑/ [1770](https://leetcode-cn.com/problemset/all/)🔒) 
-
-
+完成进度（[886](./TOC-By-ID.md)🔑/ [2385](https://leetcode-cn.com/problemset/all/)🔒) 
 
 - 🔗 [标签查找](./TOC-By-Tag.md)
 
 - 🔗 [题号查找](./TOC-By-ID.md)
-
 

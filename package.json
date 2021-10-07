@@ -7,7 +7,6 @@
     "node": "8.17.0"
   },
   "scripts": {
-    "test": "node workspace/test.js",
     "genTOC": "node script/genTOC.js",
     "syncTitle": "node script/syncTitle.js",
     "allQuestions": "node script/syncQuestions",
@@ -24,8 +23,6 @@
     "cpp": "npm run cppBoot",
     "cppDamon": "npm run cppWatch",
     "go": "npm run goWatch",
-    "card": "python script/randQuestion.py",
-    "title": "node script/syncSolve.js -v $1 ",
     "clang": "clang-format -style=\"llvm\" -dump-config > .clang-format"
   },
   "repository": {

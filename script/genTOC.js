@@ -1,10 +1,12 @@
+'use strict'
+
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
 const chrome = require('chrome-cookies-secure')
 const {
 	exec
-} = require('child_process');
+} = require('child_process')
 
 let problemsMap = {}
 
@@ -111,7 +113,6 @@ function genTocByTag() {
 }
 
 function genHotByTag() {
-
 	let tags = fs.readFileSync(TAGS_FILE)
 	tags = JSON.parse(tags.toString())
 	tags = tags.topics
@@ -145,7 +146,7 @@ function genProcess() {
 }
 
 function genTocIndex() {
-	let str = "\n\n\n- 🔗 [标签查找](./TOC-By-Tag.md)\n\n"
+	let str = "\n\n- 🔗 [标签查找](./TOC-By-Tag.md)\n\n"
 	str += "- 🔗 [题号查找](./TOC-By-ID.md)\n\n"
 	return str
 }
@@ -226,16 +227,17 @@ function genLine(problem, pairs, nums) {
 	if (os.platform() == 'win32') {
 		return
 	}
-
 	await dirExists(TMP_DIR)
 	await syncProblemsStat('Default')
+
+	// 问题目录
 	fs.writeFileSync('./TOC-By-ID.md', genTocById())
 	fs.writeFileSync('./TOC-By-Tag.md', genTocByTag())
 
-	let TOC = "\n" + genProcess() + "\n" + genTocIndex() + "\n"
+	// README目录编辑
+	let TOC = genProcess() + genTocIndex()
 	let data = fs.readFileSync("./README.md");
 	data = data.toString()
 	data = data.substr(0, data.indexOf('&nbsp;') + 7) + TOC
 	fs.writeFileSync("./README.md", data)
-
 })()
