@@ -50,14 +50,17 @@ collect some good articles about data structure and algorithm.
 └── TOC-By-Tag.md     -- 按分类查看目录
 ```
 
-## 工具
+## 部署
 
+```
+node script deploy.sh
+```
 
 &nbsp;
 
 ## 🔐 Problems & Solutions
 
-完成进度（[886](./TOC-By-ID.md)🔑/ [2385](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[948](./TOC-By-ID.md)🔑/ [2407](https://leetcode-cn.com/problemset/all/)🔒) 
 
 - 🔗 [标签查找](./TOC-By-Tag.md)
 
