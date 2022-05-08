@@ -194,6 +194,7 @@ function genTocById() {
 
 function genLine(problem, pairs, nums) {
 	let title = problem.split('.').map(v => v.trim())
+	console.log(title)
 	let str = title[1].match(/\[(\S*)\]/)
 	if (str) {
 		title[1] = title[1].substr(title[1].indexOf(str[0]) + str[0].length)
