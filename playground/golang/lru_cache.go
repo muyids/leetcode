@@ -8,7 +8,7 @@ import "fmt"
 类似于java的linkedHashMap
 python的OrderedDict
 javascript ES6中的Map
-https://leetcode-cn.com/problems/lru-cache/
+https://leetcode.cn/problems/lru-cache/
 */
 type LRU struct {
 	capacity int

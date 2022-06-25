@@ -77,7 +77,7 @@ LeetSolver.prototype.createFile = async function (num) {
 
   // 创建模板文件
   let content = fs.readFileSync(path.join(process.env.LEETCODE_HOME || __dirname, 'template.md')).toString()
-  const realLink = `[LeetCode ${problem.stat.frontend_question_id}. ${problem.stat.question__title} (${LeetSolver.LEVEL[problem.difficulty.level]})](https://leetcode-cn.com/problems/${problem.stat.question__title_slug}/)`
+  const realLink = `[LeetCode ${problem.stat.frontend_question_id}. ${problem.stat.question__title} (${LeetSolver.LEVEL[problem.difficulty.level]})](https://leetcode.cn/problems/${problem.stat.question__title_slug}/)`
   content = content.replace('$$PROBLEM_LINK$$', realLink)
   if (fs.existsSync(filePath)) {
     console.error('文件已存在！', filePath);

@@ -74,14 +74,14 @@ async function dirExists(dir) {
 // 同步问题集
 function syncProblemsStat(profile) {
 	return new Promise(function (resolve, reject) {
-		chrome.getCookies('https://leetcode-cn.com/problemset/all/', '', function (err, cookies) {
+		chrome.getCookies('https://leetcode.cn/problemset/all/', '', function (err, cookies) {
 			let pairs = []
 			for (let [k, v] of Object.entries(cookies)) {
 				pairs.push(k + '=' + v)
 			}
 			let cookiesPairs = pairs.join('; ')
-			let cmd = `curl https://leetcode-cn.com/api/problems/all/ --cookie "${cookiesPairs}" > ${PROBLEMS_FILE} \
-        && curl https://leetcode-cn.com/problems/api/tags/ --cookie "${cookiesPairs}" > ${TAGS_FILE}`
+			let cmd = `curl https://leetcode.cn/api/problems/all/ --cookie "${cookiesPairs}" > ${PROBLEMS_FILE} \
+        && curl https://leetcode.cn/problems/api/tags/ --cookie "${cookiesPairs}" > ${TAGS_FILE}`
 			exec(cmd, (err, stdout, stderr) => {
 				if (err) reject(err)
 				resolve()
@@ -100,7 +100,7 @@ function genTocByTag() {
 	tags = tags.topics
 	let TOC = "## 🔗 LeetCode标签分类(LeetCode Tags)\n\n"
 	for (let tag of tags) {
-		let subToc = `### [${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
+		let subToc = `### [${tag.translatedName || tag.name}](https://leetcode.cn/problemset/all/?topicSlugs=${tag.slug})\n\n`
 		subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
 		for (let id of tag.questions) {
 			if (problemsMap.hasOwnProperty(id)) {
@@ -119,7 +119,7 @@ function genHotByTag() {
 	let TOC = "## 🔥Hot题目\n\n"
 
 	for (let tag of tags) {
-		let subToc = `### [${tag.translatedName || tag.name}](https://leetcode-cn.com/problemset/all/?topicSlugs=${tag.slug})\n\n`
+		let subToc = `### [${tag.translatedName || tag.name}](https://leetcode.cn/problemset/all/?topicSlugs=${tag.slug})\n\n`
 		subToc += `| 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | \n|:---:| :-----: |:--:|:--:|:--:|:--:|:--:|\n`
 		let count = 0;
 		for (let id of tag.questions) {
@@ -141,7 +141,7 @@ function genProcess() {
 	problems = JSON.parse(problems.toString())
 
 	let str = "\n## 🔐 Problems & Solutions\n\n"
-	str += `完成进度（[${problems.num_solved}](./TOC-By-ID.md)🔑/ [${problems.num_total}](https://leetcode-cn.com/problemset/all/)🔒) `
+	str += `完成进度（[${problems.num_solved}](./TOC-By-ID.md)🔑/ [${problems.num_total}](https://leetcode.cn/problemset/all/)🔒) `
 	return str
 }
 
@@ -189,6 +189,7 @@ function genTocById() {
 		}
 		tocById += subToc + '\n\n'
 	}
+	console.log(tocById)
 	return tocById
 }
 
@@ -211,9 +212,9 @@ function genLine(problem, pairs, nums) {
 	let status = 'NO'
 	if (stat) {
 		level = stat.difficulty.level
-		title[0] = `[${title[0]}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/)`
+		title[0] = `[${title[0]}](https://leetcode.cn/problems/${stat.stat.question__title_slug}/)`
 		if (stat.status == 'ac') status = 'YES'
-		solutions = `[${stat.stat.total_column_articles}](https://leetcode-cn.com/problems/${stat.stat.question__title_slug}/solution/)`
+		solutions = `[${stat.stat.total_column_articles}](https://leetcode.cn/problems/${stat.stat.question__title_slug}/solution/)`
 		passRate = (stat.stat.total_acs / stat.stat.total_submitted * 100).toFixed(1) + "%"
 		hot = drawHot(stat.stat.total_submitted)
 	}

@@ -19,7 +19,7 @@ collect some good articles about data structure and algorithm.
 
 读者可以根据自己的需要阅读，希望能够对您有所帮助，有何不足之处请多指正！
 
-[我的力扣主页](https://leetcode-cn.com/u/muyids/)
+[我的力扣主页](https://leetcode.cn/u/muyids/)
 
 访问[我的电子书《从零开始学算法》](https://muyids.github.io/alg/)，获取更好的阅读体验
 
@@ -31,8 +31,8 @@ collect some good articles about data structure and algorithm.
 
 ## 🙉 说明
 
-* 本项目题目来源：[力扣（LeetCode）](https://leetcode-cn.com)
-* 题目著作权归[力扣（LeetCode）](https://leetcode-cn.com) 所有。商业转载请联系官方授权，非商业转载请注明出处。
+* 本项目题目来源：[力扣（LeetCode）](https://leetcode.cn)
+* 题目著作权归[力扣（LeetCode）](https://leetcode.cn) 所有。商业转载请联系官方授权，非商业转载请注明出处。
 * 题解语言不限，专注于算法实现
 
 ## 🌲目录
@@ -60,7 +60,7 @@ node script deploy.sh
 
 ## 🔐 Problems & Solutions
 
-完成进度（[1022](./TOC-By-ID.md)🔑/ [2633](https://leetcode-cn.com/problemset/all/)🔒) 
+完成进度（[1036](./TOC-By-ID.md)🔑/ [2684](https://leetcode.cn/problemset/all/)🔒) 
 
 - 🔗 [标签查找](./TOC-By-Tag.md)
 
