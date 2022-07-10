@@ -1,0 +1,71 @@
+#!/bin/bash
+
+set -ex
+
+POSITIONAL_ARGS=()
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -u|--url) # print question solver url
+      QUESTION_URL_ID="$2"
+      shift
+      shift
+      ;;
+    -e|--extension)
+      EXTENSION="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    -s|--search)
+      SEARCHPATH="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    --default)
+      DEFAULT=YES
+      shift # past argument
+      ;;
+    -*|--*)
+      echo "Unknown option $1"
+      exit 1
+      ;;
+    *)
+      POSITIONAL_ARGS+=("$1") # save positional arg
+      shift # past argument
+      ;;
+  esac
+done
+
+set -- "${POSITIONAL_ARGS[@]}" # restore positional parameters
+
+if [[ -z "${QUESTION_URL_ID}" ]]; then
+    echo "Qustion url of " $QUESTION_URL_ID
+fi
+
+if [[ -z "$1" ]]; then
+    echo "please enter the question number of solver you want to go(eg. 1024)"
+    exit
+else
+    FILES_FIND=$(find . -name "$1.*")
+    FILES_FIND_NUM=$(find . -name "$1.*" | wc -l | awk '$1=$1')
+    if [[ $FILES_FIND_NUM -eq '1' ]]; then
+      open $FILES_FIND
+    else
+      echo "$1.md not exist, creating file" $FILES_FIND
+      echo 
+      echo $1 / 100
+      # 第 i 组  100*i+1 - 100*i + 100 
+      i=`expr $1 / 100` 
+      start=`expr $i \* 100 + 1` 
+      end=`expr $i \* 100 + 100` 
+      sub_path=$start-$end
+      mkdir -p $LEETCODE_HOME/algorithms/$sub_path
+      question_file=$LEETCODE_HOME/algorithms/$sub_path/$1.md
+      touch $question_file
+      open $question_file
+    fi
+fi
+
+
+
+

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 ## 生成
 npm run genTOC 
 
