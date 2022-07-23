@@ -4,7 +4,7 @@
   "description": "leetcode解题进行中",
   "main": "workspace/main.js",
   "engines": {
-    "node": "8.17.0"
+    "node": "12"
   },
   "scripts": {
     "genTOC": "node script/genTOC.js",

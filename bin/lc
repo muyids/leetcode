@@ -65,7 +65,3 @@ else
       open $question_file
     fi
 fi
-
-
-
-
