@@ -15,5 +15,7 @@ tmp/**/*
 workspace/**/*
 !/workspace/.gitkeep
 
+src
 
 playground/
+target
