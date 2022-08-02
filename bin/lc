@@ -51,5 +51,9 @@ if [[ -z "$1" ]]; then
     echo "please enter the question number of solver you want to go(eg. 1024)"
     exit
 else
-    python bin/genTemplate.py $1
+    if [[ -z "$2" ]]; then
+      python bin/genTemplate.py $1
+    else
+      python bin/genTemplate.py $1 $2
+    fi
 fi

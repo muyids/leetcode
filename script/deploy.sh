@@ -3,10 +3,7 @@
 set -ex
 
 ## 生成
-npm run genTOC 
-
-## 同步algorithms下的文件名
-npm run syncTitle 
+npm run genTOC
 
 ## 同步所有文件到questions.md
 npm run allQuestions

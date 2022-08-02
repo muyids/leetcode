@@ -11,6 +11,7 @@ config = {
     'java_dir': '/Users/aibee/Workspace/muyids/leetcode/src/main/java/com/muyids/leetcode'
 }
 
+open_flag = True
 
 def problem_status_by_frontened_id(fronted_id):
     fronted_id = str(fronted_id)
@@ -56,6 +57,7 @@ def check_dir(dir):
 
 
 def create_and_write_file(file_name, content):
+    print("create file", file_name)
     file = open(file_name, 'w', encoding='utf-8')
     file.write(content)
     file.close()
@@ -93,7 +95,7 @@ def save_template(question):
         file_name = f'''{dir}/{questionId}.{translatedTitle}.md'''
 
         # 保存题解
-        if True or os.path.exists(file_name) is False:
+        if os.path.exists(file_name) is False:
             title = f'''# [{questionId}.{translatedTitle}](https://leetcode.cn/problems/{titleSlug}/)\n\n'''
 
             content = question['translatedContent']
@@ -132,8 +134,8 @@ blablabla
 '''
 
             create_and_write_file(file_name, title + content + tags + tail + solver)
-
-        os.system(f'''open {file_name}''')  # 系统调用，打开题解文件
+        if open_flag:
+            os.system(f'''open {file_name}''')  # 系统调用，打开题解文件
 
     def save_java_code(question):
 
@@ -169,7 +171,8 @@ blablabla
             java_header = f'''package com.muyids.leetcode.p{questionId};\n\n'''
             java_code = snippet['code']
             create_and_write_file(solution_file, java_header + java_code)
-            os.system(f'''open {solution_file}''')  # 系统调用，打开题解文件
+            if open_flag:
+                os.system(f'''open {solution_file}''')  # 系统调用，打开题解文件
 
             main_file = java_code_loc + '/Main.java'
             test_case = test_case_formatter(question['sampleTestCase'])
@@ -189,13 +192,18 @@ public class Main {
     save_solver(question)
     save_java_code(question)
 
-    # print('Java Code:',question['translatedContent'])
-
 
 if __name__ == '__main__':
-    question_id = int(sys.argv[1])
+    # TODO question_id support lcci by title slug
+    question_id = int(sys.argv[1]) # 题目编号
+    if len(sys.argv) > 2:
+        open_flag = sys.argv[2] # 是否打开题解
+
+        if open_flag == 'false':
+            open_flag = False
 
     problem_status = problem_status_by_frontened_id(question_id)
     question = crawler_problem(problem_status['question__title_slug'])
     save_template(question)
     print(f'''question {question_id} created''')
+
