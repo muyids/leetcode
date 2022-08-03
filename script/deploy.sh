@@ -2,6 +2,8 @@
 
 set -ex
 
+sh bin/clean.sh
+
 ## 生成
 npm run genTOC
 
