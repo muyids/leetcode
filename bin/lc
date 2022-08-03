@@ -4,6 +4,10 @@ set -ex
 
 POSITIONAL_ARGS=()
 
+lc_home=${LEETCODE_HOME}
+
+sh ${lc_home}/bin/clean.sh
+
 while [[ $# -gt 0 ]]; do
   case $1 in
     -u|--url) # print question solver url
@@ -22,7 +26,7 @@ while [[ $# -gt 0 ]]; do
       shift # past value
       ;;
     -c|--clean)
-      sh bin/clean.sh
+      sh ${lc_home}/bin/clean.sh
       shift # past argument
       shift # past value
       ;;
@@ -52,8 +56,8 @@ if [[ -z "$1" ]]; then
     exit
 else
     if [[ -z "$2" ]]; then
-      python bin/genTemplate.py $1
+      python $lc_home/bin/genTemplate.py $1
     else
-      python bin/genTemplate.py $1 $2
+      python $lc_home/bin/genTemplate.py $1 $2
     fi
 fi

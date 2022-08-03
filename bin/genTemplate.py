@@ -5,17 +5,19 @@ import json
 import os
 import sys
 
+LEETCODE_HOME = os.environ.get('LEETCODE_HOME')
+LEETCODE_CODE_HOME = os.environ.get('LEETCODE_CODE_HOME')
+
 config = {
-    'solve_dir': '/Users/aibee/Workspace/muyids/leetcode/algorithms',
-    # 'solve_dir': '/Users/aibee/Workspace/muyids/leetcode/src/main/java/com/muyids/leetcode',
-    'java_dir': '/Users/aibee/Workspace/muyids/leetcode/src/main/java/com/muyids/leetcode'
+    'solve_dir': LEETCODE_HOME + '/algorithms',
+    'java_dir': LEETCODE_CODE_HOME + '/src/main/java/com/muyids/lc'
 }
 
 open_flag = True
 
-def problem_status_by_frontened_id(fronted_id):
+def get_slug_by_frontened_id(fronted_id):
     fronted_id = str(fronted_id)
-    f = open('./tmp/problem.json')
+    f = open(LEETCODE_HOME + '/tmp/problem.json')
     problem = json.load(f)
 
     pairs = problem['stat_status_pairs']
@@ -23,9 +25,8 @@ def problem_status_by_frontened_id(fronted_id):
         stat = pair['stat']
         num = str(stat['frontend_question_id'])
         if num == fronted_id:
-            return stat
-    return {}
-
+            return stat['question__title_slug']
+    return ""
 
 def crawler_problem(question__title_slug):
     data = {"operationName": "questionData", "variables": {"titleSlug": question__title_slug},
@@ -55,13 +56,14 @@ def check_dir(dir):
         print('create folder ' + dir)
         os.makedirs(dir)
 
+def check_file(file_path):
+    return os.path.exists(file_path)
 
 def create_and_write_file(file_name, content):
     print("create file", file_name)
     file = open(file_name, 'w', encoding='utf-8')
     file.write(content)
     file.close()
-
 
 def save_template(question):
     if question['isPaidOnly']:
@@ -168,7 +170,7 @@ blablabla
             if snippet['lang'] != 'Java':
                 continue
             solution_file = java_code_loc + '/Solution.java'
-            java_header = f'''package com.muyids.leetcode.p{questionId};\n\n'''
+            java_header = f'''package com.muyids.lc.p{questionId};\n\n'''
             java_code = snippet['code']
             create_and_write_file(solution_file, java_header + java_code)
             if open_flag:
@@ -176,7 +178,7 @@ blablabla
 
             main_file = java_code_loc + '/Main.java'
             test_case = test_case_formatter(question['sampleTestCase'])
-            java_code = '''package com.muyids.leetcode.p%s;
+            java_code = '''package com.muyids.lc.p%s;
 
 public class Main {
 
@@ -192,6 +194,10 @@ public class Main {
     save_solver(question)
     save_java_code(question)
 
+def save_json_to_file(file_path, data):
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+        f.close()
 
 if __name__ == '__main__':
     # TODO question_id support lcci by title slug
@@ -202,8 +208,13 @@ if __name__ == '__main__':
         if open_flag == 'false':
             open_flag = False
 
-    problem_status = problem_status_by_frontened_id(question_id)
-    question = crawler_problem(problem_status['question__title_slug'])
+    slug = get_slug_by_frontened_id(question_id)
+    question_file=f'''{LEETCODE_HOME}/tmp/questions/{slug}.json'''
+    if os.path.exists(question_file):
+        question = json.load(open(question_file))
+    else:
+        question = crawler_problem(slug)
+        save_json_to_file(question_file, question)
     save_template(question)
     print(f'''question {question_id} created''')
 

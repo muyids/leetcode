@@ -2,4 +2,6 @@
 
 set -ex
 
-rm -rf ./src/main/java/com/muyids/leetcode/p*
+code_home=${LEETCODE_CODE_HOME}
+
+rm -rf ${code_home}/src/main/java/com/muyids/lc/p*
