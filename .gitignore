@@ -16,8 +16,10 @@ workspace/**/*
 !/workspace/.gitkeep
 
 src
-!src/main/java/com/muyids/leetcode/lib
+!src/main/java/com/muyids/lc/lib
 
 
 playground/
-target
+target/
+a.out
+main.*
