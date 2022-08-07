@@ -60,7 +60,7 @@ node script deploy.sh
 
 ## 🔐 Problems & Solutions
 
-完成进度（[9](./TOC-By-ID.md)🔑/ [2728](https://leetcode.cn/problemset/all/)🔒) 
+完成进度（[1075](./TOC-By-ID.md)🔑/ [2736](https://leetcode.cn/problemset/all/)🔒) 
 
 - 🔗 [标签查找](./TOC-By-Tag.md)
 

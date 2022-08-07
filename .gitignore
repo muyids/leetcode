@@ -19,7 +19,7 @@ src
 !src/main/java/com/muyids/lc/lib
 
 
-playground/
 target/
-a.out
-main.*
+*.out
+*.dSYM/
+main

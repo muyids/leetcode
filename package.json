@@ -9,21 +9,7 @@
   "scripts": {
     "genTOC": "node script/genTOC.js",
     "syncTitle": "node script/syncTitle.js",
-    "allQuestions": "node script/syncQuestions",
-    "cppRun": "./workspace/main.out",
-    "cppCompile": "g++ -std=c++11 workspace/main.cpp -o workspace/main.out",
-    "cppBoot": "npm run cppCompile && echo '--- cpp output ---\n' && npm run cppRun && echo '\n--- cpp end ---'",
-    "cppWatch": "nodemon --delay 1 --watch workspace/main.cpp --exec 'npm run cppBoot'",
-    "goRun": "./workspace/main.out",
-    "goCompile": "go build -o workspace/main.out workspace/main.go",
-    "goBoot": "npm run goCompile && echo '--- golang output ---\n' && npm run goRun && echo '\n--- golang end ---'",
-    "goWatch": "nodemon --delay 1 --watch workspace/main.go --exec 'npm run goBoot'",
-    "clean": "rm -f workspace/*.(out|class) && rm -f tmp/*.(png|dot)",
-    "js": "nodemon --delay 1 --watch workspace/main.js --exec 'node workspace/main.js'",
-    "cpp": "npm run cppBoot",
-    "cppDamon": "npm run cppWatch",
-    "go": "npm run goWatch",
-    "clang": "clang-format -style=\"llvm\" -dump-config > .clang-format"
+    "allQuestions": "node script/syncQuestions"
   },
   "repository": {
     "type": "git",
