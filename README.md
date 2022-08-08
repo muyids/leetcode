@@ -1,4 +1,6 @@
-# 📓 LeetCode笔记
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+# 📓 LeetCode 笔记
 
 本笔记适用于目标在于掌握**基础算法**的工程师
 
@@ -31,11 +33,11 @@ collect some good articles about data structure and algorithm.
 
 ## 🙉 说明
 
-* 本项目题目来源：[力扣（LeetCode）](https://leetcode.cn)
-* 题目著作权归[力扣（LeetCode）](https://leetcode.cn) 所有。商业转载请联系官方授权，非商业转载请注明出处。
-* 题解语言不限，专注于算法实现
+- 本项目题目来源：[力扣（LeetCode）](https://leetcode.cn)
+- 题目著作权归[力扣（LeetCode）](https://leetcode.cn) 所有。商业转载请联系官方授权，非商业转载请注明出处。
+- 题解语言不限，专注于算法实现
 
-## 🌲目录
+## 🌲 目录
 
 ```tree
 .
@@ -60,9 +62,8 @@ node script deploy.sh
 
 ## 🔐 Problems & Solutions
 
-完成进度（[1075](./TOC-By-ID.md)🔑/ [2736](https://leetcode.cn/problemset/all/)🔒) 
+完成进度（[1075](./TOC-By-ID.md)🔑/ [2736](https://leetcode.cn/problemset/all/)🔒)
 
 - 🔗 [标签查找](./TOC-By-Tag.md)
 
 - 🔗 [题号查找](./TOC-By-ID.md)
-
