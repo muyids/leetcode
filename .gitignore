@@ -18,8 +18,9 @@ workspace/**/*
 src
 !src/main/java/com/muyids/lc/lib
 
-
 target/
 *.out
 *.dSYM/
-main
+mai*
+
+__pycache__/

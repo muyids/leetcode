@@ -2,7 +2,7 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "leetcode解题进行中",
-  "main": "workspace/main.js",
+  "main": "bin/lc",
   "engines": {
     "node": "12"
   },
