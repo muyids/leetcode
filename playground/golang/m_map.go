@@ -25,4 +25,3 @@ func IfExist(this *M, key string) bool {
 	}
 	return false
 }
-

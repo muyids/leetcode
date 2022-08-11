@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -ex
+
+rm -rf .idea
+rm -rf __pycache__
+rm -rf src
+rm -f *.out
+rm -rf *.dSYM
+rm -f main.*
+rm -rf target
+rm -rf *.java
+rm -rf *.class
+rm -rf tmp/main*
+rm -rf tmp/questions/*

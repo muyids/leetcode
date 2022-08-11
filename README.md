@@ -1,4 +1,5 @@
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=flat-square&logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 
 # 📓 LeetCode 笔记
 
@@ -62,8 +63,9 @@ node script deploy.sh
 
 ## 🔐 Problems & Solutions
 
-完成进度（[1075](./TOC-By-ID.md)🔑/ [2736](https://leetcode.cn/problemset/all/)🔒)
+完成进度（[1141](./TOC-By-ID.md)🔑/ [2813](https://leetcode.cn/problemset/all/)🔒) 
 
 - 🔗 [标签查找](./TOC-By-Tag.md)
 
 - 🔗 [题号查找](./TOC-By-ID.md)
+

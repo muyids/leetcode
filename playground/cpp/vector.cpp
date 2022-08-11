@@ -5,22 +5,15 @@ using namespace std;
 class Solution
 {
 public:
-    void play()
-    {
-        vector<int> dp;
-        // vector 头部添加元素
-        dp.insert(dp.begin(), 1);
-        // 尾部添加元素
-        dp.push_back(3);
-        // 指定位置添加元素
-        dp.insert(dp.begin() + 1, 2);
 
-        // 删除头部
-        dp.erase(dp.begin());
-        // 删除尾部
-        dp.erase(dp.end());
-        dp.pop_back();
-    };
+    // 删除元素
+    void erase_x(){
+        vector<int> v = {1,2,3,4,5,6,7};
+        v.erase(v.begin()+3, v.end());
+        for (int i = 0; i < v.size(); i++) {
+            printf("v[%d]=%d ", i, v[i]);
+        }
+    }
 
     int getEnd(vector<int> v)
     {
@@ -73,11 +66,26 @@ public:
         set_union(v1.begin(), v1.end(), v2.begin(), v2.end(), back_inserter(v)); //求交集
         return v;
     }
+
+    /**
+     * 排序
+     */
+    static bool cmp(int a, int b){
+        return a>b;
+    }
+    void sortTest(){
+        vector<int> v = {2, 1, 5,3, 8, 9,6,7};
+        sort(v.begin(), v.end(), cmp);
+        for (int i = 0; i < v.size(); i++) {
+            printf("v[%d]=%d ", i, v[i]);
+        }
+
+    }
 };
 
 int main()
 {
-    Solution solu = Solution();
-    solu.play();
+    Solution solution ;
+    solution.sortTest();
     return 0;
 }

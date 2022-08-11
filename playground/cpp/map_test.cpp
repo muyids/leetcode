@@ -37,7 +37,7 @@ int main()
 	mp.insert({1, "I am first"});
 	mp.insert({2, "I am second"});
 	mp.insert({3, "I am third"});
-	
+
 	cout << "---使用c++17 结构化特性---" << endl;
 	for (auto [key, val] : mp) {
 		cout << key <<"->"<< val << endl;

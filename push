@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -ex
+
+git pull --rebase
+
+git push

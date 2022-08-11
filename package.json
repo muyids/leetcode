@@ -7,9 +7,7 @@
     "node": "12"
   },
   "scripts": {
-    "genTOC": "node script/genTOC.js",
-    "syncTitle": "node script/syncTitle.js",
-    "allQuestions": "node script/syncQuestions"
+    "commit": "sh commit"
   },
   "repository": {
     "type": "git",
